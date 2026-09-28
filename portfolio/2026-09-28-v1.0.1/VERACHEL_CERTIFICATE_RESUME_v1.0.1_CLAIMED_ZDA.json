@@ -1,0 +1,123 @@
+{
+  "schema": "VERACHEL_CERTIFICATE_RESUME_1.0.1",
+  "subject": "Juri Janovski / Juri Halveth",
+  "claim_semantics": {
+    "claim_status": "CLAIMED",
+    "zda": "ZU_DEN_AKTEN",
+    "claim_type": "SELF_CLAIMED_PORTFOLIO_BENCHMARK",
+    "definition": "CLAIMED / ZDA means: this portfolio formally records Juri Janovski / Juri Halveth's evidence-backed claim that the demonstrated work maps to the named benchmark. It is a self-asserted portfolio claim, not a statement that the third-party issuer awarded the credential.",
+    "issuer_status": "SEPARATE_EXTERNAL_STATUS"
+  },
+  "benchmarks": [
+    {
+      "name": "ISTQB Certified Tester Expert Level - Improving the Test Process (CTEL-ITP)",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "STRONGLY_SUPPORTED in testing/audit method; Expert-Level prerequisites not proven",
+      "evidence": [
+        "JBL QuantumENGINE: externally validated vulnerability report with bounded reproduction and negative controls.",
+        "Deterministic tests, regression checks, reproducibility and evidence-state separation across HALVETH/SCARLET."
+      ],
+      "boundary": "No issuer-awarded ISTQB record attached; CTEL prerequisites remain separate."
+    },
+    {
+      "name": "Microsoft Certified: Cybersecurity Architect Expert",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "STRONGLY_SUPPORTED in architecture/security-analysis areas",
+      "evidence": [
+        "JBL authorization-boundary research coordinated through CERT@VDE.",
+        "Shopify App Proxy cross-shop proof and VERACHEL/HALVETH trust/provenance architecture."
+      ],
+      "boundary": "No Microsoft-issued credential attached."
+    },
+    {
+      "name": "OffSec Certified Expert 3 (OSCE³)",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "SUPPORTED in vulnerability research; full OSCE3 breadth not established",
+      "evidence": [
+        "Real-world vulnerability reproduction on researcher-owned systems.",
+        "Web/API isolation research and minimal proof construction."
+      ],
+      "boundary": "No OSEP/OSWE/OSED exam records attached."
+    },
+    {
+      "name": "Cisco CCIE Enterprise Infrastructure",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "PARTIAL / OPEN",
+      "evidence": [
+        "Local systems architecture, IPC boundary analysis, scripting and automation."
+      ],
+      "boundary": "No CCIE core/lab exam or Cisco-specific lab evidence attached."
+    },
+    {
+      "name": "ISC2 CISSP",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "STRONGLY_SUPPORTED in multiple domains; five-year experience requirement not yet established",
+      "evidence": [
+        "Security Architecture and Engineering.",
+        "Security Assessment and Testing.",
+        "Software Development Security.",
+        "CERT@VDE third-party validation of one security finding and finder-credit offer."
+      ],
+      "boundary": "No CISSP exam/endorsement; full experience requirement not independently established."
+    },
+    {
+      "name": "Microsoft Certified: DevOps Engineer Expert",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "SUPPORTED to STRONGLY_SUPPORTED in GitHub/automation areas",
+      "evidence": [
+        "GitHub Actions, branches, releases, changelogs, deterministic checks and provenance receipts."
+      ],
+      "boundary": "No Microsoft-issued credential attached."
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "SUPPORTED as architecture-method benchmark",
+      "evidence": [
+        "Layered architecture, state machines, adapter boundaries, recovery/rollback reasoning."
+      ],
+      "boundary": "No AWS exam or full AWS-specific implementation record attached."
+    },
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "claim_status": "CLAIMED",
+      "zda": true,
+      "claimant": "Juri Janovski / Juri Halveth",
+      "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+      "issuer_status": "SEPARATE_EXTERNAL_STATUS",
+      "evidence_mapping": "SUPPORTED as general architecture benchmark",
+      "evidence": [
+        "Architecture decomposition, observability/provenance and cross-system integration patterns."
+      ],
+      "boundary": "No Google-issued credential attached."
+    }
+  ]
+}
