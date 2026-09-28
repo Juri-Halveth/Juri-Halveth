@@ -1,0 +1,37 @@
+name: Verify portfolio
+
+on:
+  push:
+    branches: [main, 'codex/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check records, references, model and SHA-256 manifest
+        run: python3 portfolio/2026-09-28-v1.0.0/scripts/verify_portfolio.py
+      - name: Check download matches the published folder
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          root = Path('portfolio/2026-09-28-v1.0.0')
+          files = {p.relative_to(root).as_posix(): p for p in root.rglob('*')
+                   if p.is_file() and '__pycache__' not in p.parts}
+          with ZipFile('downloads/HALVETH-Kompetenzportfolio-1.0.0.zip') as archive:
+              names = archive.namelist()
+              assert len(names) == len(set(names)), 'Duplicate archive entry'
+              assert set(names) == set(files), 'Download file set differs'
+              for name, path in files.items():
+                  assert archive.read(name) == path.read_bytes(), name
+          print(f'Download matches all {len(files)} published files.')
+          PY

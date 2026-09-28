@@ -1,0 +1,5 @@
+# Preserve the exact bytes covered by SHA256SUMS, including Windows line endings.
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol
+*.pdf binary
+*.png binary
+*.zip binary

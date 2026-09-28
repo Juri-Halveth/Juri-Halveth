@@ -1,0 +1,695 @@
+{
+  "schema": "halveth.public-repositories.v1",
+  "recorded_at": "2026-09-28T13:51:35.548615+00:00",
+  "source_window": [
+    "2026-09-28T13:33:38.211337+00:00",
+    "2026-09-28T13:33:54.403664+00:00"
+  ],
+  "repositories": [
+    {
+      "name": "halveth-morrowind-genesis",
+      "repository": "Juri-Halveth/halveth-morrowind-genesis",
+      "url": "https://github.com/Juri-Halveth/halveth-morrowind-genesis",
+      "visibility": "PUBLIC",
+      "default_branch": "codex/public-release",
+      "head_sha": "6a05dfdbf527c0153d7c53b48e5aa81a44ed09c2",
+      "committed_at": "2026-09-28T12:00:38Z",
+      "tree_sha": "b832c28092251d45c4848aac14297c266b71c8ec",
+      "tree_truncated": false,
+      "blob_count": 117,
+      "test_path_count": 26,
+      "workflow_path_count": 1,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "license_paths": [
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "Python": 359852,
+          "Lua": 167016,
+          "JavaScript": 36585,
+          "C#": 35091,
+          "HTML": 18354,
+          "CSS": 4226,
+          "Batchfile": 296
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "85c2eaec1d2d52e427a34fecd245e1e7554dc24a82dec4a084299edfd79727f0",
+      "readme_path": "README.md",
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-project0-keeper",
+      "repository": "Juri-Halveth/halveth-project0-keeper",
+      "url": "https://github.com/Juri-Halveth/halveth-project0-keeper",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "d522c1146b5982df2b736b25ede2e759dad68839",
+      "committed_at": "2026-09-28T12:01:30Z",
+      "tree_sha": "1dd366a8f66e5c61c6faebb158e01eeec8a75b5f",
+      "tree_truncated": false,
+      "blob_count": 1,
+      "test_path_count": 0,
+      "workflow_path_count": 0,
+      "license_metadata": null,
+      "license_paths": [],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {},
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": null,
+      "readme_path": null,
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-realms",
+      "repository": "Juri-Halveth/halveth-realms",
+      "url": "https://github.com/Juri-Halveth/halveth-realms",
+      "visibility": "PUBLIC",
+      "default_branch": "codex/scarlet-garden",
+      "head_sha": "0cd55359b94b59b3f56935d0b0a36b09a01d5813",
+      "committed_at": "2026-09-28T12:00:41Z",
+      "tree_sha": "2a4a10ac8ad3e3a69bb5f55a250022b3ad661ea0",
+      "tree_truncated": false,
+      "blob_count": 55,
+      "test_path_count": 5,
+      "workflow_path_count": 2,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "license_paths": [
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "JavaScript": 171659,
+          "CSS": 24215,
+          "HTML": 13638,
+          "Solidity": 940,
+          "Batchfile": 138
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "db184a2672a35f084d7c05b36e58ef918917c9f04aeb294d0f2a4d1438976205",
+      "readme_path": "README.md",
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-scarlet",
+      "repository": "Juri-Halveth/halveth-scarlet",
+      "url": "https://github.com/Juri-Halveth/halveth-scarlet",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "d1d83557be4eddf4dee7a4a9347c4a921100b65d",
+      "committed_at": "2026-09-28T12:00:44Z",
+      "tree_sha": "ab58668d594dc45df917136a2144e138ec74293e",
+      "tree_truncated": false,
+      "blob_count": 325,
+      "test_path_count": 23,
+      "workflow_path_count": 2,
+      "license_metadata": null,
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSES.md",
+        "halveth-rights.schema.json"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "HTML": 1208176,
+          "JavaScript": 367625,
+          "Python": 34125,
+          "CSS": 18215
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "849f1d0234d19928f9eb0b8d257e35e6097a34edc91764755f249bec95966119",
+      "readme_path": "README.md",
+      "work_samples": [
+        {
+          "path": "tools/build_collage_release.py",
+          "role_from_path": "source",
+          "commit_sha": "d1d83557be4eddf4dee7a4a9347c4a921100b65d",
+          "source_url": "https://github.com/Juri-Halveth/halveth-scarlet/blob/d1d83557be4eddf4dee7a4a9347c4a921100b65d/tools/build_collage_release.py",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        },
+        {
+          "path": "tests/test_build_collage_release.py",
+          "role_from_path": "test",
+          "commit_sha": "d1d83557be4eddf4dee7a4a9347c4a921100b65d",
+          "source_url": "https://github.com/Juri-Halveth/halveth-scarlet/blob/d1d83557be4eddf4dee7a4a9347c4a921100b65d/tests/test_build_collage_release.py",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        }
+      ],
+      "actions": {
+        "state": "OBSERVED_GITHUB_RUN_METADATA",
+        "head_sha": "d1d83557be4eddf4dee7a4a9347c4a921100b65d",
+        "query_limit": 100,
+        "limit_reached": false,
+        "returned_count": 1,
+        "all_returned_head_shas_match": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:00:47Z",
+            "databaseId": 36419106614,
+            "event": "push",
+            "headSha": "d1d83557be4eddf4dee7a4a9347c4a921100b65d",
+            "name": "Deploy Scarlet Pages",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:01:26Z",
+            "url": "https://github.com/Juri-Halveth/halveth-scarlet/actions/runs/36419106614",
+            "workflowName": "Deploy Scarlet Pages"
+          }
+        ],
+        "claim_ceiling": "GitHub-reported status for this exact HEAD; no workflow was started, no logs inspected, and no independent execution validated."
+      },
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-tresor",
+      "repository": "Juri-Halveth/halveth-tresor",
+      "url": "https://github.com/Juri-Halveth/halveth-tresor",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+      "committed_at": "2026-09-28T12:00:47Z",
+      "tree_sha": "f40cf740d9e7a19140e74ed51d65cfd514624c87",
+      "tree_truncated": false,
+      "blob_count": 43,
+      "test_path_count": 3,
+      "workflow_path_count": 2,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "HTML": 123900,
+          "Python": 60803,
+          "Batchfile": 262
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "1f0cb5ad4aee46d53ff882788d9e4aaf159b0e3402e4a81ec2cc46bfe56001df",
+      "readme_path": "README.md",
+      "work_samples": [
+        {
+          "path": "src/tresor/vault.py",
+          "role_from_path": "source",
+          "commit_sha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+          "source_url": "https://github.com/Juri-Halveth/halveth-tresor/blob/3e2f1a4991fd1e2d070f23143061a59c23af7a64/src/tresor/vault.py",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        },
+        {
+          "path": "tests/test_vault.py",
+          "role_from_path": "test",
+          "commit_sha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+          "source_url": "https://github.com/Juri-Halveth/halveth-tresor/blob/3e2f1a4991fd1e2d070f23143061a59c23af7a64/tests/test_vault.py",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        }
+      ],
+      "actions": {
+        "state": "OBSERVED_GITHUB_RUN_METADATA",
+        "head_sha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+        "query_limit": 100,
+        "limit_reached": false,
+        "returned_count": 3,
+        "all_returned_head_shas_match": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:05:30Z",
+            "databaseId": 36419599094,
+            "event": "schedule",
+            "headSha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+            "name": "CodeQL",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:06:48Z",
+            "url": "https://github.com/Juri-Halveth/halveth-tresor/actions/runs/36419599094",
+            "workflowName": "CodeQL"
+          },
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:00:49Z",
+            "databaseId": 36419110188,
+            "event": "push",
+            "headSha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+            "name": "CI",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:01:51Z",
+            "url": "https://github.com/Juri-Halveth/halveth-tresor/actions/runs/36419110188",
+            "workflowName": "CI"
+          },
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:00:49Z",
+            "databaseId": 36419110197,
+            "event": "push",
+            "headSha": "3e2f1a4991fd1e2d070f23143061a59c23af7a64",
+            "name": "CodeQL",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:01:57Z",
+            "url": "https://github.com/Juri-Halveth/halveth-tresor/actions/runs/36419110197",
+            "workflowName": "CodeQL"
+          }
+        ],
+        "claim_ceiling": "GitHub-reported status for this exact HEAD; no workflow was started, no logs inspected, and no independent execution validated."
+      },
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-unreal",
+      "repository": "Juri-Halveth/halveth-unreal",
+      "url": "https://github.com/Juri-Halveth/halveth-unreal",
+      "visibility": "PUBLIC",
+      "default_branch": "codex/knowledge-crafting-0.2",
+      "head_sha": "5d0b11853a626a754773f455d092a9a151988d3f",
+      "committed_at": "2026-09-28T12:00:49Z",
+      "tree_sha": "86d73cff098f510afa9cb3a28b9977fe19e1fdd3",
+      "tree_truncated": false,
+      "blob_count": 89,
+      "test_path_count": 4,
+      "workflow_path_count": 1,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "license_paths": [
+        "ArtSource/PolyHaven/LICENSE-CC0-1.0.txt",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "C++": 218298,
+          "Python": 38783,
+          "PowerShell": 21560,
+          "NSIS": 8716,
+          "C#": 1574
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "7473f198e1e974d1d8ad10cf8df7cc7718b9746dac7b279d46f3421bb093027c",
+      "readme_path": "README.md",
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "halveth-xai-40m-proposal",
+      "repository": "Juri-Halveth/halveth-xai-40m-proposal",
+      "url": "https://github.com/Juri-Halveth/halveth-xai-40m-proposal",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "246cde303f298764e8268e1926085499b475b704",
+      "committed_at": "2026-09-28T12:00:52Z",
+      "tree_sha": "e9af6ff2e6ce713d3e333821655014f615bb5b72",
+      "tree_truncated": false,
+      "blob_count": 13,
+      "test_path_count": 0,
+      "workflow_path_count": 0,
+      "license_metadata": null,
+      "license_paths": [],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {},
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": null,
+      "readme_path": null,
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "Juri-Halveth",
+      "repository": "Juri-Halveth/Juri-Halveth",
+      "url": "https://github.com/Juri-Halveth/Juri-Halveth",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "785baa19716d446e7ad5b4c58660887b575638fc",
+      "committed_at": "2026-09-28T12:00:35Z",
+      "tree_sha": "3bda32fe76e87c28fbf9fc3c8c2fd76e4f417342",
+      "tree_truncated": false,
+      "blob_count": 1,
+      "test_path_count": 0,
+      "workflow_path_count": 0,
+      "license_metadata": null,
+      "license_paths": [],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {},
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": null,
+      "readme_path": null,
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "Juri-Halveth.github.io",
+      "repository": "Juri-Halveth/Juri-Halveth.github.io",
+      "url": "https://github.com/Juri-Halveth/Juri-Halveth.github.io",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "14d4e185d55cdd003acdb191dadb3c51e51ce090",
+      "committed_at": "2026-09-28T12:03:08Z",
+      "tree_sha": "e8d45866fcfd5c87320e100d9a5373a3631ab5ca",
+      "tree_truncated": false,
+      "blob_count": 24,
+      "test_path_count": 0,
+      "workflow_path_count": 0,
+      "license_metadata": null,
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "HTML": 30110
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "6f2567e1f33fdc4c534959cd52340b0e49ada7628c980402edb1bd25ffea734f",
+      "readme_path": "README.md",
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "juri-janovski-these-zur-geburt",
+      "repository": "Juri-Halveth/juri-janovski-these-zur-geburt",
+      "url": "https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "60f461e7b7993d3c1db582e73a438891d68faa56",
+      "committed_at": "2026-09-28T12:00:55Z",
+      "tree_sha": "5ee91944a47d64e9e1fafcfb831fabf929436ff4",
+      "tree_truncated": false,
+      "blob_count": 26,
+      "test_path_count": 1,
+      "workflow_path_count": 1,
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE",
+        "LICENSE-CODE",
+        "LICENSE-CONTENT",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSE-JURI-PUBLIC-INTEREST.md",
+        "LICENSES.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "Python": 73989
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": null,
+      "readme_path": null,
+      "work_samples": [],
+      "actions": null,
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "lernstudio",
+      "repository": "Juri-Halveth/lernstudio",
+      "url": "https://github.com/Juri-Halveth/lernstudio",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245",
+      "committed_at": "2026-09-28T12:00:57Z",
+      "tree_sha": "942edd8389b1604452bc59c0ca5ac6f238ccfd6f",
+      "tree_truncated": false,
+      "blob_count": 106,
+      "test_path_count": 13,
+      "workflow_path_count": 0,
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSE.txt",
+        "LICENSES.md",
+        "THIRD_PARTY_NOTICES.txt",
+        "contracts/LICENSE"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "JavaScript": 455508,
+          "HTML": 365891,
+          "CSS": 93718,
+          "PLpgSQL": 7892,
+          "Solidity": 3605,
+          "TypeScript": 3096
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "19c1c8d90ef77f4725a75c1b9162a93b6250f2cb98ecd8a0b714f0acd7264e0f",
+      "readme_path": "README.md",
+      "work_samples": [
+        {
+          "path": "account-progress.js",
+          "role_from_path": "source",
+          "commit_sha": "62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245",
+          "source_url": "https://github.com/Juri-Halveth/lernstudio/blob/62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245/account-progress.js",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        },
+        {
+          "path": "werkzeug/test-account-progress.js",
+          "role_from_path": "test",
+          "commit_sha": "62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245",
+          "source_url": "https://github.com/Juri-Halveth/lernstudio/blob/62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245/werkzeug/test-account-progress.js",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        }
+      ],
+      "actions": {
+        "state": "OBSERVED_GITHUB_RUN_METADATA",
+        "head_sha": "62ab5c8d578dfc2dd9ec0ab19c7cc9c10506c245",
+        "query_limit": 100,
+        "limit_reached": false,
+        "returned_count": 0,
+        "all_returned_head_shas_match": true,
+        "runs": [],
+        "claim_ceiling": "GitHub-reported status for this exact HEAD; no workflow was started, no logs inspected, and no independent execution validated."
+      },
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "mein-lernportal",
+      "repository": "Juri-Halveth/mein-lernportal",
+      "url": "https://github.com/Juri-Halveth/mein-lernportal",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "d6abf4de97e6157a311b49fd417e78ff4aca8dd7",
+      "committed_at": "2026-09-28T12:01:00Z",
+      "tree_sha": "279e9d4ce1a12c6848e7a48ce37674c0073cd258",
+      "tree_truncated": false,
+      "blob_count": 35,
+      "test_path_count": 1,
+      "workflow_path_count": 0,
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "license_paths": [
+        "LICENSE.txt",
+        "THIRD_PARTY_NOTICES.txt"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "JavaScript": 288730,
+          "CSS": 94977,
+          "HTML": 13617
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "928e9b55dfb9d6e856628bd66ade5e644bc839b268dcd489ba229b144fa32cf1",
+      "readme_path": "README.md",
+      "work_samples": [
+        {
+          "path": "app.js",
+          "role_from_path": "source",
+          "commit_sha": "d6abf4de97e6157a311b49fd417e78ff4aca8dd7",
+          "source_url": "https://github.com/Juri-Halveth/mein-lernportal/blob/d6abf4de97e6157a311b49fd417e78ff4aca8dd7/app.js",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        },
+        {
+          "path": "tests/portal.test.cjs",
+          "role_from_path": "test",
+          "commit_sha": "d6abf4de97e6157a311b49fd417e78ff4aca8dd7",
+          "source_url": "https://github.com/Juri-Halveth/mein-lernportal/blob/d6abf4de97e6157a311b49fd417e78ff4aca8dd7/tests/portal.test.cjs",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        }
+      ],
+      "actions": {
+        "state": "OBSERVED_GITHUB_RUN_METADATA",
+        "head_sha": "d6abf4de97e6157a311b49fd417e78ff4aca8dd7",
+        "query_limit": 100,
+        "limit_reached": false,
+        "returned_count": 1,
+        "all_returned_head_shas_match": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:01:03Z",
+            "databaseId": 36419136555,
+            "event": "dynamic",
+            "headSha": "d6abf4de97e6157a311b49fd417e78ff4aca8dd7",
+            "name": "pages build and deployment",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:01:33Z",
+            "url": "https://github.com/Juri-Halveth/mein-lernportal/actions/runs/36419136555",
+            "workflowName": "pages-build-deployment"
+          }
+        ],
+        "claim_ceiling": "GitHub-reported status for this exact HEAD; no workflow was started, no logs inspected, and no independent execution validated."
+      },
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    },
+    {
+      "name": "open-research-branches",
+      "repository": "Juri-Halveth/open-research-branches",
+      "url": "https://github.com/Juri-Halveth/open-research-branches",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "head_sha": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+      "committed_at": "2026-09-28T12:01:04Z",
+      "tree_sha": "a428fc8a48e72c0df4d8447953e77e1c20246bf4",
+      "tree_truncated": false,
+      "blob_count": 347,
+      "test_path_count": 32,
+      "workflow_path_count": 1,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "license_paths": [
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE",
+        "LICENSE-CONTENT.md",
+        "LICENSE-DATA.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
+        "LICENSE-JURI-PUBLIC-INTEREST.md",
+        "LICENSES.md",
+        "branches/bounded-knowledge-reuse-inventory/LICENSE",
+        "branches/pixel-region-change-observer/LICENSE"
+      ],
+      "languages": {
+        "state": "OBSERVED_API_METADATA",
+        "bytes_by_language": {
+          "JavaScript": 573755,
+          "Python": 111098,
+          "CSS": 5422,
+          "HTML": 3746
+        },
+        "scope": "GitHub languages endpoint as fetched; endpoint is not pinned to a commit."
+      },
+      "readme_sha256": "987822c8b6aab382ee659d4df3c078fef450ecdfbf4ae3994484a66232b5831c",
+      "readme_path": "README.md",
+      "work_samples": [
+        {
+          "path": "scripts/create-provenance-snapshot.mjs",
+          "role_from_path": "source",
+          "commit_sha": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+          "source_url": "https://github.com/Juri-Halveth/open-research-branches/blob/834352b21a2123137f55fbca22afbfda2be7c7fd/scripts/create-provenance-snapshot.mjs",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        },
+        {
+          "path": "scripts/provenance-snapshot.test.mjs",
+          "role_from_path": "test",
+          "commit_sha": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+          "source_url": "https://github.com/Juri-Halveth/open-research-branches/blob/834352b21a2123137f55fbca22afbfda2be7c7fd/scripts/provenance-snapshot.test.mjs",
+          "evidence": "PATH_EXISTS_IN_COMMIT_BOUND_TREE",
+          "claim_ceiling": "Concrete inspectable work sample; presence does not establish execution, correctness, or sole human authorship."
+        }
+      ],
+      "actions": {
+        "state": "OBSERVED_GITHUB_RUN_METADATA",
+        "head_sha": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+        "query_limit": 100,
+        "limit_reached": false,
+        "returned_count": 1,
+        "all_returned_head_shas_match": true,
+        "runs": [
+          {
+            "conclusion": "success",
+            "createdAt": "2026-09-28T12:01:06Z",
+            "databaseId": 36419142742,
+            "event": "push",
+            "headSha": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+            "name": "CI",
+            "status": "completed",
+            "updatedAt": "2026-09-28T12:01:25Z",
+            "url": "https://github.com/Juri-Halveth/open-research-branches/actions/runs/36419142742",
+            "workflowName": "CI"
+          }
+        ],
+        "claim_ceiling": "GitHub-reported status for this exact HEAD; no workflow was started, no logs inspected, and no independent execution validated."
+      },
+      "claim_ceiling": "Inventory and platform result metadata; not whole-project correctness or personal credential assessment"
+    }
+  ],
+  "private_entries_exported": 0
+}

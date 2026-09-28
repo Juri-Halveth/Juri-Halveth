@@ -1,0 +1,39 @@
+{
+  "schema": "halveth.portfolio.public-build.v1",
+  "version": "1.0.0",
+  "recorded_at": "2026-09-28T13:57:19.515908+00:00",
+  "state": "ARTIFACT_BUILT",
+  "pdf": {
+    "file": "HALVETH_Kompetenzportfolio.pdf",
+    "bytes": 142632,
+    "sha256": "e4f9cd0bc29ad30443eff7ab49a6dc865b60b9f7d608ce63d175b1776610d312",
+    "pages": 11,
+    "visual_reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "method": "pdftoppm rendered all pages; assistant visually reviewed each page"
+  },
+  "public_repositories": 13,
+  "evidence_records": 15,
+  "benchmark_records": 9,
+  "relation_records": 16,
+  "source_scripts_executed": false,
+  "private_source_files_exported": 0,
+  "publication": "Separate Git commit and post-push receipt; this build record does not claim publication",
+  "manifest_excludes": [
+    "SHA256SUMS.txt",
+    "machine/validation.json",
+    "machine/publication-receipt.json"
+  ],
+  "limits": "Finite source and artifact review; no issuer award, full product audit or sole human authorship asserted"
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "B01",
+    "title": "ISTQB Certified Tester Advanced Level Test Analyst (CTAL-TA) v4.0",
+    "issuer": "ISTQB",
+    "url": "https://istqb.org/certifications/certified-tester-advanced-level-test-analyst/",
+    "domains": "Testanalyse, risikobasierte Testauswahl, Testentwurf, Fehlerprävention",
+    "requirements": "CTFL, ausreichende praktische Erfahrung nach Board-Regeln und bestandene CTAL-TA-Prüfung.",
+    "portfolio_mapping": "Konkrete Arbeitsproben",
+    "evidence_refs": [
+      "E-MW-NATIVE",
+      "E-MW-CI",
+      "E-T0"
+    ],
+    "supports": "Negativkontrollen, persistente Zustände, Wiederherstellung und versionierte Prüfbelege.",
+    "open_evidence": "CTFL, Prüfungsergebnis und vollständige Abdeckung der Lernziele separat nachweisen.",
+    "file": "01_ISTQB_CTAL_TA_PORTFOLIO_BENCHMARK.md",
+    "input_versions": [
+      "v1.0"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B02",
+    "title": "Microsoft Certified: Cybersecurity Architect Expert",
+    "issuer": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
+    "domains": "Zero Trust, Identität, Betrieb, Compliance, Infrastruktur, Anwendungen und Daten",
+    "requirements": "SC-100 plus eine der gelisteten Associate-Zertifizierungen: Identity and Access Administrator, Security Operations Analyst oder Cloud and AI Security Engineer.",
+    "portfolio_mapping": "Teilbereiche mit Arbeitsproben",
+    "evidence_refs": [
+      "E-OPEN-SOURCE",
+      "E-TRESOR-SOURCE"
+    ],
+    "supports": "Explizite Zustands- und Autoritätsgrenzen sowie nachvollziehbare Softwareprüfungen.",
+    "open_evidence": "Microsoft-spezifische Architektur, Implementierung, Betrieb und Verleihungsnachweis offen.",
+    "file": "02_MICROSOFT_CYBERSECURITY_ARCHITECT_EXPERT_BENCHMARK.md",
+    "input_versions": [
+      "v1.0",
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B03",
+    "title": "Microsoft Certified: DevOps Engineer Expert",
+    "issuer": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/",
+    "domains": "Versionsverwaltung, CI/CD, Sicherheit, Instrumentierung, Zusammenarbeit",
+    "requirements": "AZ-400 plus laut Referenzseite Azure Administrator Associate oder Azure Developer Associate. Die Developer-Qualifikation ist eingestellt; aktuelle Zulassung vor Anmeldung klären.",
+    "portfolio_mapping": "Konkrete Arbeitsproben",
+    "evidence_refs": [
+      "E-MW-CI",
+      "E-OPEN-CI",
+      "E-TRESOR-CI",
+      "E-SCARLET-CI"
+    ],
+    "supports": "Commitgebundene CI, Windows-Patch mit Rückrollweg und getrennte Build-/Installationsbelege.",
+    "open_evidence": "Azure-/Azure-DevOps-Betrieb, Associate-Abschluss und AZ-400-Ergebnis nicht durch GitHub-Runs ersetzt.",
+    "file": "03_MICROSOFT_DEVOPS_ENGINEER_EXPERT_BENCHMARK.md",
+    "input_versions": [
+      "v1.0",
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B04",
+    "title": "CISSP — Certified Information Systems Security Professional",
+    "issuer": "ISC2",
+    "url": "https://www.isc2.org/certifications/cissp",
+    "domains": "Acht Sicherheitsdomänen von Risikomanagement bis sicherer Softwareentwicklung",
+    "requirements": "Prüfung, grundsätzlich fünf Jahre Erfahrung in mindestens zwei Domänen, gegebenenfalls begrenzte Anrechnung, Endorsement und Zertifizierungsverfahren.",
+    "portfolio_mapping": "Teilbereiche mit Arbeitsproben",
+    "evidence_refs": [
+      "E-OPEN-SOURCE",
+      "E-TRESOR-SOURCE"
+    ],
+    "supports": "Quellenbindung, Privacy, Test- und Prüfstrategie als ausgewählte fachliche Anknüpfungen.",
+    "open_evidence": "Berufliche Dauer und Domänenbreite, Prüfung und Endorsement benötigen eigene Nachweise.",
+    "file": "04_CISSP_PORTFOLIO_BENCHMARK.md",
+    "input_versions": [
+      "v1.0",
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B05",
+    "title": "AWS Certified Solutions Architect – Professional",
+    "issuer": "AWS",
+    "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+    "domains": "Komplexe AWS-Architektur, Migration, Modernisierung, Sicherheit, Kosten und Leistung",
+    "requirements": "SAP-C02 ist am Abrufdatum aktuell; zwei Jahre AWS-Entwurfs-/Implementierungspraxis empfohlen, keine Pflicht-Vorzertifizierung. SAP-C03 ist angekündigt.",
+    "portfolio_mapping": "Architekturbezug; Anbieterpraxis offen",
+    "evidence_refs": [
+      "E-MW-NATIVE",
+      "E-OPEN-SOURCE"
+    ],
+    "supports": "Versionierte Schnittstellen, Zustandsverwaltung und Recovery lassen sich fachlich diskutieren.",
+    "open_evidence": "AWS-Deployment, Betriebsmetriken, konkrete Architekturentscheidungen und Prüfung offen.",
+    "file": "05_AWS_SOLUTIONS_ARCHITECT_PROFESSIONAL_BENCHMARK.md",
+    "input_versions": [
+      "v1.0",
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B06",
+    "title": "ISTQB Certified Tester Expert Level Improving the Test Process (CTEL-ITP)",
+    "issuer": "ISTQB",
+    "url": "https://istqb.org/certifications/certified-tester-expert-level-assessing-test-processes-ctel-itp-atp/",
+    "domains": "Testprozesse bewerten und organisatorische Verbesserungen umsetzen",
+    "requirements": "Beide Teile ATP und ITPI, CTFL und CTAL-TM; fünf Jahre Testpraxis und zwei Jahre Erfahrung im Expertenthema. Zeiträume nicht automatisch addieren.",
+    "portfolio_mapping": "Prozessbezug; Wirkungsmessung offen",
+    "evidence_refs": [
+      "E-MW-NATIVE",
+      "E-OPEN-SOURCE"
+    ],
+    "supports": "Standardisierte Prüfbelege, Gegenproben, Rückrollwege und revisionsgebundene Ergebnisse.",
+    "open_evidence": "Organisatorische Verbesserungswirkung, Erfahrungsdauer und beide Prüfungen offen; CTAL-TA und CTEL bleiben eigenständige Benchmarks.",
+    "file": "06_ISTQB_CTEL_ITP_BENCHMARK.md",
+    "input_versions": [
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B07",
+    "title": "OffSec Certified Expert³ (OSCE³)",
+    "issuer": "OffSec",
+    "url": "https://help.offsec.com/hc/en-us/articles/4403282452628-OSCE-FAQ",
+    "domains": "Fortgeschrittene Web-, Windows- und Penetrationstest-Kompetenzen",
+    "requirements": "OSED, OSEP und OSWE erwerben; anschließend OSCE³ ohne zusätzliche OSCE³-Prüfung.",
+    "portfolio_mapping": "Spezifischer Leistungsnachweis offen",
+    "evidence_refs": [],
+    "supports": "Vorhandene Forschungsarbeit kann nach gesonderter Quellenprüfung einzelne Analysefähigkeiten zeigen.",
+    "open_evidence": "Die drei bestandenen Prüfungen und vergleichbare praktische Aufgabenabdeckung sind nicht in diesem Belegsatz enthalten.",
+    "file": "07_OFFSEC_OSCE3_BENCHMARK.md",
+    "input_versions": [
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B08",
+    "title": "Cisco Certified Internetwork Expert (CCIE) Enterprise Infrastructure",
+    "issuer": "Cisco",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-infrastructure/index.html",
+    "domains": "Enterprise-Netze, Virtualisierung, Sicherheit, Assurance und Automatisierung",
+    "requirements": "350-401 ENCOR und achtstündige praktische CCIE Enterprise Infrastructure Lab-Prüfung v1.1.",
+    "portfolio_mapping": "Spezifischer Leistungsnachweis offen",
+    "evidence_refs": [],
+    "supports": "Ein lokales Netzwerkprotokoll allein deckt die Cisco-Laboranforderungen nicht ab.",
+    "open_evidence": "Reproduzierte Enterprise-Topologie, Konfiguration, Messwerte und Prüfungsergebnisse offen.",
+    "file": "08_CISCO_CCIE_ENTERPRISE_INFRASTRUCTURE_BENCHMARK.md",
+    "input_versions": [
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  },
+  {
+    "id": "B09",
+    "title": "Google Cloud Professional Cloud Architect",
+    "issuer": "Google Cloud",
+    "url": "https://cloud.google.com/learn/certification/cloud-architect",
+    "domains": "Architektur, Bereitstellung, Sicherheit, Optimierung und Betrieb auf Google Cloud",
+    "requirements": "Standardprüfung; keine formalen Voraussetzungen. Empfohlen: drei Jahre Branchenerfahrung, davon mindestens ein Jahr Google-Cloud-Entwurf und -Betrieb.",
+    "portfolio_mapping": "Architekturbezug; Anbieterpraxis offen",
+    "evidence_refs": [
+      "E-OPEN-SOURCE"
+    ],
+    "supports": "Nachvollziehbare Architektur- und Provenienzmodelle bieten fachliche Gesprächspunkte.",
+    "open_evidence": "Google-Cloud-Ausführung, Betriebsverantwortung, Erfahrungsdauer und Prüfungsergebnis offen.",
+    "file": "09_GOOGLE_CLOUD_PROFESSIONAL_CLOUD_ARCHITECT_BENCHMARK.md",
+    "input_versions": [
+      "v1.0.1"
+    ],
+    "credential_status": "ISSUER_AWARD_NOT_VERIFIED_IN_REVIEWED_MATERIAL",
+    "evaluation": "SELECTED_COMPETENCY_MAPPING_NOT_CREDENTIAL_EQUIVALENCE",
+    "source_review_date": "2026-09-28",
+    "source_review_method": "Official issuer sources reviewed by delegated research agent; secondary summary, no credential account lookup"
+  }
+]

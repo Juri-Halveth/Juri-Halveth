@@ -1,0 +1,18 @@
+{
+  "schema": "halveth.portfolio.validation.v1",
+  "valid": true,
+  "evidence_records": 15,
+  "benchmark_records": 9,
+  "relation_records": 16,
+  "public_repositories": 13,
+  "local_links_checked": 19,
+  "manifest_files_checked": 33,
+  "example_checks": {
+    "depths_checked": 5,
+    "rejected_invalid_inputs": 6,
+    "deterministic": true
+  },
+  "errors": [],
+  "claim_ceiling": "File structure, linked records and manifest bytes only; not factual or issuer validation",
+  "recorded_at": "2026-09-28T13:57:19.515908+00:00"
+}
