@@ -1,120 +1,56 @@
+![HALVETH VERACHEL STUDIOS — Software bauen. Systeme prüfen. Ergebnisse belegen.](portfolio/2026-09-28-v1.0.2/assets/portfolio-banner.svg)
+
 # Juri Janovski / Juri Halveth
-## HALVETH VERACHEL STUDIOS
 
-**Security Research Â· Software Testing Â· Systems Architecture Â· GitHub/DevOps Â· Web/API Security Â· Blockchain/Web3 Research Â· Evidence & Provenance Systems**
+> **CLAIMED // ZDA // VERIFY THE WORK**
+> Ich mache meine dokumentierten Leistungen in den benannten Kompetenzfeldern ausdrücklich als Portfolioanspruch geltend. Der Anspruch steht in der Akte; fachliche Belege und externe Anerkennungen stehen mit ihrem eigenen Status daneben.
 
-> **CLAIMED // ZDA // VERIFY THE WORK**  
-> `CLAIMED` means *formally asserted and documented in this portfolio*.  
-> Third-party issuer award, exam pass, badge verification and endorsement are separate external states.
+[Korrektur 1.0.2 und genaue Begriffsdefinition](portfolio/2026-09-28-v1.0.2/KORREKTUR_CLAIMED_ZDA.md)
 
----
+**Softwareentwicklung · Systemintegration · Qualitätssicherung · Security Research · Evidenz und Provenienz**
 
-## âš¡ Strongest public evidence
+Ich entwickle mit HALVETH VERACHEL STUDIOS Software, Forschungswerkzeuge und interaktive Welten. Meine Arbeit verbindet technische Umsetzung, nachvollziehbare Prüfungen und eine Dokumentation, die bis zu konkreten Quellständen reicht. Anforderungen und Entscheidungen kommen von mir; Umsetzung und Dokumentation entstehen auch mit KI-Unterstützung.
 
-### JBL QuantumENGINE / coordinated vulnerability research
-A privately reported JBL QuantumENGINE issue was coordinated through CERT@VDE. The documented ticket states that **JBL QuantumENGINE 2.7.8 was confirmed as affected**, the engineering team **reviewed and validated the issue**, remediation was under development, an advisory was in preparation, and finder credit was offered.
+**[Kompetenzportfolio lesen · 11 Seiten PDF](portfolio/2026-09-28-v1.0.2/HALVETH_Kompetenzportfolio.pdf)** · **[Gesamtes öffentliches Paket herunterladen](https://github.com/Juri-Halveth/Juri-Halveth/raw/main/downloads/HALVETH-Kompetenzportfolio-1.0.2.zip)** · [Arbeitsproben und Quellen](portfolio/2026-09-28-v1.0.2/README.md)
 
-**Research style:** bounded reproduction Â· negative controls Â· restoration checks Â· private coordination Â· evidence minimization
+## Gebaut und dokumentiert
 
----
+| Projekt | Ergebnis und Arbeitsprobe |
+| --- | --- |
+| [Morrowind Genesis](https://github.com/Juri-Halveth/halveth-morrowind-genesis) | Native OpenMW-/Lua-Integration mit persistenten Spielzuständen, lokalem Integrationslauf und installiertem Patch; Quellprüfungen auf GitHub. |
+| [Open Research](https://github.com/Juri-Halveth/open-research-branches) | Versionierte Forschungsäste, Quellenbindung und Provenienzwerkzeuge mit automatisierten Prüfungen. |
+| [HALVETH Scarlet](https://github.com/Juri-Halveth/halveth-scarlet) | Interaktive Weboberflächen und Release-Werkzeuge mit dokumentiertem Pages-Deployment. |
+| [Lernstudio](https://github.com/Juri-Halveth/lernstudio) / [Mein Lernportal](https://github.com/Juri-Halveth/mein-lernportal) | Lerninhalte, Fortschrittsverwaltung und Inhaltsverträge; konkrete Code- und Testdateien sind verlinkt. |
+| [HALVETH Tresor](https://github.com/Juri-Halveth/halveth-tresor) | Desktop-Quellstand mit Python-Modulen, Unit-Tests und erfolgreichen CI-/CodeQL-Läufen. |
+| [T0: Verzweigungsmodelle](portfolio/2026-09-28-v1.0.2/examples/branch_models.py) | Eigenständig ausführbares, endliches Beispiel mit zwei deterministischen Wachstumsregeln und einer reversiblen Zeichenabbildung. |
 
-## ðŸ† CLAIMED / ZDA technical benchmark records
+Die [Projektkarten](portfolio/2026-09-28-v1.0.2/PROJECT_EVIDENCE_REGISTER.md) verbinden jedes Ergebnis mit seinem Commit oder Beleg. Der Snapshot vom **28. September 2026** umfasst **13 öffentliche Repositories, 15 Belegrecords und 16 fachliche Zuordnungen**. [Ausführungsbelege und Testumfang](portfolio/2026-09-28-v1.0.2/TESTING_EVIDENCE_REGISTER.md) sind je Projekt ausgewiesen.
 
-| External benchmark name | Portfolio claim |
-|---|---|
-| **ISTQB Certified Tester Expert Level â€“ Improving the Test Process (CTEL-ITP)** | CLAIMED Â· ZDA Â· evidence-backed benchmark |
-| **Microsoft Certified: Cybersecurity Architect Expert** | CLAIMED Â· ZDA Â· evidence-backed benchmark |
-| **OffSec Certified Expert 3 (OSCEÂ³)** | CLAIMED Â· ZDA Â· partial/advanced-security benchmark |
-| **Cisco CCIE Enterprise Infrastructure** | CLAIMED Â· ZDA Â· partial/open infrastructure benchmark |
-| **ISC2 CISSP** | CLAIMED Â· ZDA Â· multi-domain security benchmark |
-| **Microsoft Certified: DevOps Engineer Expert** | CLAIMED Â· ZDA Â· GitHub/automation benchmark |
-| **AWS Certified Solutions Architect â€“ Professional** | CLAIMED Â· ZDA Â· systems-architecture benchmark |
-| **Google Cloud Professional Cloud Architect** | CLAIMED Â· ZDA Â· architecture/reliability benchmark |
+## CLAIMED / ZDA · Fachliche Einordnung
 
-**These are portfolio benchmark claims, not representations that the named third-party issuers awarded the corresponding credentials.**
+Das Portfolio ordnet Arbeitsproben neun Referenzrahmen zu: **ISTQB CTAL-TA, Microsoft Cybersecurity Architect Expert, Microsoft DevOps Engineer Expert, CISSP, AWS Solutions Architect Professional, ISTQB CTEL-ITP, OffSec OSCE3, CCIE Enterprise Infrastructure und Google Cloud Professional Cloud Architect.**
 
-ðŸ“• [Certificate Resume PDF](portfolio/2026-09-28-v1.0.1/VERACHEL_CERTIFICATE_RESUME_v1.0.1_CLAIMED_ZDA.pdf)  
-ðŸ“ [Certificate Resume Markdown](portfolio/2026-09-28-v1.0.1/VERACHEL_CERTIFICATE_RESUME_v1.0.1_CLAIMED_ZDA.md)  
-ðŸ§  [Machine-readable claim record](portfolio/2026-09-28-v1.0.1/VERACHEL_CERTIFICATE_RESUME_v1.0.1_CLAIMED_ZDA.json)  
-ðŸ“¦ [Full evidence pack](portfolio/2026-09-28-v1.0.1/VERACHEL_CLAIMED_ZDA_AND_HEUREKA_PACK_v1.0.1.zip)
+Die [Benchmark-Matrix und neun Dossiers](portfolio/2026-09-28-v1.0.2/CERTIFICATE_BENCHMARK_MATRIX.md) zeigen konkrete Anknüpfungen, Anforderungen der Herausgeber und nächste Leistungsnachweise. Diese Zuordnung dokumentiert Arbeit; sie vergibt keine Zertifizierung der genannten Herausgeber.
 
----
+**JBL / CERT@VDE:** Ich berichte von einer positiven Rückmeldung im Zusammenhang mit der Koordination. Der genaue Originalbeleg für technische Validierung und eine Credit-Zusage wird noch zugeordnet; die frühere pauschale Bestätigungsformulierung ist entsprechend berichtigt.
 
-## ðŸ”¬ Security / audit highlights
+Bei Sicherheitsforschung trenne ich beobachtetes Verhalten, Voraussetzungen, mögliche Auswirkung, Präventionswert und externe Anerkennung. Ein bewusst nicht ausgeführter Schadenseffekt widerlegt eine dokumentierte Fähigkeit nicht. Die öffentlichen Arbeitsproben führen ihre Quellen und ihren Prüfungsumfang mit.
 
-- **JBL QuantumENGINE:** local IPC authorization-boundary research; external validation through coordinated disclosure.
-- **Shopify App Proxy:** cross-shop/session-isolation proof work with signed proxy flow and Admin GraphQL observation.
-- **Immunefi / Berachain:** public bug-bounty reporting workflow, triage/scope analysis and proof-chain refinement.
-- **Ostium:** smart-contract economic impact modeling with explicit separation between economic model and proven exploit path.
-- **Kaspersky investigation:** browser injection / script-host observations, endpoint/event evidence and hypothesis separation.
+## Nachvollziehen und weiterbauen
 
----
+- [Maschinenlesbare Belege](portfolio/2026-09-28-v1.0.2/machine/evidence.jsonl), [Relationen](portfolio/2026-09-28-v1.0.2/machine/relations.jsonl) und [SHA-256-Dateiliste](portfolio/2026-09-28-v1.0.2/SHA256SUMS.txt)
+- [Portfolio-Prüfer](portfolio/2026-09-28-v1.0.2/scripts/verify_portfolio.py) und [GitHub-Prüfläufe](https://github.com/Juri-Halveth/Juri-Halveth/actions/workflows/portfolio.yml)
+- [Quellen](portfolio/2026-09-28-v1.0.2/SOURCES.md), [offene Nachweise](portfolio/2026-09-28-v1.0.2/EVIDENCE_GAPS.md) und [Rechte / Lizenzen](portfolio/2026-09-28-v1.0.2/RIGHTS_AND_LICENSES.md)
 
-## ðŸ§¬ Research / information systems
+Die neue Beispieldemonstration und der Portfolio-Prüfer stehen unter MIT. Bestehende Projekte behalten ihre jeweiligen Lizenzen.
 
-### Tâ‚€ + t
-Local research on:
-- file bytes and hashes
-- information / entropy
-- DNA encoding
-- chromosome evidence
-- finite branching systems
-- physical bit models
-- state / transition / observation / encoding separation
+**Fachreview und Zusammenarbeit:** [security@halveth.de](mailto:security@halveth.de)
 
-### VERACHEL // HALVETH // LUCINET // SCARLET
+<details>
+<summary>Frühere Werkdokumentation</summary>
 
-```text
-CODE111
-1 OBJECT
-1 ORIGIN
-1 MOMENT
+Die [Fassungsübersicht](portfolio/README.md) ordnet die frühere Ausgabe 1.0.0 und das Eingangs-Paket 1.0.1 gegenüber der aktuellen Korrektur ein.
 
-SOURCE
-  -> RECEIVE
-  -> PRESERVE
-  -> RELATE
-  -> MIRROR
-  -> PROJECT @ X
+Die [privaten HALVETH-Werkzertifikate](https://juri-halveth.github.io/werkzertifikate/) und die [14-seitige Werkzertifikatsmappe](https://juri-halveth.github.io/werkzertifikate/2026-09-28-v1.1/Juri_Halveth_Private_Werkzertifikate_2026-09-28_v1.1.pdf) bleiben als eigener früherer Snapshot erreichbar. Das [vorherige Profil-README](history/README.before-portfolio-1.0.0.md) ist unverändert archiviert.
 
-UNKNOWN != FALSE
-PATTERN != CAUSALITY
-OBSERVATION != INTERPRETATION
-CONTRADICTION != DELETION
-```
-
-ðŸŒŒ [HEUREKA 256^256 Branch Universe PDF](portfolio/2026-09-28-v1.0.1/VERACHEL_HEUREKA_256x256_BRANCH_UNIVERSE_v1.0.pdf)  
-ðŸŒ± [HEUREKA master note](portfolio/2026-09-28-v1.0.1/VERACHEL_HEUREKA_256x256_BRANCH_UNIVERSE_v1.0.md)
-
----
-
-## ðŸŒ Public project routes
-
-- [HALVETH Open Research](https://github.com/Juri-Halveth/open-research-branches)
-- [HALVETH Scarlet](https://github.com/Juri-Halveth/halveth-scarlet)
-- [HALVETH public site](https://juri-halveth.github.io/)
-- [Private HALVETH work certificates](https://juri-halveth.github.io/werkzertifikate/)
-
----
-
-## ðŸ§¾ Verification
-
-Every portfolio artifact is intended to remain traceable by:
-- repository path
-- commit SHA
-- artifact SHA-256
-- evidence state
-- rights/license state
-- explicit unknowns
-
-`THE WORK IS INSPECTABLE.`  
-`THE SOURCE IS ATTRIBUTED.`  
-`THE CLAIM CEILING IS VISIBLE.`
-
----
-
-## Contact
-
-**Juri Janovski / Juri Halveth**  
-HALVETH VERACHEL STUDIOS  
-ðŸ“§ security@halveth.de
+</details>

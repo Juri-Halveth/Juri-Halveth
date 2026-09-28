@@ -1,0 +1,20 @@
+{
+  "schema": "halveth.portfolio.claim-definition.v1",
+  "definition_id": "HALVETH_PORTFOLIO_BENCHMARK_CLAIM_V1",
+  "recorded_at": "2026-09-28T14:21:02.012119+00:00",
+  "claim_type": "PORTFOLIO_BENCHMARK_CLAIM",
+  "claimed_by": "Juri Halveth",
+  "CLAIMED": "Von Juri ausdrücklich geltend gemachter und dokumentierter Portfolioanspruch in den benannten Kompetenzfeldern.",
+  "ZDA": "Zu den Projektakten: in einer benannten, versionierten Portfoliofassung festgehalten.",
+  "scope": "Die Arbeitsproben und ihre Zuordnung zu den genannten fachlichen Referenzrahmen.",
+  "independent_axes": [
+    "PORTFOLIO_CLAIM",
+    "EVIDENCE_COVERAGE",
+    "EXTERNAL_ISSUER_AWARD",
+    "EXTERNAL_RECOGNITION"
+  ],
+  "status_rule": "Eine offene externe Bestätigung hebt den angemeldeten Portfolioanspruch nicht auf. CLAIMED allein setzt externe Bestätigung nicht auf erteilt.",
+  "language_note": "Projektdefinition. Im gewöhnlichen Englisch bedeutet claimed beansprucht oder geltend gemacht; es ist kein Synonym für eine Antwort oder Zertifikatsverleihung.",
+  "authority_effect": "NONE",
+  "verification_scope": "Status einer erklärten Portfolioforderung; kein automatischer Ergebnis- oder Qualifikationsnachweis."
+}

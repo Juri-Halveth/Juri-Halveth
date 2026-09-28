@@ -1,0 +1,42 @@
+{
+  "schema": "halveth.portfolio.public-build.v1",
+  "version": "1.0.2",
+  "recorded_at": "2026-09-28T14:24:12.110670+00:00",
+  "state": "ARTIFACT_BUILT",
+  "supersedes_editorial_version": "1.0.0",
+  "reconciles_input_version": "1.0.1",
+  "source_inventory_as_of": "2026-09-28T13:33:54Z",
+  "pdf": {
+    "file": "HALVETH_Kompetenzportfolio.pdf",
+    "sha256": "a88a7548dc55bdad2cdd45e8287d33609fe056eb9e97a9ed7d459eb00cadbf1e",
+    "bytes": 142890,
+    "pages": 11,
+    "visual_reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "method": "All pages rendered with pdftoppm and individually visually inspected"
+  },
+  "benchmarks": 9,
+  "positive_claims": 9,
+  "evidence_records": 15,
+  "relations": 16,
+  "private_media_exported": false,
+  "new_primary_issuer_confirmation": false,
+  "embedded_publisher_executed": false,
+  "publication": "Separate Git push and readback receipt",
+  "manifest_excludes": [
+    "SHA256SUMS.txt",
+    "machine/validation.json",
+    "machine/publication-receipt.json"
+  ]
+}

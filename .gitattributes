@@ -3,3 +3,5 @@
 *.pdf binary
 *.png binary
 *.zip binary
+# Archived source entries retain their original Markdown whitespace verbatim.
+history/** -whitespace
