@@ -1,0 +1,35 @@
+{
+  "schema": "halveth.hypothesis-revision-cycle.v1",
+  "version": "1.0.0",
+  "id": "DEMO-READABILITY-1",
+  "recordedAt": "2026-09-28T12:00:00Z",
+  "hypothesis": {
+    "statement": "Eine größere Schrift verbessert in der gewählten Menüansicht die Lesbarkeit.",
+    "sourceRef": "SYNTHETIC:DESIGN-QUESTION",
+    "eventTime": null
+  },
+  "models": [
+    { "id": "SIZE", "kind": "HYPOTHESIS_MODEL", "explanation": "Die Schriftgröße begrenzt die Lesbarkeit." },
+    { "id": "CONTRAST", "kind": "COUNTERMODEL", "explanation": "Der Kontrast zum Hintergrund begrenzt die Lesbarkeit." }
+  ],
+  "plan": {
+    "boundAt": "2026-09-28T11:00:00Z",
+    "question": "Welche einzelne Änderung verbessert die korrekte Texterkennung?",
+    "method": "Zwei lokale Mockups mit gleicher Auflösung, gleichem Text und jeweils nur einer veränderten Eigenschaft vergleichen.",
+    "scope": "Synthetisches Planbeispiel; kein Nutzerexperiment durchgeführt.",
+    "predictions": [
+      { "modelId": "SIZE", "observable": "Bei gleichem Kontrast verbessert nur die Schriftvergrößerung die Texterkennung.", "targetTime": null },
+      { "modelId": "CONTRAST", "observable": "Bei gleicher Schriftgröße verbessert nur der höhere Kontrast die Texterkennung.", "targetTime": null }
+    ],
+    "minimumEvidence": [
+      { "id": "FIXTURE", "criterion": "Beide Varianten mit Auflösung, Schriftgröße und Kontrastwert dokumentieren.", "minimumCount": 2 },
+      { "id": "READING", "criterion": "Für jede Variante denselben vorab festgelegten Erkennungstest und seine Fehler erfassen.", "minimumCount": 2 }
+    ],
+    "changeMyMind": [
+      { "modelId": "SIZE", "condition": "Größere Schrift verbessert die Erkennung nicht, höherer Kontrast hingegen schon.", "criterionIds": ["FIXTURE", "READING"] },
+      { "modelId": "CONTRAST", "condition": "Höherer Kontrast verbessert die Erkennung nicht, größere Schrift hingegen schon.", "criterionIds": ["FIXTURE", "READING"] }
+    ]
+  },
+  "observations": [],
+  "result": null
+}
