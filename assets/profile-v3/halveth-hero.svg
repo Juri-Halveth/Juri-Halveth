@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="HALVETH VERACHEL STUDIOS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050b12"/>
+      <stop offset="52%" stop-color="#0b1524"/>
+      <stop offset="100%" stop-color="#18091d"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#56f0d0" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#ff4d9d" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#050b12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#56f0d0"/>
+      <stop offset="100%" stop-color="#ff4d9d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1030" cy="175" r="210" fill="url(#orb)"/>
+  <path d="M815 274C893 238 891 121 980 92C1060 65 1121 117 1180 84" fill="none" stroke="url(#wire)" stroke-width="2.5" stroke-opacity=".7"/>
+  <path d="M836 107C904 139 948 201 1019 207C1100 214 1135 164 1211 178" fill="none" stroke="#56f0d0" stroke-width="1.5" stroke-opacity=".38"/>
+  <path d="M878 310C919 267 976 257 1030 269C1094 282 1132 249 1189 227" fill="none" stroke="#ff4d9d" stroke-width="1.5" stroke-opacity=".4"/>
+  <g filter="url(#glow)">
+    <circle cx="980" cy="92" r="7" fill="#56f0d0"/>
+    <circle cx="1019" cy="207" r="9" fill="#ffd166"/>
+    <circle cx="1121" cy="117" r="7" fill="#ff4d9d"/>
+    <circle cx="1180" cy="84" r="5" fill="#56f0d0"/>
+    <circle cx="1189" cy="227" r="6" fill="#ff4d9d"/>
+    <circle cx="1030" cy="269" r="5" fill="#56f0d0"/>
+  </g>
+  <circle cx="1019" cy="207" r="54" fill="#071019" stroke="#ffd166" stroke-width="2"/>
+  <circle cx="1019" cy="207" r="76" fill="none" stroke="#56f0d0" stroke-width="1.2" stroke-dasharray="7 10" opacity=".7"/>
+  <circle cx="1019" cy="207" r="101" fill="none" stroke="#ff4d9d" stroke-width="1" stroke-dasharray="2 11" opacity=".55"/>
+  <text x="1019" y="219" text-anchor="middle" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="800">∞</text>
+  <text x="58" y="64" fill="#56f0d0" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">HALVETH VERACHEL STUDIOS</text>
+  <text x="58" y="129" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="800">BUILD · VERIFY · PRESERVE</text>
+  <text x="58" y="183" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="800">EXPAND.</text>
+  <text x="60" y="230" fill="#b8c6d8" font-family="Segoe UI,Arial,sans-serif" font-size="19">Software Engineering · Security Research · Provenance · Interactive Worlds</text>
+  <rect x="58" y="270" width="188" height="38" rx="19" fill="#56f0d0" fill-opacity=".09" stroke="#56f0d0" stroke-opacity=".7"/>
+  <text x="152" y="295" text-anchor="middle" fill="#56f0d0" font-family="Consolas,monospace" font-size="14" font-weight="700">T-0 // ACTIVE</text>
+  <rect x="260" y="270" width="250" height="38" rx="19" fill="#ff4d9d" fill-opacity=".08" stroke="#ff4d9d" stroke-opacity=".6"/>
+  <text x="385" y="295" text-anchor="middle" fill="#ff9bc7" font-family="Consolas,monospace" font-size="14">UNKNOWN = PRESERVED</text>
+  <rect x="524" y="270" width="235" height="38" rx="19" fill="#ffd166" fill-opacity=".07" stroke="#ffd166" stroke-opacity=".55"/>
+  <text x="641" y="295" text-anchor="middle" fill="#ffd166" font-family="Consolas,monospace" font-size="14">ERROR != MYSTERY</text>
+  <text x="58" y="334" fill="#607286" font-family="Consolas,monospace" font-size="13">SOURCE → RECEIVE → RELATE → VERIFY → PRESERVE → UPDATE</text>
+</svg>

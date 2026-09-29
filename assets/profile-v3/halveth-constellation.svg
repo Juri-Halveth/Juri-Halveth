@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="310" viewBox="0 0 1280 310" role="img" aria-label="HALVETH project constellation">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071019"/>
+      <stop offset="100%" stop-color="#110b19"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#56f0d0"/>
+      <stop offset="100%" stop-color="#ff4d9d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="310" rx="22" fill="url(#bg2)"/>
+  <text x="42" y="45" fill="#7f92a8" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3">PROJECT CONSTELLATION // PUBLIC SIGNAL MAP</text>
+  <g stroke="url(#line)" stroke-width="1.5" opacity=".52" fill="none">
+    <path d="M640 158L242 92"/>
+    <path d="M640 158L260 235"/>
+    <path d="M640 158L455 82"/>
+    <path d="M640 158L474 252"/>
+    <path d="M640 158L830 78"/>
+    <path d="M640 158L835 250"/>
+    <path d="M640 158L1040 100"/>
+    <path d="M640 158L1052 230"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="640" cy="158" r="58" fill="#0a1521" stroke="#ffd166" stroke-width="2.5"/>
+    <circle cx="640" cy="158" r="78" fill="none" stroke="#56f0d0" stroke-opacity=".42" stroke-dasharray="6 9"/>
+    <text x="640" y="154" text-anchor="middle" fill="#ffffff" font-size="21" font-weight="800">HALVETH</text>
+    <text x="640" y="177" text-anchor="middle" fill="#ffd166" font-size="12" letter-spacing="2">CORE</text>
+
+    <g>
+      <circle cx="242" cy="92" r="38" fill="#0a1521" stroke="#56f0d0"/>
+      <text x="242" y="88" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">OPEN</text>
+      <text x="242" y="105" text-anchor="middle" fill="#8fead8" font-size="11">RESEARCH</text>
+    </g>
+    <g>
+      <circle cx="260" cy="235" r="38" fill="#0a1521" stroke="#ff4d9d"/>
+      <text x="260" y="231" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">SCARLET</text>
+      <text x="260" y="248" text-anchor="middle" fill="#ff9bc7" font-size="10">INTERFACE</text>
+    </g>
+    <g>
+      <circle cx="455" cy="82" r="40" fill="#0a1521" stroke="#56f0d0"/>
+      <text x="455" y="78" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">MORROWIND</text>
+      <text x="455" y="95" text-anchor="middle" fill="#8fead8" font-size="10">GENESIS</text>
+    </g>
+    <g>
+      <circle cx="474" cy="252" r="38" fill="#0a1521" stroke="#ffd166"/>
+      <text x="474" y="248" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">TRESOR</text>
+      <text x="474" y="265" text-anchor="middle" fill="#ffd166" font-size="10">LOCAL-FIRST</text>
+    </g>
+    <g>
+      <circle cx="830" cy="78" r="40" fill="#0a1521" stroke="#ff4d9d"/>
+      <text x="830" y="74" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">PRESTATE</text>
+      <text x="830" y="91" text-anchor="middle" fill="#ff9bc7" font-size="10">BIT GATE</text>
+    </g>
+    <g>
+      <circle cx="835" cy="250" r="40" fill="#0a1521" stroke="#56f0d0"/>
+      <text x="835" y="246" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">LEARNING</text>
+      <text x="835" y="263" text-anchor="middle" fill="#8fead8" font-size="10">SYSTEMS</text>
+    </g>
+    <g>
+      <circle cx="1040" cy="100" r="42" fill="#0a1521" stroke="#ffd166"/>
+      <text x="1040" y="96" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">EVIDENCE</text>
+      <text x="1040" y="113" text-anchor="middle" fill="#ffd166" font-size="10">PROVENANCE</text>
+    </g>
+    <g>
+      <circle cx="1052" cy="230" r="42" fill="#0a1521" stroke="#56f0d0"/>
+      <text x="1052" y="226" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">SECURITY</text>
+      <text x="1052" y="243" text-anchor="middle" fill="#8fead8" font-size="10">RESEARCH</text>
+    </g>
+  </g>
+  <text x="42" y="292" fill="#51667d" font-family="Consolas,monospace" font-size="12">NO SINGLE PROJECT = THE WHOLE SYSTEM // RELATIONS ARE EXPLICIT // UNKNOWN STAYS UNKNOWN</text>
+</svg>

@@ -1,56 +1,115 @@
-![HALVETH VERACHEL STUDIOS — Software bauen. Systeme prüfen. Ergebnisse belegen.](portfolio/2026-09-28-v1.0.2/assets/portfolio-banner.svg)
+<p align="center">
+  <img src="./assets/profile-v3/halveth-hero.svg" alt="HALVETH VERACHEL STUDIOS" width="100%">
+</p>
 
-# Juri Janovski / Juri Halveth
+<p align="center">
+  <a href="https://github.com/Juri-Halveth/open-research-branches"><img src="https://img.shields.io/badge/OPEN_RESEARCH-ACTIVE-56f0d0?style=for-the-badge&labelColor=071019"></a>
+  <a href="https://github.com/Juri-Halveth/halveth-scarlet"><img src="https://img.shields.io/badge/INTERACTIVE_SYSTEMS-SCARLET-ff4d9d?style=for-the-badge&labelColor=071019"></a>
+  <a href="https://github.com/Juri-Halveth/halveth-morrowind-genesis"><img src="https://img.shields.io/badge/WORLDS-MORROWIND_GENESIS-ffd166?style=for-the-badge&labelColor=071019"></a>
+</p>
 
-> **CLAIMED // ZDA // VERIFY THE WORK**
-> Ich mache meine dokumentierten Leistungen in den benannten Kompetenzfeldern ausdrücklich als Portfolioanspruch geltend. Der Anspruch steht in der Akte; fachliche Belege und externe Anerkennungen stehen mit ihrem eigenen Status daneben.
+<h1 align="center">Juri Janovski <sub>// Juri Halveth</sub></h1>
 
-[Korrektur 1.0.2 und genaue Begriffsdefinition](portfolio/2026-09-28-v1.0.2/KORREKTUR_CLAIMED_ZDA.md)
+<p align="center">
+  <b>Softwareentwicklung · Systemintegration · Qualitätssicherung · Security Research · Evidenzsysteme · interaktive Welten</b>
+</p>
 
-**Softwareentwicklung · Systemintegration · Qualitätssicherung · Security Research · Evidenz und Provenienz**
+<p align="center">
+  <code>SOURCE → RECEIVE → RELATE → VERIFY → PRESERVE → UPDATE</code>
+</p>
 
-Ich entwickle mit HALVETH VERACHEL STUDIOS Software, Forschungswerkzeuge und interaktive Welten. Meine Arbeit verbindet technische Umsetzung, nachvollziehbare Prüfungen und eine Dokumentation, die bis zu konkreten Quellständen reicht. Anforderungen und Entscheidungen kommen von mir; Umsetzung und Dokumentation entstehen auch mit KI-Unterstützung.
+---
 
-**[Kompetenzportfolio lesen · 11 Seiten PDF](portfolio/2026-09-28-v1.0.2/HALVETH_Kompetenzportfolio.pdf)** · **[Gesamtes öffentliches Paket herunterladen](https://github.com/Juri-Halveth/Juri-Halveth/raw/main/downloads/HALVETH-Kompetenzportfolio-1.0.2.zip)** · [Arbeitsproben und Quellen](portfolio/2026-09-28-v1.0.2/README.md)
+## ⚡ SIGNAL
 
-## Gebaut und dokumentiert
+Ich baue Systeme nicht nur bis zu dem Punkt, an dem sie funktionieren. Ich baue sie so, dass **Zustände, Entscheidungen, Tests und Herkunft später wieder nachvollziehbar werden**.
 
-| Projekt | Ergebnis und Arbeitsprobe |
+`HALVETH VERACHEL STUDIOS` verbindet Softwareentwicklung, lokale Agenten- und Toolchains, Security Research, interaktive Welten und reproduzierbare Provenienz.
+
+| BUILD | VERIFY | PRESERVE | EXPAND |
+| --- | --- | --- | --- |
+| Software, Tools, Interfaces | Tests, Gegenproben, CI | Zustände, Evidenz, Herkunft | neue Pfade ohne alte Belege zu überschreiben |
+
+> **UNKNOWN = PRESERVED**
+> **SIMILARITY != CAUSALITY**
+> **ERROR != MYSTERY**
+
+## 🌌 PROJECT CONSTELLATION
+
+<p align="center">
+  <img src="./assets/profile-v3/halveth-constellation.svg" alt="HALVETH project constellation" width="100%">
+</p>
+
+| Projekt | Signal |
 | --- | --- |
-| [Morrowind Genesis](https://github.com/Juri-Halveth/halveth-morrowind-genesis) | Native OpenMW-/Lua-Integration mit persistenten Spielzuständen, lokalem Integrationslauf und installiertem Patch; Quellprüfungen auf GitHub. |
-| [Open Research](https://github.com/Juri-Halveth/open-research-branches) | Versionierte Forschungsäste, Quellenbindung und Provenienzwerkzeuge mit automatisierten Prüfungen. |
-| [HALVETH Scarlet](https://github.com/Juri-Halveth/halveth-scarlet) | Interaktive Weboberflächen und Release-Werkzeuge mit dokumentiertem Pages-Deployment. |
-| [Lernstudio](https://github.com/Juri-Halveth/lernstudio) / [Mein Lernportal](https://github.com/Juri-Halveth/mein-lernportal) | Lerninhalte, Fortschrittsverwaltung und Inhaltsverträge; konkrete Code- und Testdateien sind verlinkt. |
-| [HALVETH Tresor](https://github.com/Juri-Halveth/halveth-tresor) | Desktop-Quellstand mit Python-Modulen, Unit-Tests und erfolgreichen CI-/CodeQL-Läufen. |
-| [T0: Verzweigungsmodelle](portfolio/2026-09-28-v1.0.2/examples/branch_models.py) | Eigenständig ausführbares, endliches Beispiel mit zwei deterministischen Wachstumsregeln und einer reversiblen Zeichenabbildung. |
+| **[Open Research](https://github.com/Juri-Halveth/open-research-branches)** | Versionierte Forschungsäste, Quellenbindung, Provenienz und automatisierte Release-Prüfungen. |
+| **[Morrowind Genesis](https://github.com/Juri-Halveth/halveth-morrowind-genesis)** | Native OpenMW-/Lua-Integration, persistente Zustände und experimentelle Welt-Systeme. |
+| **[HALVETH Scarlet](https://github.com/Juri-Halveth/halveth-scarlet)** | Interaktive Weboberflächen, Visualisierung und Release-Werkzeuge. |
+| **[HALVETH Tresor](https://github.com/Juri-Halveth/halveth-tresor)** | Local-first Desktop-Software, Python-Module, Tests und CI/CodeQL. |
+| **[Lernstudio](https://github.com/Juri-Halveth/lernstudio)** / **[Mein Lernportal](https://github.com/Juri-Halveth/mein-lernportal)** | Lernsysteme, Inhalte, Fortschrittslogik und technische Arbeitsproben. |
+| **[PRESTATE Bit Gate](https://github.com/Juri-Halveth/open-research-branches/pull/14)** | **LAB / DRAFT:** `NO_EXECUTION_BEFORE_PRESTATE`, explizite Zustands- und Provenienzlogik. |
 
-Die [Projektkarten](portfolio/2026-09-28-v1.0.2/PROJECT_EVIDENCE_REGISTER.md) verbinden jedes Ergebnis mit seinem Commit oder Beleg. Der Snapshot vom **28. September 2026** umfasst **13 öffentliche Repositories, 15 Belegrecords und 16 fachliche Zuordnungen**. [Ausführungsbelege und Testumfang](portfolio/2026-09-28-v1.0.2/TESTING_EVIDENCE_REGISTER.md) sind je Projekt ausgewiesen.
+## 🧬 SYSTEM AXIOMS
 
-## CLAIMED / ZDA · Fachliche Einordnung
+```text
+INPUT != EXECUTION
+UNKNOWN != FALSE
+DIFFERENT = PRESERVED
+TRUTH = SEPARATE DIMENSION
 
-Das Portfolio ordnet Arbeitsproben neun Referenzrahmen zu: **ISTQB CTAL-TA, Microsoft Cybersecurity Architect Expert, Microsoft DevOps Engineer Expert, CISSP, AWS Solutions Architect Professional, ISTQB CTEL-ITP, OffSec OSCE3, CCIE Enterprise Infrastructure und Google Cloud Professional Cloud Architect.**
+OPEN != UNCONTROLLED
+EXPANSION = ADDITIVE + REVERSIBLE + MEASURABLE
 
-Die [Benchmark-Matrix und neun Dossiers](portfolio/2026-09-28-v1.0.2/CERTIFICATE_BENCHMARK_MATRIX.md) zeigen konkrete Anknüpfungen, Anforderungen der Herausgeber und nächste Leistungsnachweise. Diese Zuordnung dokumentiert Arbeit; sie vergibt keine Zertifizierung der genannten Herausgeber.
+HASH BINDS BYTES
+HASH DOES NOT CREATE OWNERSHIP
 
-**JBL / CERT@VDE:** Ich berichte von einer positiven Rückmeldung im Zusammenhang mit der Koordination. Der genaue Originalbeleg für technische Validierung und eine Credit-Zusage wird noch zugeordnet; die frühere pauschale Bestätigungsformulierung ist entsprechend berichtigt.
+T-0 ⇄ T+1 ⇄ T+2 ⇄ ... ⇄ T+n
+```
 
-Bei Sicherheitsforschung trenne ich beobachtetes Verhalten, Voraussetzungen, mögliche Auswirkung, Präventionswert und externe Anerkennung. Ein bewusst nicht ausgeführter Schadenseffekt widerlegt eine dokumentierte Fähigkeit nicht. Die öffentlichen Arbeitsproben führen ihre Quellen und ihren Prüfungsumfang mit.
+## 🔐 PROOF LAYER
 
-## Nachvollziehen und weiterbauen
+Die öffentliche Arbeit ist mit Quellen, Commit-Ständen, Tests und Belegregistern verknüpft.
 
-- [Maschinenlesbare Belege](portfolio/2026-09-28-v1.0.2/machine/evidence.jsonl), [Relationen](portfolio/2026-09-28-v1.0.2/machine/relations.jsonl) und [SHA-256-Dateiliste](portfolio/2026-09-28-v1.0.2/SHA256SUMS.txt)
-- [Portfolio-Prüfer](portfolio/2026-09-28-v1.0.2/scripts/verify_portfolio.py) und [GitHub-Prüfläufe](https://github.com/Juri-Halveth/Juri-Halveth/actions/workflows/portfolio.yml)
-- [Quellen](portfolio/2026-09-28-v1.0.2/SOURCES.md), [offene Nachweise](portfolio/2026-09-28-v1.0.2/EVIDENCE_GAPS.md) und [Rechte / Lizenzen](portfolio/2026-09-28-v1.0.2/RIGHTS_AND_LICENSES.md)
-
-Die neue Beispieldemonstration und der Portfolio-Prüfer stehen unter MIT. Bestehende Projekte behalten ihre jeweiligen Lizenzen.
-
-**Fachreview und Zusammenarbeit:** [security@halveth.de](mailto:security@halveth.de)
+**[Kompetenzportfolio · PDF](portfolio/2026-09-28-v1.0.2/HALVETH_Kompetenzportfolio.pdf)** ·
+**[Projekt-Evidenzregister](portfolio/2026-09-28-v1.0.2/PROJECT_EVIDENCE_REGISTER.md)** ·
+**[Testing Evidence](portfolio/2026-09-28-v1.0.2/TESTING_EVIDENCE_REGISTER.md)** ·
+**[Maschinenlesbare Evidenz](portfolio/2026-09-28-v1.0.2/machine/evidence.jsonl)** ·
+**[Quellen](portfolio/2026-09-28-v1.0.2/SOURCES.md)**
 
 <details>
-<summary>Frühere Werkdokumentation</summary>
+<summary><b>CLAIMED / ZDA · fachliche Einordnung</b></summary>
 
-Die [Fassungsübersicht](portfolio/README.md) ordnet die frühere Ausgabe 1.0.0 und das Eingangs-Paket 1.0.1 gegenüber der aktuellen Korrektur ein.
+Das Portfolio ordnet dokumentierte Arbeitsproben neun Referenzrahmen zu: **ISTQB CTAL-TA, Microsoft Cybersecurity Architect Expert, Microsoft DevOps Engineer Expert, CISSP, AWS Solutions Architect Professional, ISTQB CTEL-ITP, OffSec OSCE3, CCIE Enterprise Infrastructure und Google Cloud Professional Cloud Architect.**
 
-Die [privaten HALVETH-Werkzertifikate](https://juri-halveth.github.io/werkzertifikate/) und die [14-seitige Werkzertifikatsmappe](https://juri-halveth.github.io/werkzertifikate/2026-09-28-v1.1/Juri_Halveth_Private_Werkzertifikate_2026-09-28_v1.1.pdf) bleiben als eigener früherer Snapshot erreichbar. Das [vorherige Profil-README](history/README.before-portfolio-1.0.0.md) ist unverändert archiviert.
+Diese Zuordnung ist ein dokumentierter Portfolioanspruch und **keine Behauptung, dass die jeweiligen Herausgeber eine Zertifizierung erteilt haben**.
+
+[Benchmark-Matrix und Dossiers](portfolio/2026-09-28-v1.0.2/CERTIFICATE_BENCHMARK_MATRIX.md)
 
 </details>
+
+## 📊 LIVE GITHUB SIGNAL
+
+<p align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Juri-Halveth&show_icons=true&hide_border=true&bg_color=00000000&title_color=56f0d0&text_color=b8c6d8&icon_color=ff4d9d&include_all_commits=true" alt="GitHub stats">
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juri-Halveth&layout=compact&hide_border=true&bg_color=00000000&title_color=ffd166&text_color=b8c6d8" alt="Top languages">
+</p>
+
+## 🪞 OPERATING MODE
+
+```text
+BUILD       → something exists
+VERIFY      → we know what was actually observed
+PRESERVE    → evidence survives the next iteration
+RELATE      → connections are explicit, not assumed
+UPDATE      → new information is additive
+```
+
+**Current public profile snapshot:** `29 SEP 2026 · T-0`
+
+## 📡 CONTACT
+
+**Security / technical review:** [security@halveth.de](mailto:security@halveth.de)
+
+<p align="center">
+  <sub>HALVETH VERACHEL STUDIOS · VERIFY THE WORK · KEEP THE UNKNOWN OPEN</sub>
+</p>
