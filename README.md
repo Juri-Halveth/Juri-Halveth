@@ -1,3 +1,7 @@
+<!-- HUB_LANGUAGES_V1 -->
+[Original / Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
+<!-- /HUB_LANGUAGES_V1 -->
+
 <p align="center">
   <img src="./assets/profile-v3/halveth-hero.svg" alt="HALVETH VERACHEL STUDIOS" width="100%">
 </p>
