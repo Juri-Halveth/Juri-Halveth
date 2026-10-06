@@ -24,6 +24,42 @@
 
 ---
 
+## 🏅 ZERTIFIKATE & KOMPETENZNACHWEISE
+
+### HALVETH-Werkzertifikate
+
+**Aussteller: HALVETH VERACHEL STUDIOS · Werkdokumentation von Juri Janovski / Juri Halveth.** Elf Zertifikate dokumentieren Projekte, Quellstände und Prüfungen im Snapshot vom 28. September 2026.
+
+**[Zertifikatsgalerie öffnen](https://juri-halveth.github.io/werkzertifikate/)** · **[Zertifikatsmappe · PDF](https://juri-halveth.github.io/werkzertifikate/2026-09-28-v1.1/Juri_Halveth_Private_Werkzertifikate_2026-09-28_v1.1.pdf)** · **[Kompetenzportfolio · PDF](portfolio/2026-09-28-v1.0.2/HALVETH_Kompetenzportfolio.pdf)**
+
+- [Morrowind Genesis](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-morrowind-genesis)
+- [Scarlet Garden / Realms](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-realms)
+- [HALVETH Scarlet](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-scarlet)
+- [HALVETH Tresor](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-tresor)
+- [HALVETH Portal Garden](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-unreal)
+- [HALVETH Forschungs- und Kooperationsvorschlag](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-xai-40m-proposal)
+- [HALVETH Projektportal](https://juri-halveth.github.io/werkzertifikate/#werk-juri-halveth-github-io)
+- [These zur Geburt](https://juri-halveth.github.io/werkzertifikate/#werk-juri-janovski-these-zur-geburt)
+- [Lernstudio](https://juri-halveth.github.io/werkzertifikate/#werk-lernstudio)
+- [Mein Lernportal](https://juri-halveth.github.io/werkzertifikate/#werk-mein-lernportal)
+- [HALVETH Open Research](https://juri-halveth.github.io/werkzertifikate/#werk-open-research-branches)
+
+### Neun Kompetenzreferenzen · Portfolio-Dossiers
+
+Die Dossiers ordnen Arbeitsproben den folgenden Zertifikats-Referenzrahmen zu. Jeder Eintrag verlinkt seine dokumentierten Belege und den jeweiligen Bearbeitungsstand.
+
+- [ISTQB CTAL-TA](portfolio/2026-09-28-v1.0.2/certificates/01_ISTQB_CTAL_TA_PORTFOLIO_BENCHMARK.md)
+- [Microsoft Cybersecurity Architect Expert](portfolio/2026-09-28-v1.0.2/certificates/02_MICROSOFT_CYBERSECURITY_ARCHITECT_EXPERT_BENCHMARK.md)
+- [Microsoft DevOps Engineer Expert](portfolio/2026-09-28-v1.0.2/certificates/03_MICROSOFT_DEVOPS_ENGINEER_EXPERT_BENCHMARK.md)
+- [CISSP](portfolio/2026-09-28-v1.0.2/certificates/04_CISSP_PORTFOLIO_BENCHMARK.md)
+- [AWS Solutions Architect Professional](portfolio/2026-09-28-v1.0.2/certificates/05_AWS_SOLUTIONS_ARCHITECT_PROFESSIONAL_BENCHMARK.md)
+- [ISTQB CTEL-ITP](portfolio/2026-09-28-v1.0.2/certificates/06_ISTQB_CTEL_ITP_BENCHMARK.md)
+- [OffSec OSCE3](portfolio/2026-09-28-v1.0.2/certificates/07_OFFSEC_OSCE3_BENCHMARK.md)
+- [CCIE Enterprise Infrastructure](portfolio/2026-09-28-v1.0.2/certificates/08_CISCO_CCIE_ENTERPRISE_INFRASTRUCTURE_BENCHMARK.md)
+- [Google Cloud Professional Cloud Architect](portfolio/2026-09-28-v1.0.2/certificates/09_GOOGLE_CLOUD_PROFESSIONAL_CLOUD_ARCHITECT_BENCHMARK.md)
+
+**[Benchmark-Matrix](portfolio/2026-09-28-v1.0.2/CERTIFICATE_BENCHMARK_MATRIX.md)** · **[Projekt-Evidenzregister](portfolio/2026-09-28-v1.0.2/PROJECT_EVIDENCE_REGISTER.md)** · **[Testing Evidence](portfolio/2026-09-28-v1.0.2/TESTING_EVIDENCE_REGISTER.md)** · **[Maschinenlesbare Evidenz](portfolio/2026-09-28-v1.0.2/machine/evidence.jsonl)** · **[Quellen](portfolio/2026-09-28-v1.0.2/SOURCES.md)**
+
 ## ⚡ SIGNAL
 
 Ich baue Systeme nicht nur bis zu dem Punkt, an dem sie funktionieren. Ich baue sie so, dass **Zustände, Entscheidungen, Tests und Herkunft später wieder nachvollziehbar werden**.
@@ -70,27 +106,6 @@ HASH DOES NOT CREATE OWNERSHIP
 T-0 ⇄ T+1 ⇄ T+2 ⇄ ... ⇄ T+n
 ```
 
-## 🔐 PROOF LAYER
-
-Die öffentliche Arbeit ist mit Quellen, Commit-Ständen, Tests und Belegregistern verknüpft.
-
-**[Kompetenzportfolio · PDF](portfolio/2026-09-28-v1.0.2/HALVETH_Kompetenzportfolio.pdf)** ·
-**[Projekt-Evidenzregister](portfolio/2026-09-28-v1.0.2/PROJECT_EVIDENCE_REGISTER.md)** ·
-**[Testing Evidence](portfolio/2026-09-28-v1.0.2/TESTING_EVIDENCE_REGISTER.md)** ·
-**[Maschinenlesbare Evidenz](portfolio/2026-09-28-v1.0.2/machine/evidence.jsonl)** ·
-**[Quellen](portfolio/2026-09-28-v1.0.2/SOURCES.md)**
-
-<details>
-<summary><b>CLAIMED / ZDA · fachliche Einordnung</b></summary>
-
-Das Portfolio ordnet dokumentierte Arbeitsproben neun Referenzrahmen zu: **ISTQB CTAL-TA, Microsoft Cybersecurity Architect Expert, Microsoft DevOps Engineer Expert, CISSP, AWS Solutions Architect Professional, ISTQB CTEL-ITP, OffSec OSCE3, CCIE Enterprise Infrastructure und Google Cloud Professional Cloud Architect.**
-
-Diese Zuordnung ist ein dokumentierter Portfolioanspruch und **keine Behauptung, dass die jeweiligen Herausgeber eine Zertifizierung erteilt haben**.
-
-[Benchmark-Matrix und Dossiers](portfolio/2026-09-28-v1.0.2/CERTIFICATE_BENCHMARK_MATRIX.md)
-
-</details>
-
 ## 📊 LIVE GITHUB SIGNAL
 
 <p align="center">
@@ -108,7 +123,7 @@ RELATE      → connections are explicit, not assumed
 UPDATE      → new information is additive
 ```
 
-**Current public profile snapshot:** `29 SEP 2026 · T-0`
+**Current public profile snapshot:** `06 OCT 2026 · CERTIFICATES IN FRONT`
 
 ## 📡 CONTACT
 
