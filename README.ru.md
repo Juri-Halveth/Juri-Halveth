@@ -22,9 +22,9 @@
 | [Cisco CCIE Enterprise](portfolio/2026-09-28-v1.0.2/certificates/08_CISCO_CCIE_ENTERPRISE_INFRASTRUCTURE_BENCHMARK.md) | **✅ CLAIMED · Portfolio** | [Примеры работ](https://github.com/Juri-Halveth/open-research-branches/tree/main/branches/security-impact-learning) |
 | [Google Cloud Architect](portfolio/2026-09-28-v1.0.2/certificates/09_GOOGLE_CLOUD_PROFESSIONAL_CLOUD_ARCHITECT_BENCHMARK.md) | **✅ CLAIMED · Portfolio** | [Примеры работ](https://juri-halveth.github.io/modelle/) |
 
-## Проектные сертификаты
+## Проектные сертификаты · собственная документация
 
-| Область проверки | Проект | Сертификат |
+| Проектный сертификат | Проект | Область проверки |
 | --- | --- | --- |
 | [Интеграция ПО](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-morrowind-genesis) | Morrowind Genesis | ISTQB · DevOps |
 | [Разработка игр](https://juri-halveth.github.io/werkzertifikate/#werk-halveth-realms) | Scarlet Garden | ISTQB · DevOps |
