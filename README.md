@@ -1,6 +1,6 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri Halveth
+# Juri
 
 **Softwareentwicklung · Security Research · offene Lernangebote**
 
