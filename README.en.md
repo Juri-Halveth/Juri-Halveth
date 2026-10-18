@@ -8,6 +8,10 @@ Building software, reviewing systems and making knowledge accessible.
 
 [**Learning for adults**](https://juri-halveth.github.io/lernen/) · [**Audits & review methods**](https://juri-halveth.github.io/audits/) · [**Models & simulations**](https://juri-halveth.github.io/modelle/)
 
+## Current game development · ASHBOUND
+
+ASHBOUND is an original native 3D game world built in Unreal. The [project page](https://juri-halveth.github.io/halveth-scarlet/forschung/ashbound/) and [Windows preview v0.4.2](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview) show a published development state. Newer work on [ground and vegetation](https://github.com/Juri-Halveth/halveth-scarlet/pull/68) and the [mirror encounter](https://github.com/Juri-Halveth/halveth-scarlet/pull/73) remains in open draft PRs and is not part of that preview yet.
+
 ## Certification references · Portfolio
 
 | Certification reference | Status | Technology & work samples |
