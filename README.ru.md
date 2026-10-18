@@ -8,6 +8,10 @@
 
 [**Обучение для взрослых**](https://juri-halveth.github.io/lernen/) · [**Аудиты и методы проверки**](https://juri-halveth.github.io/audits/) · [**Модели и симуляции**](https://juri-halveth.github.io/modelle/)
 
+## Текущая разработка игры · ASHBOUND
+
+ASHBOUND — оригинальный нативный 3D-игровой мир на Unreal. [Страница проекта](https://juri-halveth.github.io/halveth-scarlet/forschung/ashbound/) и [предварительная версия для Windows v0.4.2](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview) показывают опубликованный этап разработки. Более новые работы над [почвой и растительностью](https://github.com/Juri-Halveth/halveth-scarlet/pull/68) и [сценой у зеркала](https://github.com/Juri-Halveth/halveth-scarlet/pull/73) находятся в открытых черновых запросах на слияние и пока не входят в эту версию.
+
 ## Сертификационные ориентиры · портфолио
 
 | Ориентир | Status | Технологии и примеры работ |
