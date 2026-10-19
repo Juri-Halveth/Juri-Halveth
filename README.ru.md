@@ -6,7 +6,7 @@
 
 Создание программ, проверка систем и понятное представление знаний.
 
-[**Обучение для взрослых**](https://juri-halveth.github.io/lernen/) · [**Аудиты и методы проверки**](https://juri-halveth.github.io/audits/) · [**Модели и симуляции**](https://juri-halveth.github.io/modelle/)
+[**Обучение для взрослых**](https://juri-halveth.github.io/lernen/) · [**Аудиты и методы проверки**](https://juri-halveth.github.io/audits/) · [**Модели и симуляции**](https://juri-halveth.github.io/modelle/) · [**Field Difference Lab**](https://juri-halveth.github.io/halveth-field-difference-lab/)
 
 ## Сертификационные ориентиры · портфолио
 

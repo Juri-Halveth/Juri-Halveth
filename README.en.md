@@ -6,7 +6,7 @@
 
 Building software, reviewing systems and making knowledge accessible.
 
-[**Learning for adults**](https://juri-halveth.github.io/lernen/) · [**Audits & review methods**](https://juri-halveth.github.io/audits/) · [**Models & simulations**](https://juri-halveth.github.io/modelle/)
+[**Learning for adults**](https://juri-halveth.github.io/lernen/) · [**Audits & review methods**](https://juri-halveth.github.io/audits/) · [**Models & simulations**](https://juri-halveth.github.io/modelle/) · [**Field Difference Lab**](https://juri-halveth.github.io/halveth-field-difference-lab/)
 
 ## Certification references · Portfolio
 

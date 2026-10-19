@@ -6,7 +6,7 @@
 
 Software bauen, Systeme prüfen und Wissen verständlich machen.
 
-[**Lernen für Erwachsene**](https://juri-halveth.github.io/lernen/) · [**Audits & Prüfmethodik**](https://juri-halveth.github.io/audits/) · [**Modelle & Simulationen**](https://juri-halveth.github.io/modelle/)
+[**Lernen für Erwachsene**](https://juri-halveth.github.io/lernen/) · [**Audits & Prüfmethodik**](https://juri-halveth.github.io/audits/) · [**Modelle & Simulationen**](https://juri-halveth.github.io/modelle/) · [**Field Difference Lab**](https://juri-halveth.github.io/halveth-field-difference-lab/)
 
 ## Zertifikatsreferenzen · Portfolio
 
