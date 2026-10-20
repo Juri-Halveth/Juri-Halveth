@@ -10,6 +10,14 @@ Under **HALVETH**, I turn technical ideas into applications: local desktop tools
 
 [**Portfolio →**](https://juri-halveth.github.io/en/) · [**Work samples →**](https://juri-halveth.github.io/en/koennen/) · [**Professional profile →**](https://juri-halveth.github.io/en/profil/)
 
+## How the technical work connects
+
+**I build and investigate the boundaries between systems.**
+
+The [**technical interface map**](TECHNICAL-MAP.en.md) connects seven areas to 14 concrete work samples: interfaces and Python, C++ and game state, security logic, source packets, graphics models, builds and delivery. Each sample identifies its function, counterexample or build definition and exact source revision.
+
+[Map on GitHub](TECHNICAL-MAP.en.md) · [Explore visually](https://juri-halveth.github.io/en/koennen/) · [Source packets in Node and browser](TECHNICAL-MAP.en.md#node-browser-packet) · [C++ state core](TECHNICAL-MAP.en.md#cpp-state)
+
 ## Selected work
 
 ### Open learning
@@ -18,7 +26,7 @@ Under **HALVETH**, I turn technical ideas into applications: local desktop tools
 
 [Start learning](https://juri-halveth.github.io/mein-lernportal/?lang=en) · [Code and structure](https://github.com/Juri-Halveth/mein-lernportal)
 
-### Local desktop tools
+### Local tools and browser applications
 
 **Tresor** is a Windows project for local credential management. **Fortuna** is a browser interface with JavaScript models for comparing user-entered options. Each project documents its own development state.
 

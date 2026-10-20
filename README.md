@@ -10,6 +10,14 @@ Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom l
 
 [**Portfolio ansehen →**](https://juri-halveth.github.io/) · [**Arbeitsproben →**](https://juri-halveth.github.io/koennen/) · [**Arbeitsprofil →**](https://juri-halveth.github.io/profil/)
 
+## Technik im Zusammenhang
+
+**Ich entwickle und untersuche die Schnittstellen zwischen Systemen.**
+
+Die [**technische Schnittstellenkarte**](TECHNICAL-MAP.md) führt von sieben Themen direkt zu 14 konkreten Arbeitsproben: Oberfläche und Python, C++ und Spielzustand, Security-Logik, Quellenpakete, Grafikmodelle sowie Build und Veröffentlichung. Jede Arbeitsprobe nennt Funktion, Gegenprobe oder Builddefinition und ihren exakten Quellstand.
+
+[Karte auf GitHub](TECHNICAL-MAP.md) · [Visuell erkunden](https://juri-halveth.github.io/koennen/) · [Quellenpaket in Node und Browser](TECHNICAL-MAP.md#node-browser-packet) · [C++-Zustandskern](TECHNICAL-MAP.md#cpp-state)
+
 ## Ausgewählte Arbeiten
 
 ### Lernen, das direkt zugänglich ist
