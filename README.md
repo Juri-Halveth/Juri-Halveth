@@ -1,45 +1,51 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri
+# Juri Halveth
 
-**Softwareentwicklung · Security Research · offene Lernangebote**
+![Juri Halveth – Software, Forschung und Lernwelten](assets/portfolio-banner.svg)
 
-Software bauen, Systeme prüfen und Wissen verständlich machen.
+**Ich entwickle Software, interaktive Welten und verständliche Lernangebote.**
 
-[**Lernen für Erwachsene**](https://juri-halveth.github.io/lernen/) · [**Audits & Prüfmethodik**](https://juri-halveth.github.io/audits/) · [**Modelle & Simulationen**](https://juri-halveth.github.io/modelle/) · [**Field Difference Lab**](https://juri-halveth.github.io/halveth-field-difference-lab/)
+Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom lokalen Desktopwerkzeug über spielbare Prototypen bis zum frei zugänglichen Lernportal. Hier findest du ausgewählte Arbeiten und den direkten Weg zu Oberfläche, Code und Dokumentation.
 
-## Zertifikatsreferenzen · Portfolio
+[**Portfolio ansehen →**](https://juri-halveth.github.io/) · [**Arbeitsproben →**](https://juri-halveth.github.io/koennen/) · [**Arbeitsprofil →**](https://juri-halveth.github.io/profil/)
 
-| Zertifikatsreferenz | Status | Technik & Arbeitsproben |
-| --- | --- | --- |
-| [ISTQB CTAL-TA](https://juri-halveth.github.io/koennen/#b01) | **✅ CLAIMED · Portfolio** | [Fegefeuer.arrive](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/fegefeuer-provenance-transducer/fegefeuer_core.py#L145-L161) |
-| [Microsoft Cybersecurity Architect](https://juri-halveth.github.io/koennen/#b02) | **✅ CLAIMED · Portfolio** | [evaluate](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/normenwerk-rule-universe/normenkern.py#L125-L149) |
-| [Microsoft DevOps Engineer](https://juri-halveth.github.io/koennen/#b03) | **✅ CLAIMED · Portfolio** | [validatePublicManifest](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/scripts/release-gate-lib.mjs#L220-L237) |
-| [CISSP](https://juri-halveth.github.io/koennen/#b04) | **✅ CLAIMED · Portfolio** | [kdf_input / derive_kek](https://github.com/Juri-Halveth/halveth-tresor/blob/9233a6f16fca23e87340787b2e57d00573698506/src/tresor/vault.py#L85-L100) |
-| [AWS Solutions Architect Professional](https://juri-halveth.github.io/koennen/#b05) | **✅ CLAIMED · Portfolio** | [tree_bound](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/fegefeuer-provenance-transducer/fegefeuer_core.py#L230-L234) |
-| [ISTQB CTEL-ITP](https://juri-halveth.github.io/koennen/#b06) | **✅ CLAIMED · Portfolio** | [validatePublicManifest](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/scripts/release-gate-lib.mjs#L220-L237) |
-| [OffSec OSCE³](https://juri-halveth.github.io/koennen/#b07) | **✅ CLAIMED · Portfolio** | [assess](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/security-impact-learning/impact-model.mjs#L31-L47) |
-| [Cisco CCIE Enterprise](https://juri-halveth.github.io/koennen/#b08) | **✅ CLAIMED · Portfolio** | [parse](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/normenwerk-rule-universe/normenkern.py#L38-L48) |
-| [Google Cloud Architect](https://juri-halveth.github.io/koennen/#b09) | **✅ CLAIMED · Portfolio** | [Fegefeuer.arrive](https://github.com/Juri-Halveth/open-research-branches/blob/075d9eec0f9bdd726eebf4b4768b2ecebbb5b1b7/branches/fegefeuer-provenance-transducer/fegefeuer_core.py#L145-L161) |
+## Ausgewählte Arbeiten
 
-## Projektzertifikate · eigene Dokumentation
+### Lernen, das direkt zugänglich ist
 
-| Projektzertifikat | Projekt | Prüfbezug |
-| --- | --- | --- |
-| [Softwareintegration](https://juri-halveth.github.io/koennen/#P01) | Morrowind Genesis | ISTQB · DevOps |
-| [Spielentwicklung](https://juri-halveth.github.io/koennen/#P02) | Scarlet Garden | ISTQB · DevOps |
-| [Webentwicklung](https://juri-halveth.github.io/koennen/#P03) | Scarlet | ISTQB |
-| [Desktopsoftware](https://juri-halveth.github.io/koennen/#P04) | Tresor | DevOps |
-| [C++ & Unreal](https://juri-halveth.github.io/koennen/#P05) | Portal Garden | ISTQB |
-| [Forschungsplanung](https://juri-halveth.github.io/koennen/#P06) | Kooperationskonzept | Dokumentation |
-| [Webportal](https://juri-halveth.github.io/koennen/#P07) | Portfolio | ISTQB · DevOps |
-| [Forschungsdokumentation](https://juri-halveth.github.io/koennen/#P08) | Geburtsumgebung | Dokumentation |
-| [Lernplattform](https://juri-halveth.github.io/koennen/#P09) | Lernstudio | ISTQB · DevOps |
-| [Freies Lernportal](https://juri-halveth.github.io/koennen/#P10) | 702 Lektionen | ISTQB |
-| [Forschung & Modelle](https://juri-halveth.github.io/koennen/#P11) | Open Research | ISTQB · Security |
+**Mein Lernportal** bietet 702 Lektionen mit Übungen zu digitalen Grundlagen, Programmierung, Mathematik und weiteren Themen. Der Katalog lässt sich ohne Pflichtkonto öffnen.
 
-[Portfolio](https://juri-halveth.github.io/) · [Diskussionen](https://github.com/Juri-Halveth/open-research-branches/discussions) · [GitHub / API](https://github.com/Juri-Halveth/open-research-branches/blob/main/START_HERE_AI.md)
+[Direkt lernen](https://juri-halveth.github.io/mein-lernportal/) · [Code und Aufbau](https://github.com/Juri-Halveth/mein-lernportal)
 
-Security / technical review: [security@halveth.de](mailto:security@halveth.de)
+### Lokale Software für den Alltag
 
-[Originaldossiers & Werkzertifikate](https://juri-halveth.github.io/zertifikate/) · [Code-DNA](https://github.com/Juri-Halveth/open-research-branches/blob/main/CODE_DNA.md)
+**Tresor** ist ein Windows-Projekt zur lokalen Verwaltung von Zugangsdaten. **Fortuna** verbindet Fensterorganisation mit dem Vergleich selbst eingegebener Möglichkeiten. Beide Projekte dokumentieren ihren jeweiligen Entwicklungsstand.
+
+[Tresor ansehen](https://github.com/Juri-Halveth/halveth-tresor) · [Fortuna ansehen](https://github.com/Juri-Halveth/fortuna)
+
+### Spielwelten und interaktive Gestaltung
+
+**Portal Garden** ist ein eigenständiger C++-Spielprototyp für Unreal Engine. **Scarlet Garden** erkundet prozedurale Fantasywelten. **SCARLET** bündelt interaktive Szenen und Forschungsdemos.
+
+[Portal Garden · C++](https://github.com/Juri-Halveth/halveth-unreal) · [Scarlet Garden](https://github.com/Juri-Halveth/halveth-realms) · [Demos entdecken](https://juri-halveth.github.io/halveth-scarlet/forschung/wegweiser/)
+
+### Forschung, die man nachvollziehen kann
+
+Das **HALVETH Forschungslabor** enthält Modelle, Quellanalysen und kleine Werkzeuge. Das **Feldlabor** macht Bewegung und Zustandswechsel sichtbar. Veröffentlichte Quellen, Gegenproben und offene Fragen gehören zur jeweiligen Arbeit.
+
+[Forschungslabor](https://github.com/Juri-Halveth/open-research-branches) · [Feldlabor ausprobieren](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Prüfmethoden](https://juri-halveth.github.io/audits/)
+
+## Was ich in ein Projekt einbringe
+
+- **Softwareentwicklung:** lokale Werkzeuge, Weboberflächen und technische Prototypen.
+- **Qualität und Nachvollziehbarkeit:** nachvollziehbare Fehlerbeschreibungen, Gegenproben und dokumentierte Entwicklungsstände.
+- **Gestaltung und Wissensvermittlung:** interaktive Erklärungen, Lernpfade und verständliche Oberflächen.
+
+Die Arbeitsproben zeigen den konkreten Umfang. Bei jedem Projekt lohnt sich der Blick auf Quellstand, Einstieg und aktuelle Prüfungen. KI-gestützte Entwicklung ist Teil des Arbeitsprozesses; veröffentlichter Code und seine dokumentierten Ergebnisse bleiben überprüfbar.
+
+## Zusammenarbeit
+
+Für Gespräche über Softwareentwicklung, technische Prototypen, Lernangebote oder einen klar umrissenen Review: **[security@halveth.de](mailto:security@halveth.de)**.
+
+[Fachliches Arbeitsprofil](https://juri-halveth.github.io/profil/) · [Alle öffentlichen Arbeiten](https://juri-halveth.github.io/arbeiten/) · [Technische Arbeitsproben mit Quellzeilen](https://juri-halveth.github.io/koennen/)
