@@ -20,7 +20,7 @@ Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom l
 
 ### Lokale Software für den Alltag
 
-**Tresor** ist ein Windows-Projekt zur lokalen Verwaltung von Zugangsdaten. **Fortuna** verbindet Fensterorganisation mit dem Vergleich selbst eingegebener Möglichkeiten. Beide Projekte dokumentieren ihren jeweiligen Entwicklungsstand.
+**Tresor** ist ein Windows-Projekt zur lokalen Verwaltung von Zugangsdaten. **Fortuna** ist eine Browseroberfläche mit JavaScript-Modellen zum Vergleich selbst eingegebener Möglichkeiten. Beide Projekte dokumentieren ihren jeweiligen Entwicklungsstand.
 
 [Tresor ansehen](https://github.com/Juri-Halveth/halveth-tresor) · [Fortuna ansehen](https://github.com/Juri-Halveth/fortuna)
 
@@ -32,9 +32,9 @@ Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom l
 
 ### Forschung, die man nachvollziehen kann
 
-Das **HALVETH Forschungslabor** enthält Modelle, Quellanalysen und kleine Werkzeuge. Das **Feldlabor** macht Bewegung und Zustandswechsel sichtbar. Veröffentlichte Quellen, Gegenproben und offene Fragen gehören zur jeweiligen Arbeit.
+Das **HALVETH Forschungslabor** enthält zehn ausgewählte lokale Module mit Tests, darunter Bildvergleich, Quellenpakete, Optik und Regelmodelle. Das **Feldlabor** macht Bewegung und Zustandswechsel sichtbar. Veröffentlichte Quellen, Gegenproben und offene Fragen gehören zur jeweiligen Arbeit.
 
-[Forschungslabor](https://github.com/Juri-Halveth/open-research-branches) · [Feldlabor ausprobieren](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Prüfmethoden](https://juri-halveth.github.io/audits/)
+[Forschungslabor](https://github.com/Juri-Halveth/halveth-forschungslabor) · [Feldlabor ausprobieren](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Prüfmethoden](https://juri-halveth.github.io/audits/)
 
 ## Was ich in ein Projekt einbringe
 

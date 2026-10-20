@@ -20,7 +20,7 @@ Under **HALVETH**, I turn technical ideas into applications: local desktop tools
 
 ### Local desktop tools
 
-**Tresor** is a Windows project for local credential management. **Fortuna** combines window organisation with comparison of user-entered options. Each project documents its own development state.
+**Tresor** is a Windows project for local credential management. **Fortuna** is a browser interface with JavaScript models for comparing user-entered options. Each project documents its own development state.
 
 [Tresor](https://github.com/Juri-Halveth/halveth-tresor) · [Fortuna](https://github.com/Juri-Halveth/fortuna)
 
@@ -32,9 +32,9 @@ Under **HALVETH**, I turn technical ideas into applications: local desktop tools
 
 ### Inspectable research
 
-The **HALVETH research lab** contains models, source reviews and small tools. The **field lab** visualises motion and state changes. Sources, counterexamples and open questions belong to each individual work.
+The **HALVETH research lab** contains ten selected local modules with tests, including image comparison, source packets, optics and rule models. The **field lab** visualises motion and state changes. Sources, counterexamples and open questions belong to each individual work.
 
-[Research lab](https://github.com/Juri-Halveth/open-research-branches) · [Try the field lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Review methods](https://juri-halveth.github.io/en/audits/)
+[Research lab](https://github.com/Juri-Halveth/halveth-forschungslabor) · [Try the field lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Review methods](https://juri-halveth.github.io/en/audits/)
 
 ## What I contribute
 
