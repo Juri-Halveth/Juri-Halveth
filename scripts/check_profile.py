@@ -7,6 +7,7 @@ for p in root.glob('README*.md'):
  assert 'halveth-forschungslabor' in text,p
  assert (root/'assets/portfolio-banner.svg').is_file()
  assert 'security@halveth.de' in text,p
+ assert 'TECHNICAL-MAP' in text,p
 for path in ['portfolio','history','downloads','data/claims.json']:
  p=root/path
  assert not p.is_file() and not (p.is_dir() and any(p.rglob('*'))),path
