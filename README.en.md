@@ -4,11 +4,46 @@
 
 ![Juri Halveth — software, research and learning](assets/portfolio-banner.svg)
 
-**I build software, interactive worlds and accessible learning tools.**
+**Understand systems. Build worlds.**
 
 Under **HALVETH**, I turn technical ideas into applications: local desktop tools, playable prototypes and an open learning portal. Start with a working interface, then explore its code and documentation.
 
 [**Portfolio →**](https://juri-halveth.github.io/en/) · [**Work samples →**](https://juri-halveth.github.io/en/koennen/) · [**Professional profile →**](https://juri-halveth.github.io/en/profil/)
+
+## Three direct starting points
+
+### 01 / ASHBOUND · a native game world
+
+An independent Unreal project with an ash valley, archive, spells and books in 3D space. The **Windows v0.4.2 preview** and development source are separate revisions.
+
+[Windows preview](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview) · [Unreal source](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/README.md)
+
+### 02 / SCARLET · graphics you can try
+
+The **Singularity Cannon** turns a visual idea into an interactive scene. Open it, try the controls and inspect the implementation.
+
+[Open the scene](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/) · [SCARLET source](https://github.com/Juri-Halveth/halveth-scarlet)
+
+### 03 / Research lab · code and counterexamples
+
+Ten local JavaScript and Python modules for source packets, image comparison, optics, events and rules. **145 local tests passed** on 20 October 2026: 99 JavaScript and 46 Python. The checks cover the supplied model contracts.
+
+[Tested source revision](https://github.com/Juri-Halveth/halveth-forschungslabor/tree/c6008ab5f8847921dc140d973b9a526750a89933) · [Validation record](https://juri-halveth.github.io/docs/WORK-SAMPLE-VALIDATION-2026-10-20.md)
+
+<details>
+<summary>Reproduce the check</summary>
+
+Requirements: Node.js 24 and Python 3.11 or newer.
+
+```sh
+git clone https://github.com/Juri-Halveth/halveth-forschungslabor.git
+cd halveth-forschungslabor
+git checkout c6008ab5f8847921dc140d973b9a526750a89933
+npm test
+```
+
+</details>
+
 
 ## How the technical work connects
 
@@ -18,7 +53,7 @@ The [**technical interface map**](TECHNICAL-MAP.en.md) connects seven areas to 1
 
 [Map on GitHub](TECHNICAL-MAP.en.md) · [Explore visually](https://juri-halveth.github.io/en/koennen/) · [Source packets in Node and browser](TECHNICAL-MAP.en.md#node-browser-packet) · [C++ state core](TECHNICAL-MAP.en.md#cpp-state)
 
-## Selected work
+## More work
 
 ### Open learning
 
