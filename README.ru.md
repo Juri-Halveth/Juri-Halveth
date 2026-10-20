@@ -20,7 +20,7 @@
 
 ### Локальные настольные программы
 
-**Tresor** — проект для локального хранения учётных данных в Windows. **Fortuna** помогает организовывать окна и сравнивать введённые пользователем варианты. Состояние разработки описано в каждом проекте.
+**Tresor** — проект для локального хранения учётных данных в Windows. **Fortuna** — браузерный интерфейс и модели JavaScript для сравнения введённых вариантов. Состояние разработки описано в каждом проекте.
 
 [Tresor](https://github.com/Juri-Halveth/halveth-tresor) · [Fortuna](https://github.com/Juri-Halveth/fortuna)
 
@@ -34,7 +34,7 @@
 
 **Исследовательская лаборатория HALVETH** содержит модели, анализ исходного кода и небольшие инструменты. **Полевая лаборатория** показывает движение и изменения состояний. Источники, контрпримеры и открытые вопросы относятся к конкретной работе.
 
-[Исследовательская лаборатория](https://github.com/Juri-Halveth/open-research-branches) · [Полевая лаборатория](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Методы проверки](https://juri-halveth.github.io/ru/audits/)
+[Исследовательская лаборатория](https://github.com/Juri-Halveth/halveth-forschungslabor) · [Полевая лаборатория](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Методы проверки](https://juri-halveth.github.io/ru/audits/)
 
 ## Что я могу привнести
 
