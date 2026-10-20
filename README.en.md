@@ -10,6 +10,13 @@ Under **HALVETH**, I turn technical ideas into applications: local desktop tools
 
 [**Portfolio →**](https://juri-halveth.github.io/en/) · [**Work samples →**](https://juri-halveth.github.io/en/koennen/) · [**Professional profile →**](https://juri-halveth.github.io/en/profil/)
 
+
+## Inspect in 60 seconds
+
+[Three concise cases with input, result, counterexample and matching CI](https://juri-halveth.github.io/en/belege/). Every run is bound to its exact source revision.
+
+Project responsibility: Juri / HALVETH — direction, design and selection. Development is AI-assisted; documented local checks were executed in the agent work session. Personal skills assessment and independent audit remain separate checks.
+
 ## Three direct starting points
 
 ### 01 / ASHBOUND · a native game world

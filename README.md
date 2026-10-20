@@ -10,6 +10,13 @@ Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom l
 
 [**Portfolio ansehen →**](https://juri-halveth.github.io/) · [**Arbeitsproben →**](https://juri-halveth.github.io/koennen/) · [**Arbeitsprofil →**](https://juri-halveth.github.io/profil/)
 
+
+## In 60 Sekunden nachprüfen
+
+[Drei kurze Fallstudien mit Eingabe, Ergebnis, Gegenprobe und passendem CI-Lauf](https://juri-halveth.github.io/belege/). Jeder Lauf ist an seinen exakten Quellstand gebunden.
+
+Projektverantwortung: Juri / HALVETH — Richtung, Gestaltung und Auswahl. Entwicklung mit KI-Unterstützung; die dokumentierten lokalen Prüfungen wurden im Agenten-Arbeitslauf ausgeführt. Eine persönliche Fachprüfung und ein unabhängiges Audit bleiben eigene Prüfungen.
+
 ## Drei direkte Einstiege
 
 ### 01 / ASHBOUND · eine native Spielwelt
