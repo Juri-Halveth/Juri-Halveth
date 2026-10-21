@@ -3,7 +3,9 @@ from pathlib import Path
 import argparse
 import json
 import re
+import hashlib
 from urllib.parse import quote
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGS = ('de', 'en', 'ru')
@@ -86,12 +88,39 @@ def render(data, lang):
     lines += ['---', '', data['scope'][lang], '', t['note'], '', f"[{t['close']}](https://juri-halveth.github.io/{prefix}) · [JSON](data/technical-map.json)", '']
     return '\n'.join(lines)
 
+def fetch_source(e):
+    url = f"https://raw.githubusercontent.com/{e['repository']}/{e['revision']}/{quote(e['path'], safe='/')}"
+    with urlopen(Request(url, headers={'User-Agent': 'HALVETH-source-verification/1'}), timeout=30) as response:
+        payload = response.read(2 * 1024 * 1024 + 1)
+    if len(payload) > 2 * 1024 * 1024:
+        raise ValueError('Evidence source exceeds the 2 MiB verification limit')
+    return payload
+
+def verify_sources(data, reader=fetch_source):
+    """Compare declared hashes and line spans with actual version-pinned bytes."""
+    validate(data)
+    cache = {}
+    for item in data['items']:
+        for e in item['evidence']:
+            key = (e['repository'], e['revision'], e['path'])
+            if key not in cache:
+                cache[key] = reader(e)
+            payload = cache[key]
+            if hashlib.sha256(payload).hexdigest() != e['sha256']:
+                raise ValueError(f"Source digest mismatch: {key}")
+            if len(payload.decode('utf-8').splitlines()) < e['endLine']:
+                raise ValueError(f"Source span exceeds actual file: {key}")
+    return len(cache)
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
+    parser.add_argument('--verify-sources', action='store_true', help='Read pinned public source bytes and verify all digests and spans')
     args=parser.parse_args()
     data=json.loads((ROOT/'data/technical-map.json').read_text(encoding='utf-8'))
     validate(data)
+    if args.verify_sources:
+        print(f'{verify_sources(data)} unique pinned source files verified against actual bytes.')
     for lang,name in FILES.items():
         expected=render(data,lang).encode('utf-8')
         file=ROOT/name

@@ -51,7 +51,7 @@ Die Portfolio-Grafik pausiert außerhalb des sichtbaren Bereichs und berücksich
 
 **Quellcode und Gegenprobe**
 
-- Implementierung — [Juri-Halveth/Juri-Halveth.github.io/landing-motion.js:1](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/landing-motion.js#L1-L20) · `945eef0`
+- Implementierung — [Juri-Halveth/Juri-Halveth.github.io/landing-motion.js:1](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/landing-motion.js#L1-L47) · `945eef0`
 - Gegenprobe — [Juri-Halveth/Juri-Halveth.github.io/tests/landing-motion.test.cjs:23](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/tests/landing-motion.test.cjs#L23-L35) · `945eef0`
 
 <a id="desktop-backup"></a>

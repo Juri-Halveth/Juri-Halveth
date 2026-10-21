@@ -2,7 +2,7 @@
 
 # Juri Halveth
 
-![Juri Halveth – Software, Forschung und Lernwelten](assets/portfolio-banner.svg)
+![Juri Halveth – Software, Forschung und Lernwelten](assets/portfolio-banner.de.svg)
 
 **Systeme verstehen. Welten erschaffen.**
 

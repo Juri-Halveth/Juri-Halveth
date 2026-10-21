@@ -2,7 +2,8 @@ import copy
 import json
 from pathlib import Path
 import unittest
-from build_technical_map import validate, render
+from build_technical_map import validate, render, verify_sources
+import hashlib
 
 class TechnicalMapTests(unittest.TestCase):
     def setUp(self):
@@ -31,5 +32,25 @@ class TechnicalMapTests(unittest.TestCase):
     def test_unknown_cross_reference_is_rejected(self):
         self.data['connections'][0]['items'].append('invented-runtime')
         with self.assertRaises(ValueError): validate(self.data)
+
+    def test_source_bytes_reject_a_well_formed_but_wrong_hash(self):
+        payload = ('line\n' * 2000).encode('utf-8')
+        sample = copy.deepcopy(self.data)
+        for item in sample['items']:
+            for evidence in item['evidence']:
+                evidence['sha256'] = hashlib.sha256(payload).hexdigest()
+        self.assertGreater(verify_sources(sample, lambda e: payload), 0)
+        sample['items'][0]['evidence'][0]['sha256'] = '0' * 64
+        with self.assertRaisesRegex(ValueError, 'Source digest mismatch'):
+            verify_sources(sample, lambda e: payload)
+
+    def test_source_span_must_exist_in_actual_bytes(self):
+        payload = b'one line\n'
+        sample = copy.deepcopy(self.data)
+        for item in sample['items']:
+            for evidence in item['evidence']:
+                evidence['sha256'] = hashlib.sha256(payload).hexdigest()
+        with self.assertRaisesRegex(ValueError, 'Source span exceeds'):
+            verify_sources(sample, lambda e: payload)
 
 if __name__=='__main__': unittest.main()
