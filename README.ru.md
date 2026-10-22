@@ -2,7 +2,7 @@
 
 # Juri Halveth
 
-![Juri Halveth — программное обеспечение, исследования и обучение](assets/portfolio-banner.svg)
+![Juri Halveth — программное обеспечение, исследования и обучение](assets/portfolio-banner.ru.svg)
 
 **Понимать системы. Создавать миры.**
 
@@ -78,7 +78,7 @@ npm test
 
 **Portal Garden** — самостоятельный игровой прототип на C++ для Unreal Engine. **Scarlet Garden** исследует процедурные фэнтезийные миры. **SCARLET** объединяет интерактивные сцены и исследовательские демонстрации.
 
-[Portal Garden · C++](https://github.com/Juri-Halveth/halveth-unreal) · [Scarlet Garden](https://github.com/Juri-Halveth/halveth-realms) · [Демонстрации](https://juri-halveth.github.io/halveth-scarlet/forschung/wegweiser/?lang=ru)
+[Portal Garden · C++](https://github.com/Juri-Halveth/halveth-unreal) · [Scarlet Garden](https://github.com/Juri-Halveth/halveth-realms) · [Демонстрации](https://juri-halveth.github.io/halveth-scarlet/forschung/wegweiser/ru.html)
 
 ### Исследования с доступными источниками
 

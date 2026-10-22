@@ -51,7 +51,7 @@ The portfolio artwork pauses offscreen and respects reduced motion. Tests simula
 
 **Source and counterexample**
 
-- Implementation — [Juri-Halveth/Juri-Halveth.github.io/landing-motion.js:1](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/landing-motion.js#L1-L20) · `945eef0`
+- Implementation — [Juri-Halveth/Juri-Halveth.github.io/landing-motion.js:1](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/landing-motion.js#L1-L47) · `945eef0`
 - Counterexample — [Juri-Halveth/Juri-Halveth.github.io/tests/landing-motion.test.cjs:23](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/945eef06bf0a03822e7db589d31ef3dbb902cc69/tests/landing-motion.test.cjs#L23-L35) · `945eef0`
 
 <a id="desktop-backup"></a>
