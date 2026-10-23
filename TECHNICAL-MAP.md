@@ -288,6 +288,6 @@ Der eigene Commit ergänzt SHA-256-Werte für die Windows-Versionen von protoc u
 
 Die Karte ordnet veröffentlichte Arbeitsproben nach Schnittstellen. Sie beschreibt den sichtbaren Implementierungsumfang und keine formale Qualifikation. Verbindungen sind fachliche Querverweise; eine gemeinsame Produktruntime wird daraus nicht abgeleitet.
 
-Projektleitung und Zusammenstellung: Juri Halveth / HALVETH. Entwicklung mit KI-Unterstützung. Verlinkte Quellen behalten ihre Attribution und Lizenzen. Der Stand jedes Beispiels ist an eine konkrete Revision gebunden.
+Projektleitung und Zusammenstellung: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Verlinkte Quellen behalten ihre Attribution und Lizenzen. Der Stand jedes Beispiels ist an eine konkrete Revision gebunden.
 
 [Zum Projektüberblick](https://juri-halveth.github.io/) · [JSON](data/technical-map.json)

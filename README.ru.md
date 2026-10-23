@@ -1,8 +1,8 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri Halveth
+# Juri
 
-![Juri Halveth — программное обеспечение, исследования и обучение](assets/portfolio-banner.ru.svg)
+![Juri — программное обеспечение, исследования и обучение](assets/portfolio-banner.ru.svg)
 
 **Понимать системы. Создавать миры.**
 
