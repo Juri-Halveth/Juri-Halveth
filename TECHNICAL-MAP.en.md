@@ -288,6 +288,6 @@ The contribution adds SHA-256 entries for Windows protoc and protoc-gen-grpc-jav
 
 This map indexes published work by interface and describes its visible implementation scope, not formal qualifications. Connections are engineering cross-references, not a claim of one shared product runtime.
 
-Project lead and curation: Juri Halveth / HALVETH. AI-assisted development. Linked sources retain their attribution and licences. Each sample is bound to a specific revision.
+Project lead and curation: Juri / HALVETH. AI-assisted development. Linked sources retain their attribution and licences. Each sample is bound to a specific revision.
 
 [Project overview](https://juri-halveth.github.io/en/) · [JSON](data/technical-map.json)

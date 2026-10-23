@@ -1,5 +1,5 @@
 <svg lang="ru" xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
-<title id="title">Juri Halveth / HALVETH — Software, Interaction, Research</title>
+<title id="title">Juri / HALVETH — Software, Interaction, Research</title>
 <desc id="desc">An editorial banner with orbital lines connecting software, interactive worlds and research. A designed illustration, not a measurement.</desc>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102825"/><stop offset="1" stop-color="#061311"/></linearGradient><radialGradient id="glow"><stop stop-color="#dbe8aa" stop-opacity=".18"/><stop offset="1" stop-color="#dbe8aa" stop-opacity="0"/></radialGradient></defs>
 <rect width="1280" height="420" rx="18" fill="url(#bg)"/><path d="M0 336H1280" stroke="#466156" stroke-opacity=".6"/><circle cx="1038" cy="176" r="245" fill="url(#glow)"/>
@@ -7,7 +7,7 @@
 <g fill="none" stroke="#c5d6af"><ellipse cx="1035" cy="174" rx="191" ry="67" transform="rotate(-22 1035 174)" stroke-width="1.5"/><ellipse cx="1035" cy="174" rx="169" ry="81" transform="rotate(35 1035 174)" stroke-opacity=".7"/><path d="M832 228Q1035 -35 1229 160" stroke-opacity=".6"/></g>
 <g fill="#e0eab4"><circle cx="872" cy="243" r="5"/><circle cx="1178" cy="105" r="5"/><circle cx="1125" cy="280" r="3"/></g>
 <rect x="60" y="49" width="35" height="3" rx="1.5" fill="#dfe9b1"/>
-<text x="60" y="85" font-family="Arial,sans-serif" font-size="13" letter-spacing="4.2" fill="#c5d6c8">JURI HALVETH / ИЗБРАННЫЕ РАБОТЫ</text>
+<text x="60" y="85" font-family="Arial,sans-serif" font-size="13" letter-spacing="4.2" fill="#c5d6c8">JURI · HALVETH / ИЗБРАННЫЕ РАБОТЫ</text>
 <text x="56" y="181" font-family="Arial,sans-serif" font-weight="700" font-size="89" letter-spacing="-4" fill="#f4f2e7">HALVETH</text>
 <text x="60" y="241" font-family="Georgia,serif" font-style="italic" font-size="34" fill="#e0eab4">Программы. Миры. Исследования.</text>
 <text x="60" y="291" font-family="Arial,sans-serif" font-size="16" fill="#b8cec0">Развивать идеи. Показывать работу. Открывать код.</text>

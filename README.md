@@ -1,8 +1,10 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri Halveth
+# Juri
 
-![Juri Halveth – Software, Forschung und Lernwelten](assets/portfolio-banner.de.svg)
+**Person: Juri. Projekt: HALVETH.** [Namenszuordnung](IDENTITY.md).
+
+![Juri – Software, Forschung und Lernwelten](assets/portfolio-banner.de.svg)
 
 **Systeme verstehen. Welten erschaffen.**
 

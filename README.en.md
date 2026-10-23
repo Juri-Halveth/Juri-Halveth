@@ -1,8 +1,8 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri Halveth
+# Juri
 
-![Juri Halveth — software, research and learning](assets/portfolio-banner.svg)
+![Juri — software, research and learning](assets/portfolio-banner.svg)
 
 **Understand systems. Build worlds.**
 
