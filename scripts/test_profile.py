@@ -52,3 +52,17 @@ class ProfileEntryTests(unittest.TestCase):
                 manifest.write_text(json.dumps(catalog), encoding='utf-8')
                 with self.assertRaisesRegex(ValueError, 'presentation order'):
                     check_profile(root)
+
+    def test_project_alias_is_rejected_in_public_copy_but_source_identifiers_remain(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(ROOT / 'assets', root / 'assets')
+            shutil.copytree(ROOT / 'data', root / 'data')
+            for name in ENTRIES:
+                shutil.copyfile(ROOT / name, root / name)
+            check_profile(root)
+            entry = root / 'README.md'
+            with entry.open('a', encoding='utf-8') as output:
+                output.write('\n## SCARLET\n')
+            with self.assertRaisesRegex(ValueError, 'Functional public labels'):
+                check_profile(root)

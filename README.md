@@ -2,29 +2,29 @@
 
 # Juri
 
-Ich bin **Juri**. Unter **HALVETH** baue ich Werkzeuge, mit denen sich Zustände verändern, Abläufe beobachten und Ideen weiterentwickeln lassen.
+Ich bin **Juri**. Ich baue Werkzeuge, mit denen sich Zustände verändern, Abläufe beobachten und Ideen weiterentwickeln lassen.
 
 **Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
 [**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Drei nachvollziehbare Fallstudien](https://juri-halveth.github.io/belege/)
 
-## SCARLET: mit Zuständen und Varianten arbeiten
+## Mit Zuständen, Zeit und Varianten arbeiten
 
-[![SCARLET-Funktionsraum mit Textkeim, leuchtenden Modellzellen und Bedienfeldern für Keim, Hülle, Zeit und Entfaltung.](assets/scene-scarlet-functions.webp)](https://juri-halveth.github.io/halveth-scarlet/)
+[![Räumliches Lichtfeld mit Textkeim, Zeitsteuerung und Zustandsvarianten.](assets/scene-state-space.webp)](https://juri-halveth.github.io/halveth-scarlet/)
 
-**SCARLET · Zustände, Zeit und Varianten**
+**Zustände, Zeit und Varianten**
 
-Text als Keim setzen, eine Variante ableiten, Zustände beobachten und das aktuelle Browsermodell als JSON mitnehmen. Eine lokale Zellsimulation macht Regeln sichtbar. Für interaktive Erklärungen, Variantenvergleich und nachvollziehbare Zustandsabläufe.
+Text setzen, eine Variante ableiten, Zustände beobachten und als JSON mitnehmen. Lichtkörper zeigen die Entwicklung des lokalen Modells. Für interaktive Erklärungen, Variantenvergleich und nachvollziehbare Zustandsabläufe.
 
 [Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-scarlet/)
 
 JavaScript läuft lokal im Browser. Textzustände und regelbasierte Zellbewegung sind getrennte Modelle.
 
-## ENDECK: Beobachtungen vergleichen
+## Bild und Raum unterscheiden
 
 [![Links ein gemeinsamer Bildort, rechts vier getrennte Punkte entlang der Tiefe.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
-**ENDECK · Bild und Raum unterscheiden**
+**Bild und Raum unterscheiden**
 
 Vier Punkte, zwei Ansichten: eine Projektion kann verschiedene Raumorte verdecken. Mit Zeitregler und Gegenproben. Für Kamera-Debugging, technische Lernangebote und verständliche Modellvergleiche.
 
@@ -36,7 +36,7 @@ Geometrisches Modell · keine Messung unbekannter realer Vorgänge.
 
 [![Steinerner Weg, Sternentor und Bewohner in der nativen Spielwelt.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
-**ASTRALIS · Raum und Bewegung**
+**Raum und Bewegung**
 
 Fliegen, Portale öffnen und Bewohnern begegnen. Ein nativer C++-Prototyp in Unreal Engine. Für räumliche Prototypen, interaktive Ausstellungen und Spielkonzepte.
 

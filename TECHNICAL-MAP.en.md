@@ -97,7 +97,7 @@ Portal Garden models inventory, learning and quest decisions in a C++ core. Coun
 
 PowerShell · Unreal Automation Tool · Win64
 
-ASHBOUND invokes BuildCookRun with build, cook and stage, requires a fresh output directory and then checks the launcher path.
+The build script invokes BuildCookRun with build, cook and stage, requires a fresh output directory and then checks the launcher path.
 
 **Review scope:** Build script reviewed; no fresh full engine build was performed for this map. The published preview has its own version.
 
@@ -117,7 +117,7 @@ ASHBOUND invokes BuildCookRun with build, cook and stage, requires a fresh outpu
 
 JavaScript · Web Crypto · Deterministic ranking
 
-Fortuna compares fully specified options. Missing values remain open; equal votes produce a tie. Tests cover both cases.
+The decision model compares fully specified options. Missing values remain open; equal votes produce a tie. Tests cover both cases.
 
 **Review scope:** One shared local algorithm with declared profile weights.
 
@@ -203,7 +203,7 @@ A packet binds source revision, byte count and SHA-256. A differential test cove
 
 Node.js · Git · SHA-256 · Filesystem
 
-SCARLET digests sorted paths and exact output bytes. The test detects changed and additional output files and a dirty source tree.
+The build check digests sorted paths and exact output bytes. The test detects changed and additional output files and a dirty source tree.
 
 **Review scope:** Integrity checks for a bound website artifact and its source revision.
 
