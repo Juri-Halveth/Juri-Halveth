@@ -2,35 +2,25 @@
 
 # Juri
 
-I’m **Juri**. Under **HALVETH**, I connect design, software and playable models.
+I’m **Juri**. Under **HALVETH**, I build tools to change states, observe sequences and develop ideas further.
 
 **Open an idea. Change something. See the result. The code is behind it.**
 
 [**Open the portfolio ↗**](https://juri-halveth.github.io/en/) · [Three reproducible case studies](https://juri-halveth.github.io/en/belege/)
 
-## Playable spaces you can actually see
+## SCARLET: work with states and variants
 
-[![A stone path, star gate and residents in the native game world.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[![SCARLET function space with a text seed, glowing model cells and controls for seed, shell, time and unfolding.](assets/scene-scarlet-functions.webp)](https://juri-halveth.github.io/halveth-scarlet/?lang=en)
 
-**ASTRALIS · an explorable game world**
+**SCARLET · states, time and variants**
 
-Fly, open portals and meet residents. A native C++ prototype in Unreal Engine. For playable spatial concepts and interactive exhibitions.
+Plant text as a seed, derive a variant, observe states and take the current browser model with you as JSON. A local cell simulation makes rules visible. For interactive explanations, variant comparison and traceable state sequences.
 
-[Source for this development version ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[Try it yourself ↗](https://juri-halveth.github.io/halveth-scarlet/?lang=en)
 
-The capture shows development work; published download packages have their own versioned state.
+JavaScript runs locally in your browser. Text states and rule-based cell movement are separate models.
 
-## Web graphics that respond to you
-
-[![A particle field with a dark disk and curved trajectories.](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
-
-**SCARLET · a field responds**
-
-A projectile changes paths in a field. Controls, undo and visible states work together. For interactive product demos, web graphics and playful explanations.
-
-[Try it yourself ↗](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
-
-## Another view changes what you can observe
+## ENDECK: compare observations
 
 [![One shared image position on the left; four depth-separated points on the right.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
@@ -39,6 +29,22 @@ A projectile changes paths in a field. Controls, undo and visible states work to
 Four points, two views: a projection can hide distinct spatial positions. With a time control and counterexamples. For camera debugging, technical learning and understandable model comparisons.
 
 [Try it yourself ↗](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
+
+Geometric model · not a measurement of unknown real processes.
+
+## One application: space and movement
+
+[![A stone path, star gate and residents in the native game world.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+
+**ASTRALIS · space and movement**
+
+Fly, open portals and meet residents. A native C++ prototype in Unreal Engine. For spatial prototypes, interactive exhibitions and game concepts.
+
+[Source for this development version ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+
+Captured in the native development version.
+
+The capture shows development work; published download packages have their own versioned state.
 
 ## What I contribute in practice
 
@@ -54,6 +60,6 @@ I develop interactive prototypes, technical explanations and local tools. A coll
 
 ---
 
-Project lead, direction and curation: Juri / HALVETH. AI-assisted development. Captures show actual game and browser states.
+Project lead, direction and curation: Juri / HALVETH. AI-assisted development. Captures show actual native applications and browser states.
 
 [Capture provenance and processing](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/en/)
