@@ -12,13 +12,20 @@ def check_profile(root=ROOT):
     manifest = root / 'data/scene-stage.json'
     if not manifest.is_file():
         raise ValueError('Missing scene provenance')
-    scenes = json.loads(manifest.read_text(encoding='utf-8'))['scenes']
+    catalog = json.loads(manifest.read_text(encoding='utf-8'))
+    if catalog.get('schema') != 'halveth.scene-stage.v2' or catalog.get('person') != 'Juri' or catalog.get('project') != 'HALVETH':
+        raise ValueError('Invalid scene catalog identity or version')
+    scenes = catalog['scenes']
     if type(scenes) is not list or [s.get('id') for s in scenes] != ['astralis', 'scarlet', 'endeck']:
         raise ValueError('Missing scene set')
-    expected = []
+    order = catalog.get('presentationOrder')
+    if type(order) is not list or len(order) != 3 or any(type(item) is not str for item in order) or set(order) != {'astralis', 'scarlet', 'endeck'}:
+        raise ValueError('Complete unique presentation order required')
+    expected = [next(scene['image'].lstrip('/') for scene in scenes if scene['id'] == item) for item in order]
     for scene in scenes:
         name = scene['image'].lstrip('/')
-        if not re.fullmatch(r'assets/scene-[a-z]+\.webp', name):
+        expected_image = {'astralis':'assets/scene-astralis.webp', 'scarlet':'assets/scene-scarlet-functions.webp', 'endeck':'assets/scene-endeck.webp'}[scene['id']]
+        if name != expected_image:
             raise ValueError('Invalid scene image')
         image = root / name
         if not image.resolve().is_relative_to(root.resolve()) or not image.is_file():
@@ -26,7 +33,6 @@ def check_profile(root=ROOT):
         payload = image.read_bytes()
         if len(payload) != scene['bytes'] or hashlib.sha256(payload).hexdigest() != scene['sha256']:
             raise ValueError('Scene image digest mismatch')
-        expected.append(name)
     for name in ENTRIES:
         path = root / name
         if not path.is_file():
@@ -37,7 +43,7 @@ def check_profile(root=ROOT):
         for required in ('halveth-forschungslabor', 'security@halveth.de', 'TECHNICAL-MAP'):
             if required not in text:
                 raise ValueError(f'Missing {required} in {name}')
-        images = re.findall(r'!\[[^\]]*\]\((assets/scene-[a-z]+\.webp)\)', text)
+        images = re.findall(r'!\[[^\]]*\]\((assets/scene-[a-z]+(?:-[a-z]+)?\.webp)\)', text)
         if images != expected:
             raise ValueError(f'Missing referenced scene in {name}')
         for scene in scenes:

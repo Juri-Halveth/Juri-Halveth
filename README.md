@@ -2,35 +2,25 @@
 
 # Juri
 
-Ich bin **Juri**. Unter **HALVETH** verbinde ich Gestaltung, Software und spielbare Modelle.
+Ich bin **Juri**. Unter **HALVETH** baue ich Werkzeuge, mit denen sich Zustände verändern, Abläufe beobachten und Ideen weiterentwickeln lassen.
 
 **Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
 [**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Drei nachvollziehbare Fallstudien](https://juri-halveth.github.io/belege/)
 
-## Eine Spielwelt zum Erkunden
+## SCARLET: mit Zuständen und Varianten arbeiten
 
-[![Steinerner Weg, Sternentor und Bewohner in der nativen Spielwelt.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[![SCARLET-Funktionsraum mit Textkeim, leuchtenden Modellzellen und Bedienfeldern für Keim, Hülle, Zeit und Entfaltung.](assets/scene-scarlet-functions.webp)](https://juri-halveth.github.io/halveth-scarlet/)
 
-**ASTRALIS · begehbare Spielwelt**
+**SCARLET · Zustände, Zeit und Varianten**
 
-Fliegen, Portale öffnen und Bewohnern begegnen. Ein nativer C++-Prototyp in Unreal Engine. Für spielbare Raumkonzepte und interaktive Ausstellungen.
+Text als Keim setzen, eine Variante ableiten, Zustände beobachten und das aktuelle Browsermodell als JSON mitnehmen. Eine lokale Zellsimulation macht Regeln sichtbar. Für interaktive Erklärungen, Variantenvergleich und nachvollziehbare Zustandsabläufe.
 
-[Code dieser Entwicklungsfassung ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-scarlet/)
 
-Die Aufnahme zeigt die Entwicklungsfassung; veröffentlichte Download-Pakete haben ihren eigenen Versionsstand.
+JavaScript läuft lokal im Browser. Textzustände und regelbasierte Zellbewegung sind getrennte Modelle.
 
-## Webgrafik, die auf dich reagiert
-
-[![Teilchenfeld mit dunkler Kreisscheibe und gekrümmten Bahnen.](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
-
-**SCARLET · ein Feld reagiert**
-
-Ein Projektil verändert die Bahnen im Feld. Steuerung, Rücknahme und sichtbare Zustände greifen ineinander. Für interaktive Produktdemos, Webgrafik und spielerische Erklärungen.
-
-[Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
-
-## Eine andere Ansicht verändert, was du erkennen kannst
+## ENDECK: Beobachtungen vergleichen
 
 [![Links ein gemeinsamer Bildort, rechts vier getrennte Punkte entlang der Tiefe.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
@@ -39,6 +29,22 @@ Ein Projektil verändert die Bahnen im Feld. Steuerung, Rücknahme und sichtbare
 Vier Punkte, zwei Ansichten: eine Projektion kann verschiedene Raumorte verdecken. Mit Zeitregler und Gegenproben. Für Kamera-Debugging, technische Lernangebote und verständliche Modellvergleiche.
 
 [Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
+
+Geometrisches Modell · keine Messung unbekannter realer Vorgänge.
+
+## Eine Anwendung: Raum und Bewegung
+
+[![Steinerner Weg, Sternentor und Bewohner in der nativen Spielwelt.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+
+**ASTRALIS · Raum und Bewegung**
+
+Fliegen, Portale öffnen und Bewohnern begegnen. Ein nativer C++-Prototyp in Unreal Engine. Für räumliche Prototypen, interaktive Ausstellungen und Spielkonzepte.
+
+[Code dieser Entwicklungsfassung ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+
+Aufnahme aus der nativen Entwicklungsfassung.
+
+Die Aufnahme zeigt die Entwicklungsfassung; veröffentlichte Download-Pakete haben ihren eigenen Versionsstand.
 
 ## Was ich praktisch einbringe
 
@@ -54,6 +60,6 @@ Ich entwickle interaktive Prototypen, technische Erklärungen und lokale Werkzeu
 
 ---
 
-Projektleitung, Richtung und Auswahl: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Die Aufnahmen zeigen tatsächliche Spiel- und Browserzustände.
+Projektleitung, Richtung und Auswahl: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Die Aufnahmen zeigen tatsächliche native Anwendungen und Browserzustände.
 
 [Herkunft und Verarbeitung der Aufnahmen](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/)
