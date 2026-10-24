@@ -2,102 +2,58 @@
 
 # Juri
 
-**Person: Juri. Projekt: HALVETH.** [Namenszuordnung](IDENTITY.md).
+Ich bin **Juri**. Unter **HALVETH** verbinde ich Gestaltung, Software und spielbare Modelle.
 
-![Juri – Software, Forschung und Lernwelten](assets/portfolio-banner.de.svg)
+**Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
-**Systeme verstehen. Welten erschaffen.**
+[**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Drei nachvollziehbare Fallstudien](https://juri-halveth.github.io/belege/)
 
-Unter **HALVETH** verbinde ich technische Ideen mit konkreten Anwendungen: vom lokalen Desktopwerkzeug über spielbare Prototypen bis zum frei zugänglichen Lernportal. Hier findest du ausgewählte Arbeiten und den direkten Weg zu Oberfläche, Code und Dokumentation.
+## Eine Spielwelt zum Erkunden
 
-[**Portfolio ansehen →**](https://juri-halveth.github.io/) · [**Arbeitsproben →**](https://juri-halveth.github.io/koennen/) · [**Arbeitsprofil →**](https://juri-halveth.github.io/profil/)
+[![ASTRALIS · begehbare Spielwelt](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
+**ASTRALIS · begehbare Spielwelt**
 
-## In 60 Sekunden nachprüfen
+Fliegen, Portale öffnen und Bewohnern begegnen. Ein nativer C++-Prototyp in Unreal Engine. Für spielbare Raumkonzepte und interaktive Ausstellungen.
 
-[Drei kurze Fallstudien mit Eingabe, Ergebnis, Gegenprobe und passendem CI-Lauf](https://juri-halveth.github.io/belege/). Jeder Lauf ist an seinen exakten Quellstand gebunden.
+[Code dieser Entwicklungsfassung ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
-Projektverantwortung: Juri / HALVETH — Richtung, Gestaltung und Auswahl. Entwicklung mit KI-Unterstützung; die dokumentierten lokalen Prüfungen wurden im Agenten-Arbeitslauf ausgeführt. Eine persönliche Fachprüfung und ein unabhängiges Audit bleiben eigene Prüfungen.
+Die Aufnahme zeigt die Entwicklungsfassung; veröffentlichte Download-Pakete haben ihren eigenen Versionsstand.
 
-## Drei direkte Einstiege
+## Webgrafik, die auf dich reagiert
 
-### 01 / ASHBOUND · eine native Spielwelt
+[![SCARLET · ein Feld reagiert](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
 
-Ein eigenständiges Unreal-Projekt mit Aschetal, Archiv, Zaubern und Büchern im 3D-Raum. **Windows-Vorschau v0.4.2** und Entwicklungsquellen sind getrennte Stände.
+**SCARLET · ein Feld reagiert**
 
-[Windows-Vorschau](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview) · [Unreal-Quellen](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/README.md)
+Ein Projektil verändert die Bahnen im Feld. Steuerung, Rücknahme und sichtbare Zustände greifen ineinander. Für interaktive Produktdemos, Webgrafik und spielerische Erklärungen.
 
-### 02 / SCARLET · Grafik zum Ausprobieren
+[Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
 
-Die **Singularity Cannon** macht eine grafische Idee unmittelbar bedienbar. Öffnen, ausprobieren und anschließend die Implementierung ansehen.
+## Eine andere Ansicht verändert, was du erkennen kannst
 
-[Szene öffnen](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/) · [SCARLET-Quellen](https://github.com/Juri-Halveth/halveth-scarlet)
+[![ENDECK · Bild und Raum unterscheiden](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
-### 03 / Forschungslabor · Code mit Gegenproben
+**ENDECK · Bild und Raum unterscheiden**
 
-Zehn lokale JavaScript- und Python-Module für Quellenpakete, Bildvergleich, Optik, Ereignisse und Regeln. **145 lokale Tests bestanden** im Lauf vom 20.10.2026: 99 JavaScript und 46 Python. Der Prüfstand gilt für die mitgelieferten Modellverträge.
+Vier Punkte, zwei Ansichten: eine Projektion kann verschiedene Raumorte verdecken. Mit Zeitregler und Gegenproben. Für Kamera-Debugging, technische Lernangebote und verständliche Modellvergleiche.
 
-[Geprüfter Quellstand](https://github.com/Juri-Halveth/halveth-forschungslabor/tree/c6008ab5f8847921dc140d973b9a526750a89933) · [Prüfprotokoll](https://juri-halveth.github.io/docs/WORK-SAMPLE-VALIDATION-2026-10-20.md)
+[Selbst ausprobieren ↗](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
-<details>
-<summary>Prüfung selbst nachvollziehen</summary>
+## Was ich praktisch einbringe
 
-Voraussetzungen: Node.js 24 und Python 3.11 oder neuer.
+C++-Spielzustände, Browseroberflächen, lokale Python-Werkzeuge, Gegenproben und reproduzierbare Builds. Die Schnittstellenkarte führt von diesen Fähigkeiten direkt zu Funktionen, Tests und Quellrevisionen.
 
-```sh
-git clone https://github.com/Juri-Halveth/halveth-forschungslabor.git
-cd halveth-forschungslabor
-git checkout c6008ab5f8847921dc140d973b9a526750a89933
-npm test
-```
-
-</details>
-
-
-## Technik im Zusammenhang
-
-**Ich entwickle und untersuche die Schnittstellen zwischen Systemen.**
-
-Die [**technische Schnittstellenkarte**](TECHNICAL-MAP.md) führt von sieben Themen direkt zu 14 konkreten Arbeitsproben: Oberfläche und Python, C++ und Spielzustand, Security-Logik, Quellenpakete, Grafikmodelle sowie Build und Veröffentlichung. Jede Arbeitsprobe nennt Funktion, Gegenprobe oder Builddefinition und ihren exakten Quellstand.
-
-[Karte auf GitHub](TECHNICAL-MAP.md) · [Visuell erkunden](https://juri-halveth.github.io/koennen/) · [Quellenpaket in Node und Browser](TECHNICAL-MAP.md#node-browser-packet) · [C++-Zustandskern](TECHNICAL-MAP.md#cpp-state)
-
-## Weitere Arbeiten
-
-### Lernen, das direkt zugänglich ist
-
-**Mein Lernportal** bietet 702 Lektionen mit Übungen zu digitalen Grundlagen, Programmierung, Mathematik und weiteren Themen. Der Katalog lässt sich ohne Pflichtkonto öffnen.
-
-[Direkt lernen](https://juri-halveth.github.io/mein-lernportal/) · [Code und Aufbau](https://github.com/Juri-Halveth/mein-lernportal)
-
-### Lokale Software für den Alltag
-
-**Tresor** ist ein Windows-Projekt zur lokalen Verwaltung von Zugangsdaten. **Fortuna** ist eine Browseroberfläche mit JavaScript-Modellen zum Vergleich selbst eingegebener Möglichkeiten. Beide Projekte dokumentieren ihren jeweiligen Entwicklungsstand.
-
-[Tresor ansehen](https://github.com/Juri-Halveth/halveth-tresor) · [Fortuna ansehen](https://github.com/Juri-Halveth/fortuna)
-
-### Spielwelten und interaktive Gestaltung
-
-**Portal Garden** ist ein eigenständiger C++-Spielprototyp für Unreal Engine. **Scarlet Garden** erkundet prozedurale Fantasywelten. **SCARLET** bündelt interaktive Szenen und Forschungsdemos.
-
-[Portal Garden · C++](https://github.com/Juri-Halveth/halveth-unreal) · [Scarlet Garden](https://github.com/Juri-Halveth/halveth-realms) · [Demos entdecken](https://juri-halveth.github.io/halveth-scarlet/forschung/wegweiser/)
-
-### Forschung, die man nachvollziehen kann
-
-Das **HALVETH Forschungslabor** enthält zehn ausgewählte lokale Module mit Tests, darunter Bildvergleich, Quellenpakete, Optik und Regelmodelle. Das **Feldlabor** macht Bewegung und Zustandswechsel sichtbar. Veröffentlichte Quellen, Gegenproben und offene Fragen gehören zur jeweiligen Arbeit.
-
-[Forschungslabor](https://github.com/Juri-Halveth/halveth-forschungslabor) · [Feldlabor ausprobieren](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Prüfmethoden](https://juri-halveth.github.io/audits/)
-
-## Was ich in ein Projekt einbringe
-
-- **Softwareentwicklung:** lokale Werkzeuge, Weboberflächen und technische Prototypen.
-- **Qualität und Nachvollziehbarkeit:** nachvollziehbare Fehlerbeschreibungen, Gegenproben und dokumentierte Entwicklungsstände.
-- **Gestaltung und Wissensvermittlung:** interaktive Erklärungen, Lernpfade und verständliche Oberflächen.
-
-Die Arbeitsproben zeigen den konkreten Umfang. Bei jedem Projekt lohnt sich der Blick auf Quellstand, Einstieg und aktuelle Prüfungen. KI-gestützte Entwicklung ist Teil des Arbeitsprozesses; veröffentlichter Code und seine dokumentierten Ergebnisse bleiben überprüfbar.
+[**Technik im Zusammenhang**](TECHNICAL-MAP.md) · [Alle öffentlichen Projekte](https://juri-halveth.github.io/arbeiten/#repositories)
 
 ## Zusammenarbeit
 
-Für Gespräche über Softwareentwicklung, technische Prototypen, Lernangebote oder einen klar umrissenen Review: **[security@halveth.de](mailto:security@halveth.de)**.
+Ich entwickle interaktive Prototypen, technische Erklärungen und lokale Werkzeuge. Für eine Zusammenarbeit vereinbaren wir ein konkretes Ziel, den Umfang und nachvollziehbare Abnahmekriterien.
 
-[Fachliches Arbeitsprofil](https://juri-halveth.github.io/profil/) · [Alle öffentlichen Arbeiten](https://juri-halveth.github.io/arbeiten/) · [Technische Arbeitsproben mit Quellzeilen](https://juri-halveth.github.io/koennen/)
+**[security@halveth.de](mailto:security@halveth.de)**
+
+---
+
+Projektleitung, Richtung und Auswahl: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Die Aufnahmen zeigen tatsächliche Spiel- und Browserzustände.
+
+[Herkunft und Verarbeitung der Aufnahmen](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/)
