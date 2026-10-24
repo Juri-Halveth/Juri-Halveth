@@ -10,7 +10,7 @@ I’m **Juri**. Under **HALVETH**, I connect design, software and playable model
 
 ## Playable spaces you can actually see
 
-[![ASTRALIS · an explorable game world](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[![A stone path, star gate and residents in the native game world.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
 **ASTRALIS · an explorable game world**
 
@@ -22,7 +22,7 @@ The capture shows development work; published download packages have their own v
 
 ## Web graphics that respond to you
 
-[![SCARLET · a field responds](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
+[![A particle field with a dark disk and curved trajectories.](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
 
 **SCARLET · a field responds**
 
@@ -32,7 +32,7 @@ A projectile changes paths in a field. Controls, undo and visible states work to
 
 ## Another view changes what you can observe
 
-[![ENDECK · distinguish image and space](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
+[![One shared image position on the left; four depth-separated points on the right.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
 **ENDECK · distinguish image and space**
 

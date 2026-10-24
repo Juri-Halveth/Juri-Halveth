@@ -10,7 +10,7 @@
 
 ## Игровые пространства, которые можно увидеть
 
-[![ASTRALIS · исследуемый игровой мир](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[![Каменная дорожка, звёздные врата и жители в нативном игровом мире.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
 **ASTRALIS · исследуемый игровой мир**
 
@@ -22,7 +22,7 @@
 
 ## Веб-графика, которая реагирует на вас
 
-[![SCARLET · поле реагирует](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
+[![Поле частиц с тёмным диском и искривлёнными траекториями.](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
 
 **SCARLET · поле реагирует**
 
@@ -32,7 +32,7 @@
 
 ## Другой вид меняет то, что можно наблюдать
 
-[![ENDECK · различать изображение и пространство](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
+[![Слева одно общее положение на изображении; справа четыре точки на разной глубине.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
 **ENDECK · различать изображение и пространство**
 

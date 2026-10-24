@@ -15,7 +15,7 @@ for lang,t in copy.items():
     lines=['[Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)','','# Juri','',t['intro'],'','**'+t['tag']+'**','',f"[**{t['portfolio']} ↗**](https://juri-halveth.github.io/{prefix}) · [{t['evidence']}](https://juri-halveth.github.io/{prefix}belege/)",'']
     for i,s in enumerate(data['scenes']):
         heading=[t['hero'],t['scarlet'],t['endeck']][i]
-        lines.extend(['## '+heading,'',f"[![{s['title'][lang]}]({s['image'].lstrip('/')})]({s['href']})",'', '**'+s['title'][lang]+'**','',s['purpose'][lang]+' '+s['use'][lang],'',f"[{t['code'] if i==0 else t['tryit']} ↗]({s['href']})",''])
+        lines.extend(['## '+heading,'',f"[![{s['alt'][lang]}]({s['image'].lstrip('/')})]({s['href']})",'', '**'+s['title'][lang]+'**','',s['purpose'][lang]+' '+s['use'][lang],'',f"[{t['code'] if i==0 else t['tryit']} ↗]({s['href']})",''])
         if i==0:lines.extend([t['scope'],''])
     lines.extend(['## '+t['map'],'',t['maptext'],'',f"[**{t['maplink']}**]({mapname}) · [{t['work']}](https://juri-halveth.github.io/{prefix}arbeiten/#repositories)",'','## '+t['collab'],'',t['offer'],'','**[security@halveth.de](mailto:security@halveth.de)**','','---','',t['credit'],'',f"[{t['sources']}](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/{prefix})",''])
     target=ROOT/('README.md' if lang=='de' else f'README.{lang}.md')

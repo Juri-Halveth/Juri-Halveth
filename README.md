@@ -10,7 +10,7 @@ Ich bin **Juri**. Unter **HALVETH** verbinde ich Gestaltung, Software und spielb
 
 ## Eine Spielwelt zum Erkunden
 
-[![ASTRALIS · begehbare Spielwelt](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
+[![Steinerner Weg, Sternentor und Bewohner in der nativen Spielwelt.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
 **ASTRALIS · begehbare Spielwelt**
 
@@ -22,7 +22,7 @@ Die Aufnahme zeigt die Entwicklungsfassung; veröffentlichte Download-Pakete hab
 
 ## Webgrafik, die auf dich reagiert
 
-[![SCARLET · ein Feld reagiert](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
+[![Teilchenfeld mit dunkler Kreisscheibe und gekrümmten Bahnen.](assets/scene-scarlet.webp)](https://juri-halveth.github.io/halveth-scarlet/forschung/singularity-cannon/)
 
 **SCARLET · ein Feld reagiert**
 
@@ -32,7 +32,7 @@ Ein Projektil verändert die Bahnen im Feld. Steuerung, Rücknahme und sichtbare
 
 ## Eine andere Ansicht verändert, was du erkennen kannst
 
-[![ENDECK · Bild und Raum unterscheiden](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
+[![Links ein gemeinsamer Bildort, rechts vier getrennte Punkte entlang der Tiefe.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
 **ENDECK · Bild und Raum unterscheiden**
 
