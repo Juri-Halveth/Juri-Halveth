@@ -97,7 +97,7 @@ Portal Garden trennt Inventar, Lernen und Questentscheidungen in einem C++-Kern.
 
 PowerShell · Unreal Automation Tool · Win64
 
-ASHBOUND ruft BuildCookRun mit Build, Cook und Stage auf, verlangt einen frischen Ausgabeordner und prüft anschließend den Launcherpfad.
+Das Buildskript ruft BuildCookRun mit Build, Cook und Stage auf, verlangt einen frischen Ausgabeordner und prüft anschließend den Launcherpfad.
 
 **Prüfumfang:** Buildskript gelesen; ein neuer vollständiger Enginebuild ist hierfür nicht ausgeführt. Die veröffentlichte Vorschau hat einen eigenen Versionsstand.
 
@@ -117,7 +117,7 @@ ASHBOUND ruft BuildCookRun mit Build, Cook und Stage auf, verlangt einen frische
 
 JavaScript · Web Crypto · Deterministic ranking
 
-Fortuna vergleicht vollständig eingegebene Optionen. Fehlende Werte bleiben offen; gleiche Stimmen erzeugen einen Gleichstand. Tests prüfen beide Fälle.
+Das Entscheidungsmodell vergleicht vollständig eingegebene Optionen. Fehlende Werte bleiben offen; gleiche Stimmen erzeugen einen Gleichstand. Tests prüfen beide Fälle.
 
 **Prüfumfang:** Ein gemeinsamer lokaler Algorithmus mit deklarierten Profilgewichten.
 
@@ -203,7 +203,7 @@ Ein Paket bindet Quellrevision, Bytezahl und SHA-256. Der Vergleichstest prüft 
 
 Node.js · Git · SHA-256 · Filesystem
 
-SCARLET bildet einen Digest über sortierte Dateipfade und exakte Buildbytes. Der Test erkennt veränderte und zusätzlich eingeschleuste Ausgabedateien sowie einen schmutzigen Quellbaum.
+Die Buildprüfung bildet einen Digest über sortierte Dateipfade und exakte Buildbytes. Der Test erkennt veränderte und zusätzlich eingeschleuste Ausgabedateien sowie einen schmutzigen Quellbaum.
 
 **Prüfumfang:** Integritätsprüfung des gebundenen Website-Artefakts und seines Quellstands.
 

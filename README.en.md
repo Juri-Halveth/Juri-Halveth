@@ -2,29 +2,29 @@
 
 # Juri
 
-I’m **Juri**. Under **HALVETH**, I build tools to change states, observe sequences and develop ideas further.
+I’m **Juri**. I build tools to change states, observe sequences and develop ideas further.
 
 **Open an idea. Change something. See the result. The code is behind it.**
 
 [**Open the portfolio ↗**](https://juri-halveth.github.io/en/) · [Three reproducible case studies](https://juri-halveth.github.io/en/belege/)
 
-## SCARLET: work with states and variants
+## Work with states, time and variants
 
-[![SCARLET function space with a text seed, glowing model cells and controls for seed, shell, time and unfolding.](assets/scene-scarlet-functions.webp)](https://juri-halveth.github.io/halveth-scarlet/?lang=en)
+[![A spatial light field with a text seed, time controls and state variants.](assets/scene-state-space.webp)](https://juri-halveth.github.io/halveth-scarlet/?lang=en)
 
-**SCARLET · states, time and variants**
+**States, time and variants**
 
-Plant text as a seed, derive a variant, observe states and take the current browser model with you as JSON. A local cell simulation makes rules visible. For interactive explanations, variant comparison and traceable state sequences.
+Set text, derive a variant, observe states and take the result as JSON. Light bodies show how the local model evolves. For interactive explanations, variant comparison and traceable state sequences.
 
 [Try it yourself ↗](https://juri-halveth.github.io/halveth-scarlet/?lang=en)
 
 JavaScript runs locally in your browser. Text states and rule-based cell movement are separate models.
 
-## ENDECK: compare observations
+## Distinguish image and space
 
 [![One shared image position on the left; four depth-separated points on the right.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
 
-**ENDECK · distinguish image and space**
+**Distinguish image and space**
 
 Four points, two views: a projection can hide distinct spatial positions. With a time control and counterexamples. For camera debugging, technical learning and understandable model comparisons.
 
@@ -36,7 +36,7 @@ Geometric model · not a measurement of unknown real processes.
 
 [![A stone path, star gate and residents in the native game world.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
 
-**ASTRALIS · space and movement**
+**Space and movement**
 
 Fly, open portals and meet residents. A native C++ prototype in Unreal Engine. For spatial prototypes, interactive exhibitions and game concepts.
 

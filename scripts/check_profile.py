@@ -24,7 +24,7 @@ def check_profile(root=ROOT):
     expected = [next(scene['image'].lstrip('/') for scene in scenes if scene['id'] == item) for item in order]
     for scene in scenes:
         name = scene['image'].lstrip('/')
-        expected_image = {'astralis':'assets/scene-astralis.webp', 'scarlet':'assets/scene-scarlet-functions.webp', 'endeck':'assets/scene-endeck.webp'}[scene['id']]
+        expected_image = {'astralis':'assets/scene-astralis.webp', 'scarlet':'assets/scene-state-space.webp', 'endeck':'assets/scene-endeck.webp'}[scene['id']]
         if name != expected_image:
             raise ValueError('Invalid scene image')
         image = root / name
@@ -38,6 +38,9 @@ def check_profile(root=ROOT):
         if not path.is_file():
             raise ValueError(f'Missing profile entry: {name}')
         text = path.read_text(encoding='utf-8')
+        visible_text = re.sub(r'\]\([^)]*\)', ']', text)
+        if re.search(r'\b(?:SCARLET|ENDECK|ASTRALIS|ASHBOUND|FORTUNA|TRIAD)\b', visible_text, re.I):
+            raise ValueError(f'Functional public labels required in {name}')
         if re.search(r'CLAIMED|CISSP|ISTQB|OSCE|open-research-branches|xai-40m', text, re.I):
             raise ValueError(f'Unsupported public claim in {name}')
         for required in ('halveth-forschungslabor', 'security@halveth.de', 'TECHNICAL-MAP'):
