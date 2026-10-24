@@ -27,6 +27,14 @@ def translated(value):
     if any(type(value[l]) is not str or not value[l].strip() for l in LANGS):
         raise ValueError('Language copy must be nonempty text')
 
+def github_repository(value):
+    return type(value) is str and re.fullmatch(r'Juri-Halveth/[A-Za-z0-9_.-]+', value) is not None and value.split('/')[1] not in ('.', '..')
+
+def supplemental_url(value, kind):
+    if type(value) is not str: return False
+    match = re.fullmatch(r'https://github\.com/(Juri-Halveth/[A-Za-z0-9_.-]+)/(releases/tag|commit)/([A-Za-z0-9_.+/-]+)', value)
+    return bool(match and github_repository(match[1]) and match[2] == ('releases/tag' if kind == 'release' else 'commit') and all(part and part not in ('.', '..') for part in match[3].split('/')))
+
 def validate(data):
     if data['schema'] != 'halveth.technical-interface-map.v1':
         raise ValueError('Unsupported technical map')
@@ -51,7 +59,7 @@ def validate(data):
         for e in i['evidence']:
             roles.add(e['role'])
             if e['role'] not in {'source','test','documentation','workflow'}: raise ValueError('Invalid evidence role')
-            if not re.fullmatch(r'Juri-Halveth/[A-Za-z0-9_.-]+',e['repository']): raise ValueError('Public repository binding required')
+            if not github_repository(e['repository']): raise ValueError('Public repository binding required')
             if not re.fullmatch('[0-9a-f]{40}',e['revision']) or not re.fullmatch('[0-9a-f]{64}',e['sha256']): raise ValueError('Exact version and file digest required')
             if not e['path'] or any(p in ('','..','.') for p in e['path'].split('/')): raise ValueError('Invalid source path')
             if type(e['startLine']) is not int or type(e['endLine']) is not int or not 1 <= e['startLine'] <= e['endLine']: raise ValueError('Invalid line span')
@@ -60,7 +68,10 @@ def validate(data):
         if not ({'source','workflow'} & roles): raise ValueError('An implementation or workflow is required')
         if not ({'test','documentation'} & roles) and 'contribution' not in i: raise ValueError('Matching test, build documentation or contribution required')
         for kind in ('release','contribution'):
-            if kind in i and not i[kind]['url'].startswith('https://github.com/Juri-Halveth/'): raise ValueError('Invalid supplemental link')
+            if kind in i:
+                value = i[kind]['url']
+                if not supplemental_url(value, kind):
+                    raise ValueError('Invalid supplemental link')
     for c in data['connections']:
         translated(c['title'])
         if len(set(c['items'])) < 2 or any(i not in ids for i in c['items']): raise ValueError('Cross-reference has unknown or repeated-only endpoints')

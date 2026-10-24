@@ -33,6 +33,17 @@ class TechnicalMapTests(unittest.TestCase):
         self.data['connections'][0]['items'].append('invented-runtime')
         with self.assertRaises(ValueError): validate(self.data)
 
+    def test_supplemental_urls_cannot_change_markdown_or_owner_binding(self):
+        for kind in ('release', 'contribution'):
+            target = next(i for i in self.data['items'] if kind in i)
+            original = target[kind]['url']
+            for value in (original + ')\n\n[fixture](https://example.invalid/fixture', original + ' ', [original], 'https://github.com/Juri-Halveth/../commit/a', 'https://github.com/Juri-Halveth/./commit/a', 'https://github.com/Juri-Halveth/repo/commit/..'):
+                sample = copy.deepcopy(self.data)
+                next(i for i in sample['items'] if kind in i)[kind]['url'] = value
+                with self.assertRaisesRegex(ValueError, 'Invalid supplemental link'):
+                    validate(sample)
+        validate(self.data)
+
     def test_source_bytes_reject_a_well_formed_but_wrong_hash(self):
         payload = ('line\n' * 2000).encode('utf-8')
         sample = copy.deepcopy(self.data)
@@ -43,6 +54,20 @@ class TechnicalMapTests(unittest.TestCase):
         sample['items'][0]['evidence'][0]['sha256'] = '0' * 64
         with self.assertRaisesRegex(ValueError, 'Source digest mismatch'):
             verify_sources(sample, lambda e: payload)
+
+    def test_safe_release_tag_forms_and_dot_named_repository_remain_usable(self):
+        for tag in ('release/v1.2.3', 'v1.2.3+build.1'):
+            sample = copy.deepcopy(self.data)
+            next(i for i in sample['items'] if 'release' in i)['release']['url'] = 'https://github.com/Juri-Halveth/.github/releases/tag/' + tag
+            validate(sample)
+
+    def test_source_repository_cannot_escape_via_dot_only_segments(self):
+        for repository in ('Juri-Halveth/.', 'Juri-Halveth/..'):
+            sample = copy.deepcopy(self.data)
+            evidence = sample['items'][0]['evidence'][0]
+            evidence['repository'] = repository
+            with self.assertRaisesRegex(ValueError, 'Public repository binding required'):
+                validate(sample)
 
     def test_source_span_must_exist_in_actual_bytes(self):
         payload = b'one line\n'

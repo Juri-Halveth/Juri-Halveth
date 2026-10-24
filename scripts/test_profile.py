@@ -10,6 +10,7 @@ class ProfileEntryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             shutil.copytree(ROOT / 'assets', root / 'assets')
+            shutil.copytree(ROOT / 'data', root / 'data')
             for name in ENTRIES:
                 shutil.copyfile(ROOT / name, root / name)
             check_profile(root)
@@ -22,5 +23,16 @@ class ProfileEntryTests(unittest.TestCase):
 
     def test_empty_profile_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
-            with self.assertRaisesRegex(ValueError, 'Missing profile entry'):
+            with self.assertRaisesRegex(ValueError, 'Missing'):
                 check_profile(Path(directory))
+
+    def test_changed_capture_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(ROOT / 'assets', root / 'assets')
+            shutil.copytree(ROOT / 'data', root / 'data')
+            for name in ENTRIES:
+                shutil.copyfile(ROOT / name, root / name)
+            (root / 'assets/scene-endeck.webp').write_bytes(b'SYNTHETIC_CHANGED_CAPTURE')
+            with self.assertRaisesRegex(ValueError, 'digest mismatch'):
+                check_profile(root)
