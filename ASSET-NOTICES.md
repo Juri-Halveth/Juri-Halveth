@@ -3,7 +3,7 @@
 Person: **Juri**. Project: **HALVETH**. The GitHub account remains
 `Juri-Halveth`.
 
-The three profile images show actual native or browser states. They were
+The two profile images show actual browser states. They were
 converted to WebP for a smaller page transfer. The original-capture digest,
 published-image digest, capture time, dimensions, processing parameters and
 source scope are recorded in [the scene manifest](data/scene-stage.json).
@@ -16,7 +16,6 @@ in the scene manifest, separately from the browser viewport.
 
 | Capture | Source | Scope |
 | --- | --- | --- |
-| Space and movement | [Native development capture](https://github.com/Juri-Halveth/halveth-unreal/blob/5c2260f85d5275c15082c5c7d38ae51a143a5688/Preview/LIVING_DISTRICT.png) | A recorded development scene at that commit; published downloads retain their own versions. |
 | States, time and variants | [Public function space](https://juri-halveth.github.io/halveth-scarlet/) | Local text states and a rule-based cell model. The observed public build names revision a590ed6c35a9dd5fc89c259ef057bb143850bae5; the screenshot is a separate timed observation. |
 | Image and space | [Public geometric model](https://juri-halveth.github.io/halveth-forschungslabor/endeck/) | Two views of a declared geometric model. The displayed projection is not a measurement of physical spacetime. |
 

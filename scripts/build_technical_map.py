@@ -6,10 +6,16 @@ import re
 import hashlib
 from urllib.parse import quote
 from urllib.request import Request, urlopen
+from check_profile import reject_retired_presentation
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGS = ('de', 'en', 'ru')
 FILES = {'de': 'TECHNICAL-MAP.md', 'en': 'TECHNICAL-MAP.en.md', 'ru': 'TECHNICAL-MAP.ru.md'}
+REPOSITORY_COUNTS = {
+    'de': '{count} ausgewählte öffentliche Repositories',
+    'en': '{count} selected public repositories',
+    'ru': '{count} выбранных публичных репозиториев',
+}
 COPY = {
     'de': dict(scope='Prüfumfang', evidence='Quellcode und Gegenprobe', state='Quellprüfung', cross='Wiederkehrende Arbeitsweisen', close='Zum Projektüberblick', release='Veröffentlichte Windows-Vorschau', contribution='Eigener Commit', note='Projektleitung und Zusammenstellung: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Verlinkte Quellen behalten ihre Attribution und Lizenzen. Der Stand jedes Beispiels ist an eine konkrete Revision gebunden.'),
     'en': dict(scope='Review scope', evidence='Source and counterexample', state='Source review', cross='Recurring engineering patterns', close='Project overview', release='Published Windows preview', contribution='Contribution commit', note='Project lead and curation: Juri / HALVETH. AI-assisted development. Linked sources retain their attribution and licences. Each sample is bound to a specific revision.'),
@@ -36,6 +42,7 @@ def supplemental_url(value, kind):
     return bool(match and github_repository(match[1]) and match[2] == ('releases/tag' if kind == 'release' else 'commit') and all(part and part not in ('.', '..') for part in match[3].split('/')))
 
 def validate(data):
+    reject_retired_presentation(json.dumps(data, ensure_ascii=False), 'technical map catalog')
     if data['schema'] != 'halveth.technical-interface-map.v1':
         raise ValueError('Unsupported technical map')
     for key in ('title','positioning','introduction','scope'): translated(data[key])
@@ -43,7 +50,7 @@ def validate(data):
     areas = data['areas']
     area_ids = [a['id'] for a in areas]
     ids = [i['id'] for i in data['items']]
-    if not ids or len(ids) != len(set(ids)) or len(area_ids) != len(set(area_ids)):
+    if not ids or not area_ids or len(ids) != len(set(ids)) or len(area_ids) != len(set(area_ids)):
         raise ValueError('Unique nonempty areas and samples required')
     for ident in ids + area_ids:
         if not re.fullmatch('[a-z][a-z0-9-]{0,63}',ident): raise ValueError('Invalid anchor ID')
@@ -72,9 +79,20 @@ def validate(data):
                 value = i[kind]['url']
                 if not supplemental_url(value, kind):
                     raise ValueError('Invalid supplemental link')
+    connection_ids = [c['id'] for c in data['connections']]
+    if len(connection_ids) != len(set(connection_ids)):
+        raise ValueError('Unique connection IDs required')
     for c in data['connections']:
         translated(c['title'])
-        if len(set(c['items'])) < 2 or any(i not in ids for i in c['items']): raise ValueError('Cross-reference has unknown or repeated-only endpoints')
+        if len(c['items']) < 2 or len(set(c['items'])) != len(c['items']) or any(i not in ids for i in c['items']): raise ValueError('Cross-reference requires distinct known endpoints')
+    actual_counts = dict(areas=len(areas), samples=len(ids), connections=len(connection_ids),
+                        repositories=len({e['repository'] for i in data['items'] for e in i['evidence']}),
+                        sourceFiles=len({(e['repository'],e['revision'],e['path']) for i in data['items'] for e in i['evidence']}))
+    declared_counts = data.get('counts')
+    if type(declared_counts) is not dict or declared_counts != actual_counts or any(type(v) is not int for v in declared_counts.values()):
+        raise ValueError('Declared map counts must match actual catalog coverage')
+    if any(REPOSITORY_COUNTS[lang].format(count=actual_counts['repositories']) not in data['introduction'][lang] for lang in LANGS):
+        raise ValueError('Introduction must bind the actual repository count')
 
 def render(data, lang):
     t=COPY[lang]
