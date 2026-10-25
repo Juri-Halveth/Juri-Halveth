@@ -4,12 +4,11 @@
 
 **Я разрабатываю и исследую интерфейсы между системами.**
 
-Выберите техническую область и откройте функцию, контрпример или определение сборки. Примеры связывают семь публичных репозиториев через конкретную инженерную работу.
+Выберите техническую область и откройте функцию, контрпример или определение сборки. Примеры связывают 6 выбранных публичных репозиториев через конкретную инженерную работу.
 
-Изучение исходников: 2026-10-20 · 7 / 14
+Изучение исходников: 2026-10-20 · 6 / 12
 
 - [Интерфейсы и локальные приложения](#interfaces)
-- [C++ и нативные игровые миры](#native)
 - [Решения и состояния](#state)
 - [Логика безопасности и контрпримеры](#security)
 - [Источники и целостность данных](#data)
@@ -21,7 +20,7 @@
 
 **Проверять ввод до принятия**
 
-[Проверять игровой прогресс перед принятием](#cpp-state) · [Отделять идентификатор от полномочий](#reference-authority) · [Читать одинаковые пакеты источников в Node и браузере](#node-browser-packet)
+[Отделять идентификатор от полномочий](#reference-authority) · [Читать одинаковые пакеты источников в Node и браузере](#node-browser-packet)
 
 **Явно сохранять открытые результаты**
 
@@ -29,7 +28,7 @@
 
 **Прослеживать исходники, сборку и результат**
 
-[Раздельно связывать версию исходников и выходные файлы](#artifact-provenance) · [Проверять сгенерированное состояние перед публикацией](#pages-delivery) · [Собрать Windows-пакет из исходников движка](#native-packaging)
+[Раздельно связывать версию исходников и выходные файлы](#artifact-provenance) · [Проверять сгенерированное состояние перед публикацией](#pages-delivery)
 
 **Учитывать время и границы наблюдения**
 
@@ -69,43 +68,6 @@ Tresor экспортирует зашифрованный файл в выбр�
 
 - Реализация — [Juri-Halveth/halveth-tresor/src/tresor/app.py:223](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/src/tresor/app.py#L223-L256) · `66da64a`
 - Контрпример — [Juri-Halveth/halveth-tresor/tests/test_app_backup.py:61](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/tests/test_app_backup.py#L61-L80) · `66da64a`
-
-<a id="native"></a>
-## C++ и нативные игровые миры
-
-<a id="cpp-state"></a>
-### Проверять игровой прогресс перед принятием
-
-**Переносимое ядро состояний C++ и компоненты Unreal**
-
-C++20 · Unreal Engine · State import/export
-
-Portal Garden моделирует инвентарь, обучение и решения квестов в ядре C++. Контрпримеры проверяют неверные состояния импорта и сохранение состояния при отказе.
-
-**Охват проверки:** Переносимое ядро с тестами исходников; среда Unreal представляет отдельный уровень интеграции.
-
-**Код и контрпример**
-
-- Реализация — [Juri-Halveth/halveth-unreal/Source/HALVETHRealms/Public/KnowledgeSystem.h:455](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/Source/HALVETHRealms/Public/KnowledgeSystem.h#L455-L494) · `44ccf28`
-- Контрпример — [Juri-Halveth/halveth-unreal/tests/knowledge_test.cpp:40](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/tests/knowledge_test.cpp#L40-L46) · `44ccf28`
-- Конвейер — [Juri-Halveth/halveth-unreal/.github/workflows/source.yml:33](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/.github/workflows/source.yml#L33-L57) · `44ccf28`
-
-<a id="native-packaging"></a>
-### Собрать Windows-пакет из исходников движка
-
-**Исходный проект, сборка Unreal и выходной пакет**
-
-PowerShell · Unreal Automation Tool · Win64
-
-Скрипт сборки вызывает BuildCookRun с build, cook и stage, требует новую папку вывода и проверяет путь запуска.
-
-**Охват проверки:** Скрипт сборки изучен; новая полная сборка движка для карты не выполнялась. Опубликованная версия имеет собственный номер.
-
-**Код и контрпример**
-
-- Реализация — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/package.ps1:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/package.ps1#L1-L27) · `b768ca0`
-- Документация сборки — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/README.md:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/README.md#L1-L26) · `b768ca0`
-- [Опубликованная версия для Windows](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview)
 
 <a id="state"></a>
 ## Решения и состояния

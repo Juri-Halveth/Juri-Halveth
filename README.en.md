@@ -6,7 +6,7 @@ I’m **Juri**. I build tools to change states, observe sequences and develop id
 
 **Open an idea. Change something. See the result. The code is behind it.**
 
-[**Open the portfolio ↗**](https://juri-halveth.github.io/en/) · [Three reproducible case studies](https://juri-halveth.github.io/en/belege/)
+[**Open the portfolio ↗**](https://juri-halveth.github.io/en/) · [Two verified case studies](https://juri-halveth.github.io/en/belege/)
 
 ## Work with states, time and variants
 
@@ -32,25 +32,11 @@ Four points, two views: a projection can hide distinct spatial positions. With a
 
 Geometric model · not a measurement of unknown real processes.
 
-## One application: space and movement
-
-[![A stone path, star gate and residents in the native game world.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
-
-**Space and movement**
-
-Fly, open portals and meet residents. A native C++ prototype in Unreal Engine. For spatial prototypes, interactive exhibitions and game concepts.
-
-[Source for this development version ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
-
-Captured in the native development version.
-
-The capture shows development work; published download packages have their own versioned state.
-
 ## What I contribute in practice
 
-C++ game state, browser interfaces, local Python tools, counterexamples and reproducible builds. The interface map connects those skills directly to functions, tests and source revisions.
+Browser interfaces, local Python tools, counterexamples and reproducible builds. The interface map connects those skills directly to functions, tests and source revisions.
 
-[**Connected engineering examples**](TECHNICAL-MAP.en.md) · [All public projects](https://juri-halveth.github.io/en/arbeiten/#repositories)
+[**Connected engineering examples**](TECHNICAL-MAP.en.md) · [Selected projects](https://juri-halveth.github.io/en/arbeiten/#repositories)
 
 ## Collaborate
 
@@ -60,6 +46,6 @@ I develop interactive prototypes, technical explanations and local tools. A coll
 
 ---
 
-Project lead, direction and curation: Juri / HALVETH. AI-assisted development. Captures show actual native applications and browser states.
+Project lead, direction and curation: Juri / HALVETH. AI-assisted development. Captures show actual browser states.
 
 [Capture provenance and processing](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/en/)

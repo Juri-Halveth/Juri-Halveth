@@ -4,12 +4,11 @@
 
 **Ich entwickle und untersuche die Schnittstellen zwischen Systemen.**
 
-Wähle ein technisches Gebiet und öffne direkt die zugehörige Funktion, Gegenprobe oder Builddefinition. Die Beispiele verbinden sieben öffentliche Repositories durch nachvollziehbare Arbeitsschritte.
+Wähle ein technisches Gebiet und öffne direkt die zugehörige Funktion, Gegenprobe oder Builddefinition. Die Beispiele verbinden 6 ausgewählte öffentliche Repositories durch nachvollziehbare Arbeitsschritte.
 
-Quellprüfung: 2026-10-20 · 7 / 14
+Quellprüfung: 2026-10-20 · 6 / 12
 
 - [Oberflächen & lokale Schnittstellen](#interfaces)
-- [C++ & native Spielwelten](#native)
 - [Entscheidungen & Zustände](#state)
 - [Security-Logik & Gegenproben](#security)
 - [Quellen & Datenintegrität](#data)
@@ -21,7 +20,7 @@ Quellprüfung: 2026-10-20 · 7 / 14
 
 **Eingaben vor ihrer Übernahme prüfen**
 
-[Spielfortschritt vor der Übernahme prüfen](#cpp-state) · [Eine Kennung von einer Berechtigung unterscheiden](#reference-authority) · [Dieselben Quellenpakete in Node und Browser lesen](#node-browser-packet)
+[Eine Kennung von einer Berechtigung unterscheiden](#reference-authority) · [Dieselben Quellenpakete in Node und Browser lesen](#node-browser-packet)
 
 **Offene Ergebnisse sichtbar erhalten**
 
@@ -29,7 +28,7 @@ Quellprüfung: 2026-10-20 · 7 / 14
 
 **Quellen, Build und Ergebnis nachvollziehen**
 
-[Quellstand und veröffentlichte Dateien getrennt binden](#artifact-provenance) · [Generierten Stand vor dem Deploy prüfen](#pages-delivery) · [Aus Enginequellen ein Windows-Paket bauen](#native-packaging)
+[Quellstand und veröffentlichte Dateien getrennt binden](#artifact-provenance) · [Generierten Stand vor dem Deploy prüfen](#pages-delivery)
 
 **Zeit und Beobachtungsgrenzen im Modell führen**
 
@@ -69,43 +68,6 @@ Tresor exportiert die verschlüsselte Tresordatei an einen gewählten Ort. Die R
 
 - Implementierung — [Juri-Halveth/halveth-tresor/src/tresor/app.py:223](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/src/tresor/app.py#L223-L256) · `66da64a`
 - Gegenprobe — [Juri-Halveth/halveth-tresor/tests/test_app_backup.py:61](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/tests/test_app_backup.py#L61-L80) · `66da64a`
-
-<a id="native"></a>
-## C++ & native Spielwelten
-
-<a id="cpp-state"></a>
-### Spielfortschritt vor der Übernahme prüfen
-
-**Portabler C++-Zustandskern und Unreal-Komponenten**
-
-C++20 · Unreal Engine · State import/export
-
-Portal Garden trennt Inventar, Lernen und Questentscheidungen in einem C++-Kern. Gegenproben prüfen unter anderem ungültige Importzustände und unveränderten Zustand bei abgewiesenen Aktionen.
-
-**Prüfumfang:** Portabler Zustandskern mit Quelltests; die Unreal-Laufzeit ist eine zusätzliche Integrationsfläche.
-
-**Quellcode und Gegenprobe**
-
-- Implementierung — [Juri-Halveth/halveth-unreal/Source/HALVETHRealms/Public/KnowledgeSystem.h:455](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/Source/HALVETHRealms/Public/KnowledgeSystem.h#L455-L494) · `44ccf28`
-- Gegenprobe — [Juri-Halveth/halveth-unreal/tests/knowledge_test.cpp:40](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/tests/knowledge_test.cpp#L40-L46) · `44ccf28`
-- Pipeline — [Juri-Halveth/halveth-unreal/.github/workflows/source.yml:33](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/.github/workflows/source.yml#L33-L57) · `44ccf28`
-
-<a id="native-packaging"></a>
-### Aus Enginequellen ein Windows-Paket bauen
-
-**Quellprojekt, Unreal-Build und Ausgabepaket**
-
-PowerShell · Unreal Automation Tool · Win64
-
-Das Buildskript ruft BuildCookRun mit Build, Cook und Stage auf, verlangt einen frischen Ausgabeordner und prüft anschließend den Launcherpfad.
-
-**Prüfumfang:** Buildskript gelesen; ein neuer vollständiger Enginebuild ist hierfür nicht ausgeführt. Die veröffentlichte Vorschau hat einen eigenen Versionsstand.
-
-**Quellcode und Gegenprobe**
-
-- Implementierung — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/package.ps1:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/package.ps1#L1-L27) · `b768ca0`
-- Builddokumentation — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/README.md:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/README.md#L1-L26) · `b768ca0`
-- [Veröffentlichte Windows-Vorschau](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview)
 
 <a id="state"></a>
 ## Entscheidungen & Zustände

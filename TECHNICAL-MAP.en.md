@@ -4,12 +4,11 @@
 
 **I build and investigate the boundaries between systems.**
 
-Choose a technical area and open its function, counterexample or build definition. These examples connect seven public repositories through inspectable engineering work.
+Choose a technical area and open its function, counterexample or build definition. These examples connect 6 selected public repositories through inspectable engineering work.
 
-Source review: 2026-10-20 · 7 / 14
+Source review: 2026-10-20 · 6 / 12
 
 - [Interfaces & local applications](#interfaces)
-- [C++ & native game worlds](#native)
 - [Decisions & state](#state)
 - [Security logic & counterexamples](#security)
 - [Sources & data integrity](#data)
@@ -21,7 +20,7 @@ Source review: 2026-10-20 · 7 / 14
 
 **Validate inputs before admission**
 
-[Validate game progress before admission](#cpp-state) · [Separate an identifier from authorization](#reference-authority) · [Read the same source packets in Node and browser](#node-browser-packet)
+[Separate an identifier from authorization](#reference-authority) · [Read the same source packets in Node and browser](#node-browser-packet)
 
 **Preserve open outcomes visibly**
 
@@ -29,7 +28,7 @@ Source review: 2026-10-20 · 7 / 14
 
 **Trace sources, build and output**
 
-[Bind source revision and output files separately](#artifact-provenance) · [Check generated output before deployment](#pages-delivery) · [Package engine sources for Windows](#native-packaging)
+[Bind source revision and output files separately](#artifact-provenance) · [Check generated output before deployment](#pages-delivery)
 
 **Represent time and observation limits**
 
@@ -69,43 +68,6 @@ Tresor exports the encrypted vault file to a selected location. The regression c
 
 - Implementation — [Juri-Halveth/halveth-tresor/src/tresor/app.py:223](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/src/tresor/app.py#L223-L256) · `66da64a`
 - Counterexample — [Juri-Halveth/halveth-tresor/tests/test_app_backup.py:61](https://github.com/Juri-Halveth/halveth-tresor/blob/66da64abfc58cd8cce05f935197aa51e31e232f2/tests/test_app_backup.py#L61-L80) · `66da64a`
-
-<a id="native"></a>
-## C++ & native game worlds
-
-<a id="cpp-state"></a>
-### Validate game progress before admission
-
-**Portable C++ state core and Unreal components**
-
-C++20 · Unreal Engine · State import/export
-
-Portal Garden models inventory, learning and quest decisions in a C++ core. Counterexamples cover invalid imported states and state preservation after rejected actions.
-
-**Review scope:** Portable state core with source tests; the Unreal runtime is an additional integration surface.
-
-**Source and counterexample**
-
-- Implementation — [Juri-Halveth/halveth-unreal/Source/HALVETHRealms/Public/KnowledgeSystem.h:455](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/Source/HALVETHRealms/Public/KnowledgeSystem.h#L455-L494) · `44ccf28`
-- Counterexample — [Juri-Halveth/halveth-unreal/tests/knowledge_test.cpp:40](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/tests/knowledge_test.cpp#L40-L46) · `44ccf28`
-- Pipeline — [Juri-Halveth/halveth-unreal/.github/workflows/source.yml:33](https://github.com/Juri-Halveth/halveth-unreal/blob/44ccf28ffb80829def79a4f44ae5c6bcf8646de6/.github/workflows/source.yml#L33-L57) · `44ccf28`
-
-<a id="native-packaging"></a>
-### Package engine sources for Windows
-
-**Source project, Unreal build and output package**
-
-PowerShell · Unreal Automation Tool · Win64
-
-The build script invokes BuildCookRun with build, cook and stage, requires a fresh output directory and then checks the launcher path.
-
-**Review scope:** Build script reviewed; no fresh full engine build was performed for this map. The published preview has its own version.
-
-**Source and counterexample**
-
-- Implementation — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/package.ps1:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/package.ps1#L1-L27) · `b768ca0`
-- Build documentation — [Juri-Halveth/halveth-scarlet/native/ashbound-unreal/README.md:1](https://github.com/Juri-Halveth/halveth-scarlet/blob/b768ca093d9bd68b1453a8ccc5b6d02ecaa1eb07/native/ashbound-unreal/README.md#L1-L26) · `b768ca0`
-- [Published Windows preview](https://github.com/Juri-Halveth/halveth-scarlet/releases/tag/ashbound-native-v0.4.2-portal-preview)
 
 <a id="state"></a>
 ## Decisions & state

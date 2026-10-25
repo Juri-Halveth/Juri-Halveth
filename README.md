@@ -6,7 +6,7 @@ Ich bin **Juri**. Ich baue Werkzeuge, mit denen sich Zustände verändern, Ablä
 
 **Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
-[**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Drei nachvollziehbare Fallstudien](https://juri-halveth.github.io/belege/)
+[**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/)
 
 ## Mit Zuständen, Zeit und Varianten arbeiten
 
@@ -32,25 +32,11 @@ Vier Punkte, zwei Ansichten: eine Projektion kann verschiedene Raumorte verdecke
 
 Geometrisches Modell · keine Messung unbekannter realer Vorgänge.
 
-## Eine Anwendung: Raum und Bewegung
-
-[![Steinerner Weg, Sternentor und Bewohner in der nativen Spielwelt.](assets/scene-astralis.webp)](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
-
-**Raum und Bewegung**
-
-Fliegen, Portale öffnen und Bewohnern begegnen. Ein nativer C++-Prototyp in Unreal Engine. Für räumliche Prototypen, interaktive Ausstellungen und Spielkonzepte.
-
-[Code dieser Entwicklungsfassung ↗](https://github.com/Juri-Halveth/halveth-unreal/tree/5c2260f85d5275c15082c5c7d38ae51a143a5688)
-
-Aufnahme aus der nativen Entwicklungsfassung.
-
-Die Aufnahme zeigt die Entwicklungsfassung; veröffentlichte Download-Pakete haben ihren eigenen Versionsstand.
-
 ## Was ich praktisch einbringe
 
-C++-Spielzustände, Browseroberflächen, lokale Python-Werkzeuge, Gegenproben und reproduzierbare Builds. Die Schnittstellenkarte führt von diesen Fähigkeiten direkt zu Funktionen, Tests und Quellrevisionen.
+Browseroberflächen, lokale Python-Werkzeuge, Gegenproben und reproduzierbare Builds. Die Schnittstellenkarte führt von diesen Fähigkeiten direkt zu Funktionen, Tests und Quellrevisionen.
 
-[**Technik im Zusammenhang**](TECHNICAL-MAP.md) · [Alle öffentlichen Projekte](https://juri-halveth.github.io/arbeiten/#repositories)
+[**Technik im Zusammenhang**](TECHNICAL-MAP.md) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/#repositories)
 
 ## Zusammenarbeit
 
@@ -60,6 +46,6 @@ Ich entwickle interaktive Prototypen, technische Erklärungen und lokale Werkzeu
 
 ---
 
-Projektleitung, Richtung und Auswahl: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Die Aufnahmen zeigen tatsächliche native Anwendungen und Browserzustände.
+Projektleitung, Richtung und Auswahl: Juri / HALVETH. Entwicklung mit KI-Unterstützung. Die Aufnahmen zeigen tatsächliche Browserzustände.
 
 [Herkunft und Verarbeitung der Aufnahmen](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/)
