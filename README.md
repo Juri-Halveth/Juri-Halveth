@@ -2,11 +2,39 @@
 
 # Juri
 
-Ich bin **Juri**. Ich baue Werkzeuge, mit denen sich Zustände verändern, Abläufe beobachten und Ideen weiterentwickeln lassen.
+Ich bin **Juri**. Ich baue lokale Software, nachvollziehbare Forschungswerkzeuge und interaktive Lernangebote.
 
 **Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
 [**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/)
+
+Python · JavaScript · Windows · lokale Verarbeitung · reproduzierbare Prüfungen
+
+## Vier Projekte zum Einstieg
+
+### NOVA
+
+Frühere Notizen und Code wiederfinden, Korrekturen erhalten und nachvollziehbar weiterarbeiten.
+
+[Anleitung & Offline-Demo ↗](https://github.com/Juri-Halveth/lucinet-seedspace)
+
+### Tresor
+
+Zugangsdaten lokal unter Windows verwalten. Quellcode, Release und Sicherheitsmodell gehören zusammen.
+
+[Desktopprojekt ansehen ↗](https://github.com/Juri-Halveth/halveth-tresor)
+
+### Mein Lernportal
+
+Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen.
+
+[Lernen starten ↗](https://juri-halveth.github.io/mein-lernportal/)
+
+### Field Difference Lab
+
+Gleiche Ausgangslage, andere Modellregel: Bewegungen direkt vergleichen.
+
+[Modell ausprobieren ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
 
 ## Mit Zuständen, Zeit und Varianten arbeiten
 
@@ -42,7 +70,7 @@ Browseroberflächen, lokale Python-Werkzeuge, Gegenproben und reproduzierbare Bu
 
 Ich entwickle interaktive Prototypen, technische Erklärungen und lokale Werkzeuge. Für eine Zusammenarbeit vereinbaren wir ein konkretes Ziel, den Umfang und nachvollziehbare Abnahmekriterien.
 
-**[security@halveth.de](mailto:security@halveth.de)**
+**[juri@halveth.de](mailto:juri@halveth.de)** · Security: [security@halveth.de](mailto:security@halveth.de)
 
 ---
 
