@@ -4,7 +4,7 @@ import shutil
 import tempfile
 import unittest
 from contextlib import contextmanager
-from check_profile import check_profile, ENTRIES, ROOT, SCENE_IMAGES, PUBLIC_LABELS
+from check_profile import check_profile, ENTRIES, ROOT, SCENE_IMAGES, PUBLIC_LABELS, GATEWAY_IMAGE, GATEWAY_LABELS
 
 
 @contextmanager
@@ -48,6 +48,19 @@ class ProfileEntryTests(unittest.TestCase):
                 shutil.copyfile(ROOT / name, root / name)
             (root / 'assets/scene-endeck.webp').write_bytes(b'SYNTHETIC_CHANGED_CAPTURE')
             with self.assertRaisesRegex(ValueError, 'digest mismatch'):
+                check_profile(root)
+
+    def test_gateway_art_and_live_entry_remain_bound_across_languages(self):
+        with presentation_fixture() as root:
+            check_profile(root)
+            for name in ENTRIES:
+                text = (root / name).read_text(encoding='utf-8')
+                self.assertEqual(text.count('assets/starship-gateway.svg'), 1)
+                self.assertIn('https://juri-halveth.github.io/universum/', text)
+                for label in GATEWAY_LABELS[name]:
+                    self.assertEqual(text.count(f'**{label}**'), 1)
+            (root / GATEWAY_IMAGE).write_text('<svg/>', encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'gateway image'):
                 check_profile(root)
 
     def test_missing_duplicate_or_unknown_presentation_identity_is_rejected(self):

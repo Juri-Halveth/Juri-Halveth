@@ -7,6 +7,13 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 ENTRIES = ('README.md', 'README.en.md', 'README.ru.md')
 SCENE_IMAGES = {'scarlet': 'assets/scene-state-space.webp', 'endeck': 'assets/scene-endeck.webp'}
+GATEWAY_IMAGE = 'assets/starship-gateway.svg'
+GATEWAY_SHA256 = '16b71c47e054f3776dfdc8509f867b1f1a1ac686170e47f14c193206b86b038c'
+GATEWAY_LABELS = {
+    'README.md': ('Software & Werkzeuge', 'Sicherheit & Belege', 'Modelle & Visualisierung', 'Welten & Interaktion', 'Lernen & Wissen', 'Gesellschaft & Quellen'),
+    'README.en.md': ('Software & tools', 'Security & evidence', 'Models & visualization', 'Worlds & interaction', 'Learning & knowledge', 'Society & sources'),
+    'README.ru.md': ('Программы и инструменты', 'Безопасность и доказательства', 'Модели и визуализация', 'Миры и взаимодействие', 'Обучение и знания', 'Общество и источники'),
+}
 PUBLIC_LABELS = {
     'README.md': ('Zwei überprüfte Fallstudien', 'Ausgewählte Projekte'),
     'README.en.md': ('Two verified case studies', 'Selected projects'),
@@ -40,6 +47,9 @@ def check_profile(root=ROOT):
         raise ValueError('Missing scene provenance')
     catalog = json.loads(manifest.read_text(encoding='utf-8'))
     scenes = validate_scene_catalog(catalog)
+    gateway = root / GATEWAY_IMAGE
+    if not gateway.is_file() or hashlib.sha256(gateway.read_bytes()).hexdigest() != GATEWAY_SHA256:
+        raise ValueError('Missing or changed Starship gateway image')
     order = catalog['presentationOrder']
     expected = [next(scene['image'].lstrip('/') for scene in scenes if scene['id'] == item) for item in order]
     for scene in scenes:
@@ -68,7 +78,9 @@ def check_profile(root=ROOT):
             raise ValueError(f'Functional public labels required in {name}')
         if re.search(r'CLAIMED|CISSP|ISTQB|OSCE|open-research-branches|xai-40m', text, re.I):
             raise ValueError(f'Unsupported public claim in {name}')
-        for required in ('halveth-forschungslabor', 'security@halveth.de', 'TECHNICAL-MAP', *PUBLIC_LABELS[name]):
+        for required in ('halveth-forschungslabor', 'security@halveth.de', 'TECHNICAL-MAP',
+                         'assets/starship-gateway.svg', 'https://juri-halveth.github.io/universum/',
+                         '18', *GATEWAY_LABELS[name], *PUBLIC_LABELS[name]):
             if required not in text:
                 raise ValueError(f'Missing {required} in {name}')
         images = re.findall(r'!\[[^\]]*\]\((assets/scene-[a-z]+(?:-[a-z]+)?\.webp)\)', text)
