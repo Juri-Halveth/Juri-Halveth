@@ -83,6 +83,8 @@ def check_profile(root=ROOT):
                          '18', *GATEWAY_LABELS[name], *PUBLIC_LABELS[name]):
             if required not in text:
                 raise ValueError(f'Missing {required} in {name}')
+        if not re.search(r'\[!\[[^\]]+\]\(assets/starship-gateway\.svg\)\]\(https://juri-halveth\.github\.io/universum/\)', text):
+            raise ValueError(f'Gateway image must open the interactive Starship Lab in {name}')
         images = re.findall(r'!\[[^\]]*\]\((assets/scene-[a-z]+(?:-[a-z]+)?\.webp)\)', text)
         if images != expected:
             raise ValueError(f'Missing referenced scene in {name}')
