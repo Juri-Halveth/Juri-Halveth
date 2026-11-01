@@ -1,6 +1,6 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-![Геометрическая звёздная сеть HALVETH с шестью тематическими разделами.](assets/starship-gateway.svg)
+[![Геометрическая звёздная сеть HALVETH с шестью тематическими разделами.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
 # Juri · HALVETH
 

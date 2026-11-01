@@ -103,7 +103,7 @@ class ProfileEntryTests(unittest.TestCase):
             text = (ROOT / name).read_text(encoding='utf-8')
             for label in PUBLIC_LABELS[name]:
                 self.assertIn(label, text)
-            self.assertEqual(text.count('[!['), 2)
+            self.assertEqual(text.count('[!['), 3)
 
     def test_missing_scene_cannot_pass_by_lowering_all_counts(self):
         with presentation_fixture() as root:

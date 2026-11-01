@@ -66,7 +66,7 @@ for lang,t in copy.items():
     mapname={'de':'TECHNICAL-MAP.md','en':'TECHNICAL-MAP.en.md','ru':'TECHNICAL-MAP.ru.md'}[lang]
     gateway=gateway_copy[lang]
     lines=['[Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)',
-           '',f"![{gateway['alt']}](assets/starship-gateway.svg)",'',
+           '',f"[![{gateway['alt']}](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)",'',
            '# Juri · HALVETH','',t['intro'],'','**'+t['tag']+'**','',
            f"[**{gateway['cta']} ↗**](https://juri-halveth.github.io/universum/) · [{t['portfolio']}](https://juri-halveth.github.io/{prefix}) · [{t['evidence']}](https://juri-halveth.github.io/{prefix}belege/)",
            '',f"## {gateway['heading']}",'',gateway['lead'],'',

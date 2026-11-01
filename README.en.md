@@ -1,6 +1,6 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-![Geometric HALVETH star network with six topic areas.](assets/starship-gateway.svg)
+[![Geometric HALVETH star network with six topic areas.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
 # Juri · HALVETH
 
