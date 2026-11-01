@@ -1,12 +1,29 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri
+![Geometrisches HALVETH-Sternnetz mit sechs Themenräumen.](assets/starship-gateway.svg)
+
+# Juri · HALVETH
 
 Ich bin **Juri**. Ich baue lokale Software, nachvollziehbare Forschungswerkzeuge und interaktive Lernangebote.
 
 **Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
 
-[**Portfolio öffnen ↗**](https://juri-halveth.github.io/) · [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/)
+[**Starship Lab interaktiv öffnen ↗**](https://juri-halveth.github.io/universum/) · [Portfolio öffnen](https://juri-halveth.github.io/) · [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/)
+
+## Sechs Themenräume · 18 öffentliche Einstiege
+
+Im Starship Lab sind 18 ausgewählte öffentliche Projekt- und Quelleneinstiege verbunden. Ein Projekt kann mehrere Themen berühren; jede Projektkarte erscheint nur einmal.
+
+| Themenraum | Was dort erkundet wird |
+| --- | --- |
+| **Software & Werkzeuge** | Lokale Anwendungen, Entwicklungswerkzeuge und Arbeitsabläufe. |
+| **Sicherheit & Belege** | Prüfbare Quellen, Gegenproben und Sicherheitsmodelle. |
+| **Modelle & Visualisierung** | Perspektiven, Zustände, Zeit und Unterschiede. |
+| **Welten & Interaktion** | Interaktive Szenen und regelgebundene Welten. |
+| **Lernen & Wissen** | Digitale Grundlagen, Übungen und Lernpfade. |
+| **Gesellschaft & Quellen** | Öffentliche Recherche und getrennte Reformvorschläge. |
+
+[Katalogstand und Quellzuordnung · 01.11.2026](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/b7589d82ed4a50fb0507055840376a27c2cc6145/universum/data/catalog.js)
 
 Python · JavaScript · Windows · lokale Verarbeitung · reproduzierbare Prüfungen
 

@@ -1,12 +1,29 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri
+![Geometric HALVETH star network with six topic areas.](assets/starship-gateway.svg)
+
+# Juri · HALVETH
 
 I’m **Juri**. I build local software, traceable research tools and interactive learning applications.
 
 **Open an idea. Change something. See the result. The code is behind it.**
 
-[**Open the portfolio ↗**](https://juri-halveth.github.io/en/) · [Two verified case studies](https://juri-halveth.github.io/en/belege/)
+[**Explore the interactive Starship Lab ↗**](https://juri-halveth.github.io/universum/) · [Open the portfolio](https://juri-halveth.github.io/en/) · [Two verified case studies](https://juri-halveth.github.io/en/belege/)
+
+## Six topic areas · 18 public entries
+
+The Starship Lab connects 18 selected public project and source entries. A project can belong to several topics; each project card appears only once.
+
+| Topic area | What you can explore |
+| --- | --- |
+| **Software & tools** | Local applications, development tools and workflows. |
+| **Security & evidence** | Inspectable sources, counterchecks and security models. |
+| **Models & visualization** | Perspectives, states, time and differences. |
+| **Worlds & interaction** | Interactive scenes and rule-bound worlds. |
+| **Learning & knowledge** | Digital foundations, exercises and learning paths. |
+| **Society & sources** | Public research and separately identified reform proposals. |
+
+[Catalog snapshot and source mapping · 01.11.2026](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/b7589d82ed4a50fb0507055840376a27c2cc6145/universum/data/catalog.js)
 
 Python · JavaScript · Windows · local processing · reproducible checks
 
