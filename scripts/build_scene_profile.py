@@ -61,40 +61,71 @@ gateway_copy={
         ],
     },
 }
+direct_copy = {
+    'de': {
+        'title': 'Juri · Entwickler',
+        'intro': 'Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVETH** verbindet diese Arbeiten mit ihren Quellständen und Prüfungen. Python · JavaScript · Windows · browserlokale Anwendungen.',
+        'quick': '**Direkt zu Ergebnissen:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/) · [Zusammenarbeit](#zusammenarbeit)',
+        'heading': 'Vier ausgewählte Arbeiten',
+        'lead': 'Vier Einstiege aus 18 öffentlichen Projekt- und Quelleneinträgen. Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.',
+        'projects': [
+            ('Mein Lernportal', 'Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen.', 'Lektion direkt öffnen', 'https://juri-halveth.github.io/mein-lernportal/'),
+            ('Field Difference Lab', 'Bewegungen aus derselben Ausgangslage unter zwei Modellregeln vergleichen.', 'Modell direkt öffnen', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
+            ('NOVA', 'Frühere Notizen und Code wiederfinden und Korrekturen nachvollziehbar fortsetzen.', 'Anleitung und Offline-Demo', 'https://github.com/Juri-Halveth/lucinet-seedspace'),
+            ('Tresor', 'Zugangsdaten lokal unter Windows verwalten.', 'Release und Startanleitung', 'https://github.com/Juri-Halveth/halveth-tresor'),
+        ],
+        'evidence': '[Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/) zeigen Eingabe, Ergebnis und Gegenprobe.',
+        'optional': 'Optional: Starship Lab',
+        'lab': 'Das [Starship Lab](https://juri-halveth.github.io/universum/) verbindet 18 öffentliche Projekt- und Quelleneinstiege als interaktives Labor. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.',
+    },
+    'en': {
+        'title': 'Juri · Developer',
+        'intro': 'I build local tools, web applications and interactive models. **HALVETH** connects this work to its source revisions and checks. Python · JavaScript · Windows · browser-local applications.',
+        'quick': '**Go straight to results:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Selected projects](https://juri-halveth.github.io/en/arbeiten/) · [Collaborate](#collaborate)',
+        'heading': 'Four selected projects',
+        'lead': 'Four entry points from 18 public project and source entries. The first two run in the browser; NOVA and Tresor are local projects with a guide or release.',
+        'projects': [
+            ('Mein Lernportal', 'Learn digital skills and programming without a required account.', 'Open a lesson directly', 'https://juri-halveth.github.io/mein-lernportal/'),
+            ('Field Difference Lab', 'Compare movement from the same initial state under two model rules.', 'Open the model directly', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
+            ('NOVA', 'Recover notes and code and resume traceable work with preserved corrections.', 'Guide and offline demo', 'https://github.com/Juri-Halveth/lucinet-seedspace'),
+            ('Tresor', 'Manage credentials locally on Windows.', 'Release and setup guide', 'https://github.com/Juri-Halveth/halveth-tresor'),
+        ],
+        'evidence': '[Two verified case studies](https://juri-halveth.github.io/en/belege/) show inputs, results and counterchecks.',
+        'optional': 'Optional: Starship Lab',
+        'lab': 'The [Starship Lab](https://juri-halveth.github.io/universum/) connects 18 public project and source entries as an interactive laboratory. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.',
+    },
+    'ru': {
+        'title': 'Juri · Разработчик',
+        'intro': 'Я создаю локальные инструменты, веб-приложения и интерактивные модели. **HALVETH** связывает эти работы с версиями кода и проверками. Python · JavaScript · Windows · приложения, работающие локально в браузере.',
+        'quick': '**Сразу к результатам:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Избранные проекты](https://juri-halveth.github.io/ru/arbeiten/) · [Сотрудничество](#сотрудничество)',
+        'heading': 'Четыре избранные работы',
+        'lead': 'Четыре входа из 18 открытых записей о проектах и источниках. Первые два работают в браузере; NOVA и Tresor — локальные проекты с руководством или выпуском.',
+        'projects': [
+            ('Mein Lernportal', 'Цифровые навыки и программирование без обязательного аккаунта.', 'Открыть урок напрямую', 'https://juri-halveth.github.io/mein-lernportal/'),
+            ('Field Difference Lab', 'Сравнить движения при одинаковом начальном состоянии и двух правилах модели.', 'Открыть модель напрямую', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
+            ('NOVA', 'Находить заметки и код, сохранять исправления и продолжать работу.', 'Руководство и офлайн-демо', 'https://github.com/Juri-Halveth/lucinet-seedspace'),
+            ('Tresor', 'Локально управлять учётными данными Windows.', 'Выпуск и инструкция', 'https://github.com/Juri-Halveth/halveth-tresor'),
+        ],
+        'evidence': '[Два проверенных примера](https://juri-halveth.github.io/ru/belege/) показывают исходные данные, результат и контрпроверку.',
+        'optional': 'Дополнительно: Starship Lab',
+        'lab': '[Starship Lab](https://juri-halveth.github.io/universum/) объединяет 18 открытых проектов и источников в интерактивной лаборатории. Ссылки на проекты доступны также в обычном списке без режима полёта. Проект может относиться к нескольким темам; каждая карточка появляется один раз.',
+    },
+}
 for lang,t in copy.items():
     prefix='' if lang=='de' else lang+'/'
     mapname={'de':'TECHNICAL-MAP.md','en':'TECHNICAL-MAP.en.md','ru':'TECHNICAL-MAP.ru.md'}[lang]
     gateway=gateway_copy[lang]
+    direct=direct_copy[lang]
     lines=['[Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)',
-           '',f"[![{gateway['alt']}](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)",'',
-           '# Juri · HALVETH','',t['intro'],'','**'+t['tag']+'**','',
-           f"[**{gateway['cta']} ↗**](https://juri-halveth.github.io/universum/) · [{t['portfolio']}](https://juri-halveth.github.io/{prefix}) · [{t['evidence']}](https://juri-halveth.github.io/{prefix}belege/)",
-           '',f"## {gateway['heading']}",'',gateway['lead'],'',
-           f"| {gateway['columns'][0]} | {gateway['columns'][1]} |",'| --- | --- |']
+           '',f"# {direct['title']}",'',direct['intro'],'',direct['quick'],'',
+           f"## {direct['heading']}",'',direct['lead'],'']
+    lines.extend(f'- **{name}:** {purpose} [{action} ↗]({url})' for name,purpose,action,url in direct['projects'])
+    lines.extend(['',direct['evidence'],'',f"## {direct['optional']}",'',
+           f"[![{gateway['alt']}](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)",'',
+           direct['lab'],'',
+           f"| {gateway['columns'][0]} | {gateway['columns'][1]} |",'| --- | --- |'])
     lines.extend(f'| **{name}** | {description} |' for name,description in gateway['rooms'])
     lines.extend(['',f"[{gateway['source']} · 01.11.2026](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/b7589d82ed4a50fb0507055840376a27c2cc6145/universum/data/catalog.js)",''])
-    flagship_copy = {
-        'de': ('Vier Projekte zum Einstieg', 'Python · JavaScript · Windows · lokale Verarbeitung · reproduzierbare Prüfungen', [
-            ('NOVA', 'Frühere Notizen und Code wiederfinden, Korrekturen erhalten und nachvollziehbar weiterarbeiten.', 'lucinet-seedspace', 'Anleitung & Offline-Demo'),
-            ('Tresor', 'Zugangsdaten lokal unter Windows verwalten. Quellcode, Release und Sicherheitsmodell gehören zusammen.', 'halveth-tresor', 'Desktopprojekt ansehen'),
-            ('Mein Lernportal', 'Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen.', 'mein-lernportal', 'Lernen starten'),
-            ('Field Difference Lab', 'Gleiche Ausgangslage, andere Modellregel: Bewegungen direkt vergleichen.', 'halveth-field-difference-lab', 'Modell ausprobieren')]),
-        'en': ('Four projects to start with', 'Python · JavaScript · Windows · local processing · reproducible checks', [
-            ('NOVA', 'Recover notes and code, preserve corrections and resume traceable work.', 'lucinet-seedspace', 'Guide & offline demo'),
-            ('Tresor', 'Manage credentials locally on Windows, with source, releases and a security model.', 'halveth-tresor', 'View desktop project'),
-            ('Mein Lernportal', 'Learn digital skills and programming without a required account.', 'mein-lernportal', 'Start learning'),
-            ('Field Difference Lab', 'Compare movement from the same initial state under different model rules.', 'halveth-field-difference-lab', 'Try the model')]),
-        'ru': ('Четыре проекта для знакомства', 'Python · JavaScript · Windows · локальная обработка · воспроизводимые проверки', [
-            ('NOVA', 'Находите заметки и код, сохраняйте исправления и продолжайте проверяемую работу.', 'lucinet-seedspace', 'Руководство и офлайн-демо'),
-            ('Tresor', 'Локальное хранение учётных данных Windows: исходники, выпуски и модель безопасности.', 'halveth-tresor', 'Настольный проект'),
-            ('Mein Lernportal', 'Цифровые навыки и программирование без обязательного аккаунта.', 'mein-lernportal', 'Начать обучение'),
-            ('Field Difference Lab', 'Сравните движение при одинаковом начальном состоянии и разных правилах.', 'halveth-field-difference-lab', 'Открыть модель')])}
-    heading, skills, flagship_rows = flagship_copy[lang]
-    lines.extend([skills, '', '## '+heading, ''])
-    for title, purpose, repo, action in flagship_rows:
-        route = ('https://github.com/Juri-Halveth/'+repo if repo in ('lucinet-seedspace', 'halveth-tresor')
-                 else 'https://juri-halveth.github.io/'+repo+'/')
-        lines.extend(['### '+title, '', purpose, '', f'[{action} ↗]({route})', ''])
     by_id={s['id']:s for s in data['scenes']}
     for scene_id in data['presentationOrder']:
         s=by_id[scene_id]
