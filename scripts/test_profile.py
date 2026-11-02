@@ -73,6 +73,23 @@ class ProfileEntryTests(unittest.TestCase):
             self.assertIn('https://github.com/Juri-Halveth/halveth-tresor', intro)
             self.assertNotIn('https://juri-halveth.github.io/universum/', intro)
 
+    def test_entity_room_and_wave_are_direct_parent_scene_links_in_all_languages(self):
+        entity_base = 'https://juri-halveth.github.io/halveth-scarlet/entities/'
+        wave_base = entity_base + '?view=chain'
+        for name in ENTRIES:
+            text = (ROOT / name).read_text(encoding='utf-8')
+            entity = entity_base + ('?lang=en' if name == 'README.en.md' else '')
+            wave = wave_base + ('&lang=en#scarlet' if name == 'README.en.md' else '#scarlet')
+            self.assertEqual(text.count(f']({entity})'), 1)
+            self.assertEqual(text.count(f']({wave})'), 1)
+            self.assertLess(text.index(f']({entity})'), text.index(f']({wave})'))
+            self.assertLess(text.index(f']({wave})'), text.index('halveth-forschungslabor/endeck/'))
+        with presentation_fixture() as root:
+            entry = root / 'README.md'
+            entry.write_text(entry.read_text(encoding='utf-8').replace(entity_base + '?view=chain#scarlet', 'https://example.invalid/chain'), encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'entity room binding'):
+                check_profile(root)
+
     def test_missing_duplicate_or_unknown_presentation_identity_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

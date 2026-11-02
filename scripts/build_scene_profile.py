@@ -111,6 +111,13 @@ direct_copy = {
         'lab': '[Starship Lab](https://juri-halveth.github.io/universum/) объединяет 18 открытых проектов и источников в интерактивной лаборатории. Ссылки на проекты доступны также в обычном списке без режима полёта. Проект может относиться к нескольким темам; каждая карточка появляется один раз.',
     },
 }
+entity_room_base = 'https://juri-halveth.github.io/halveth-scarlet/entities/'
+entity_room_source = 'https://github.com/Juri-Halveth/halveth-scarlet/blob/c36150b55fe9ed4207f185d7092b3184c353df93/README.md#L47-L66'
+entity_room_copy = {
+    'de': ('Weitere Räume dieser Browseranwendung:', '1001 / Konstellation · 68 Entitäten', 'Welle · 68 Formen', 'Projektquelle · c36150b'),
+    'en': ('More spaces in this browser application:', '1001 / Constellation · 68 entities', 'Wave · 68 forms', 'Project source · c36150b'),
+    'ru': ('Другие пространства этого браузерного приложения:', '1001 / Созвездие · 68 сущностей', 'Волна · 68 форм', 'Источник проекта · c36150b'),
+}
 for lang,t in copy.items():
     prefix='' if lang=='de' else lang+'/'
     mapname={'de':'TECHNICAL-MAP.md','en':'TECHNICAL-MAP.en.md','ru':'TECHNICAL-MAP.ru.md'}[lang]
@@ -133,6 +140,13 @@ for lang,t in copy.items():
         heading={'scarlet':t['scarlet'],'endeck':t['endeck']}[scene_id]
         lines.extend(['## '+heading,'',f"[![{s['alt'][lang]}]({s['image'].lstrip('/')})]({href})",'', '**'+s['title'][lang]+'**','',s['purpose'][lang]+' '+s['use'][lang],'',f"[{t['tryit']} ↗]({href})",''])
         lines.extend([s['scope'][lang],''])
+        if scene_id=='scarlet':
+            intro,entity_label,wave_label,source_label=entity_room_copy[lang]
+            language_query='?lang=en' if lang=='en' else ''
+            wave_query='?view=chain&lang=en#scarlet' if lang=='en' else '?view=chain#scarlet'
+            lines.extend([f'{intro} [{entity_label}]({entity_room_base}{language_query}) · '
+                          f'[{wave_label}]({entity_room_base}{wave_query}). '
+                          f'[{source_label}]({entity_room_source}).',''])
     lines.extend(['## '+t['map'],'',t['maptext'],'',f"[**{t['maplink']}**]({mapname}) · [{t['work']}](https://juri-halveth.github.io/{prefix}arbeiten/#repositories)",'','## '+t['collab'],'',t['offer'],'','**[juri@halveth.de](mailto:juri@halveth.de)** · Security: [security@halveth.de](mailto:security@halveth.de)','','---','',t['credit'],'',f"[{t['sources']}](ASSET-NOTICES.md) · [HALVETH](https://juri-halveth.github.io/{prefix})",''])
     target=ROOT/('README.md' if lang=='de' else f'README.{lang}.md')
     expected='\n'.join(lines).encode('utf-8')

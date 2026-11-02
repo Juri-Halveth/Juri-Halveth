@@ -46,6 +46,8 @@ Text setzen, eine Variante ableiten, Zustände beobachten und als JSON mitnehmen
 
 JavaScript läuft lokal im Browser. Textzustände und regelbasierte Zellbewegung sind getrennte Modelle.
 
+Weitere Räume dieser Browseranwendung: [1001 / Konstellation · 68 Entitäten](https://juri-halveth.github.io/halveth-scarlet/entities/) · [Welle · 68 Formen](https://juri-halveth.github.io/halveth-scarlet/entities/?view=chain#scarlet). [Projektquelle · c36150b](https://github.com/Juri-Halveth/halveth-scarlet/blob/c36150b55fe9ed4207f185d7092b3184c353df93/README.md#L47-L66).
+
 ## Bild und Raum unterscheiden
 
 [![Links ein gemeinsamer Bildort, rechts vier getrennte Punkte entlang der Tiefe.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)
