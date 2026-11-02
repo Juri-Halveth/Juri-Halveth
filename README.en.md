@@ -1,6 +1,6 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri · Software development and HALVETH
+# Juri · Software developer
 
 I build local tools, web applications and interactive models. **HALVETH** connects this work to its source revisions and checks. Python · JavaScript · Windows · browser-local applications.
 
