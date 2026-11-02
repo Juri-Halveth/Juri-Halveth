@@ -46,6 +46,8 @@
 
 JavaScript работает локально в браузере. Текстовые состояния и движение клеток по правилам — отдельные модели.
 
+Другие пространства этого браузерного приложения: [1001 / Созвездие · 68 сущностей](https://juri-halveth.github.io/halveth-scarlet/entities/) · [Волна · 68 форм](https://juri-halveth.github.io/halveth-scarlet/entities/?view=chain#scarlet). [Источник проекта · c36150b](https://github.com/Juri-Halveth/halveth-scarlet/blob/c36150b55fe9ed4207f185d7092b3184c353df93/README.md#L47-L66).
+
 ## Различать изображение и пространство
 
 [![Слева одно общее положение на изображении; справа четыре точки на разной глубине.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)

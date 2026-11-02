@@ -46,6 +46,8 @@ Set text, derive a variant, observe states and take the result as JSON. Light bo
 
 JavaScript runs locally in your browser. Text states and rule-based cell movement are separate models.
 
+More spaces in this browser application: [1001 / Constellation · 68 entities](https://juri-halveth.github.io/halveth-scarlet/entities/?lang=en) · [Wave · 68 forms](https://juri-halveth.github.io/halveth-scarlet/entities/?view=chain&lang=en#scarlet). [Project source · c36150b](https://github.com/Juri-Halveth/halveth-scarlet/blob/c36150b55fe9ed4207f185d7092b3184c353df93/README.md#L47-L66).
+
 ## Distinguish image and space
 
 [![One shared image position on the left; four depth-separated points on the right.](assets/scene-endeck.webp)](https://juri-halveth.github.io/halveth-forschungslabor/endeck/)

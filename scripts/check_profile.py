@@ -9,6 +9,8 @@ ENTRIES = ('README.md', 'README.en.md', 'README.ru.md')
 SCENE_IMAGES = {'scarlet': 'assets/scene-state-space.webp', 'endeck': 'assets/scene-endeck.webp'}
 GATEWAY_IMAGE = 'assets/starship-gateway.svg'
 GATEWAY_SHA256 = '16b71c47e054f3776dfdc8509f867b1f1a1ac686170e47f14c193206b86b038c'
+ENTITY_ROOM_BASE = 'https://juri-halveth.github.io/halveth-scarlet/entities/'
+ENTITY_ROOM_SOURCE = 'https://github.com/Juri-Halveth/halveth-scarlet/blob/c36150b55fe9ed4207f185d7092b3184c353df93/README.md#L47-L66'
 GATEWAY_LABELS = {
     'README.md': ('Software & Werkzeuge', 'Sicherheit & Belege', 'Modelle & Visualisierung', 'Welten & Interaktion', 'Lernen & Wissen', 'Gesellschaft & Quellen'),
     'README.en.md': ('Software & tools', 'Security & evidence', 'Models & visualization', 'Worlds & interaction', 'Learning & knowledge', 'Society & sources'),
@@ -91,6 +93,13 @@ def check_profile(root=ROOT):
         for scene in scenes:
             if scene['href'] not in text:
                 raise ValueError(f'Missing scene route in {name}')
+        lang = {'README.md': 'de', 'README.en.md': 'en', 'README.ru.md': 'ru'}[name]
+        entity_url = ENTITY_ROOM_BASE + ('?lang=en' if lang == 'en' else '')
+        wave_url = ENTITY_ROOM_BASE + ('?view=chain&lang=en#scarlet' if lang == 'en' else '?view=chain#scarlet')
+        if text.count(f']({entity_url})') != 1 or text.count(f']({wave_url})') != 1 or text.count(f']({ENTITY_ROOM_SOURCE})') != 1:
+            raise ValueError(f'Missing or duplicated entity room binding in {name}')
+        if not (text.index(f']({entity_url})') < text.index(f']({wave_url})') < text.index('halveth-forschungslabor/endeck/')):
+            raise ValueError(f'Entity rooms must stay with their parent scene in {name}')
     for name in ('portfolio', 'history', 'downloads', 'data/claims.json'):
         path = root / name
         if path.is_file() or (path.is_dir() and any(path.rglob('*'))):
