@@ -1,18 +1,27 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
+# Juri · Entwickler
+
+Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVETH** verbindet diese Arbeiten mit ihren Quellständen und Prüfungen. Python · JavaScript · Windows · browserlokale Anwendungen.
+
+**Direkt zu Ergebnissen:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/) · [Zusammenarbeit](#zusammenarbeit)
+
+## Vier ausgewählte Arbeiten
+
+Vier Einstiege aus 18 öffentlichen Projekt- und Quelleneinträgen. Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.
+
+- **Mein Lernportal:** Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen. [Lektion direkt öffnen ↗](https://juri-halveth.github.io/mein-lernportal/)
+- **Field Difference Lab:** Bewegungen aus derselben Ausgangslage unter zwei Modellregeln vergleichen. [Modell direkt öffnen ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
+- **NOVA:** Frühere Notizen und Code wiederfinden und Korrekturen nachvollziehbar fortsetzen. [Anleitung und Offline-Demo ↗](https://github.com/Juri-Halveth/lucinet-seedspace)
+- **Tresor:** Zugangsdaten lokal unter Windows verwalten. [Release und Startanleitung ↗](https://github.com/Juri-Halveth/halveth-tresor)
+
+[Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/) zeigen Eingabe, Ergebnis und Gegenprobe.
+
+## Optional: Starship Lab
+
 [![Geometrisches HALVETH-Sternnetz mit sechs Themenräumen.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
-# Juri · HALVETH
-
-Ich bin **Juri**. Ich baue lokale Software, nachvollziehbare Forschungswerkzeuge und interaktive Lernangebote.
-
-**Idee öffnen. Etwas verändern. Ergebnis ansehen. Dahinter liegt der Code.**
-
-[**Starship Lab interaktiv öffnen ↗**](https://juri-halveth.github.io/universum/) · [Portfolio öffnen](https://juri-halveth.github.io/) · [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/)
-
-## Sechs Themenräume · 18 öffentliche Einstiege
-
-Im Starship Lab sind 18 ausgewählte öffentliche Projekt- und Quelleneinstiege verbunden. Ein Projekt kann mehrere Themen berühren; jede Projektkarte erscheint nur einmal.
+Das [Starship Lab](https://juri-halveth.github.io/universum/) verbindet 18 öffentliche Projekt- und Quelleneinstiege als interaktives Labor. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.
 
 | Themenraum | Was dort erkundet wird |
 | --- | --- |
@@ -24,34 +33,6 @@ Im Starship Lab sind 18 ausgewählte öffentliche Projekt- und Quelleneinstiege 
 | **Gesellschaft & Quellen** | Öffentliche Recherche und getrennte Reformvorschläge. |
 
 [Katalogstand und Quellzuordnung · 01.11.2026](https://github.com/Juri-Halveth/Juri-Halveth.github.io/blob/b7589d82ed4a50fb0507055840376a27c2cc6145/universum/data/catalog.js)
-
-Python · JavaScript · Windows · lokale Verarbeitung · reproduzierbare Prüfungen
-
-## Vier Projekte zum Einstieg
-
-### NOVA
-
-Frühere Notizen und Code wiederfinden, Korrekturen erhalten und nachvollziehbar weiterarbeiten.
-
-[Anleitung & Offline-Demo ↗](https://github.com/Juri-Halveth/lucinet-seedspace)
-
-### Tresor
-
-Zugangsdaten lokal unter Windows verwalten. Quellcode, Release und Sicherheitsmodell gehören zusammen.
-
-[Desktopprojekt ansehen ↗](https://github.com/Juri-Halveth/halveth-tresor)
-
-### Mein Lernportal
-
-Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen.
-
-[Lernen starten ↗](https://juri-halveth.github.io/mein-lernportal/)
-
-### Field Difference Lab
-
-Gleiche Ausgangslage, andere Modellregel: Bewegungen direkt vergleichen.
-
-[Modell ausprobieren ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
 
 ## Mit Zuständen, Zeit und Varianten arbeiten
 

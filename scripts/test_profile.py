@@ -63,6 +63,16 @@ class ProfileEntryTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'gateway image'):
                 check_profile(root)
 
+    def test_direct_browser_results_precede_optional_starship(self):
+        for name in ENTRIES:
+            text = (ROOT / name).read_text(encoding='utf-8')
+            intro = text.split('assets/starship-gateway.svg', 1)[0]
+            self.assertIn('https://juri-halveth.github.io/mein-lernportal/', intro)
+            self.assertIn('https://juri-halveth.github.io/halveth-field-difference-lab/', intro)
+            self.assertIn('https://github.com/Juri-Halveth/lucinet-seedspace', intro)
+            self.assertIn('https://github.com/Juri-Halveth/halveth-tresor', intro)
+            self.assertNotIn('https://juri-halveth.github.io/universum/', intro)
+
     def test_missing_duplicate_or_unknown_presentation_identity_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
