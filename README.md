@@ -1,6 +1,6 @@
 [Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
 
-# Juri · Softwareentwickler
+# Juri · Entwickler
 
 Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVETH** verbindet diese Arbeiten mit ihren Quellständen und Prüfungen. Python · JavaScript · Windows · browserlokale Anwendungen.
 
