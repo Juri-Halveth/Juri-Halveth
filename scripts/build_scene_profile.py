@@ -66,8 +66,9 @@ direct_copy = {
         'title': 'Juri · Entwickler',
         'intro': 'Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVETH** verbindet diese Arbeiten mit ihren Quellständen und Prüfungen. Python · JavaScript · Windows · browserlokale Anwendungen.',
         'quick': '**Direkt zu Ergebnissen:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/) · [Zusammenarbeit](#zusammenarbeit)',
+        'network': '**[Aktuellen öffentlichen Bestand durchsuchen](https://juri-halveth.github.io/suche/)** · Projekte, Quellen und Verbindungen mit ihrem jeweiligen Beobachtungsstand.',
         'heading': 'Vier ausgewählte Arbeiten',
-        'lead': 'Vier Einstiege aus 18 öffentlichen Projekt- und Quelleneinträgen. Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.',
+        'lead': 'Vier Einstiege aus der datierten Auswahl von 18 öffentlichen Projekt- und Quelleneinträgen (Katalogstand: 01.11.2026). Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.',
         'projects': [
             ('Mein Lernportal', 'Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen.', 'Lektion direkt öffnen', 'https://juri-halveth.github.io/mein-lernportal/'),
             ('Field Difference Lab', 'Bewegungen aus derselben Ausgangslage unter zwei Modellregeln vergleichen.', 'Modell direkt öffnen', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
@@ -76,14 +77,15 @@ direct_copy = {
         ],
         'evidence': '[Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/) zeigen Eingabe, Ergebnis und Gegenprobe.',
         'optional': 'Optional: Starship Lab',
-        'lab': 'Das [Starship Lab](https://juri-halveth.github.io/universum/) verbindet 18 öffentliche Projekt- und Quelleneinstiege als interaktives Labor. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.',
+        'lab': 'Der hier verlinkte Katalogstand des [Starship Lab](https://juri-halveth.github.io/universum/) vom 01.11.2026 umfasst 18 ausgewählte öffentliche Projekt- und Quelleneinstiege. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.',
     },
     'en': {
         'title': 'Juri · Developer',
         'intro': 'I build local tools, web applications and interactive models. **HALVETH** connects this work to its source revisions and checks. Python · JavaScript · Windows · browser-local applications.',
         'quick': '**Go straight to results:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Selected projects](https://juri-halveth.github.io/en/arbeiten/) · [Collaborate](#collaborate)',
+        'network': '**[Search the current public collection](https://juri-halveth.github.io/suche/)** · Projects, sources and connections with their respective observation dates.',
         'heading': 'Four selected projects',
-        'lead': 'Four entry points from 18 public project and source entries. The first two run in the browser; NOVA and Tresor are local projects with a guide or release.',
+        'lead': 'Four entry points from a dated selection of 18 public project and source entries (catalog snapshot: 01.11.2026). The first two run in the browser; NOVA and Tresor are local projects with a guide or release.',
         'projects': [
             ('Mein Lernportal', 'Learn digital skills and programming without a required account.', 'Open a lesson directly', 'https://juri-halveth.github.io/mein-lernportal/'),
             ('Field Difference Lab', 'Compare movement from the same initial state under two model rules.', 'Open the model directly', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
@@ -92,14 +94,15 @@ direct_copy = {
         ],
         'evidence': '[Two verified case studies](https://juri-halveth.github.io/en/belege/) show inputs, results and counterchecks.',
         'optional': 'Optional: Starship Lab',
-        'lab': 'The [Starship Lab](https://juri-halveth.github.io/universum/) connects 18 public project and source entries as an interactive laboratory. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.',
+        'lab': 'The linked [Starship Lab](https://juri-halveth.github.io/universum/) catalog snapshot of 01.11.2026 contains 18 selected public project and source entries. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.',
     },
     'ru': {
         'title': 'Juri · Разработчик',
         'intro': 'Я создаю локальные инструменты, веб-приложения и интерактивные модели. **HALVETH** связывает эти работы с версиями кода и проверками. Python · JavaScript · Windows · приложения, работающие локально в браузере.',
         'quick': '**Сразу к результатам:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Избранные проекты](https://juri-halveth.github.io/ru/arbeiten/) · [Сотрудничество](#сотрудничество)',
+        'network': '**[Поиск по актуальной открытой коллекции](https://juri-halveth.github.io/suche/)** · Проекты, источники и связи с датами их наблюдения.',
         'heading': 'Четыре избранные работы',
-        'lead': 'Четыре входа из 18 открытых записей о проектах и источниках. Первые два работают в браузере; NOVA и Tresor — локальные проекты с руководством или выпуском.',
+        'lead': 'Четыре входа из датированной подборки 18 открытых записей о проектах и источниках (снимок каталога: 01.11.2026). Первые два работают в браузере; NOVA и Tresor — локальные проекты с инструкцией или выпуском.',
         'projects': [
             ('Mein Lernportal', 'Цифровые навыки и программирование без обязательного аккаунта.', 'Открыть урок напрямую', 'https://juri-halveth.github.io/mein-lernportal/'),
             ('Field Difference Lab', 'Сравнить движения при одинаковом начальном состоянии и двух правилах модели.', 'Открыть модель напрямую', 'https://juri-halveth.github.io/halveth-field-difference-lab/'),
@@ -108,7 +111,7 @@ direct_copy = {
         ],
         'evidence': '[Два проверенных примера](https://juri-halveth.github.io/ru/belege/) показывают исходные данные, результат и контрпроверку.',
         'optional': 'Дополнительно: Starship Lab',
-        'lab': '[Starship Lab](https://juri-halveth.github.io/universum/) объединяет 18 открытых проектов и источников в интерактивной лаборатории. Ссылки на проекты доступны также в обычном списке без режима полёта. Проект может относиться к нескольким темам; каждая карточка появляется один раз.',
+        'lab': 'Связанный снимок каталога [Starship Lab](https://juri-halveth.github.io/universum/) от 01.11.2026 содержит 18 отобранных открытых входов к проектам и источникам. Каждую ссылку можно открыть и через обычный список без управления полётом. Проект может относиться к нескольким темам; каждая карточка появляется один раз.',
     },
 }
 entity_room_base = 'https://juri-halveth.github.io/halveth-scarlet/entities/'
@@ -124,7 +127,7 @@ for lang,t in copy.items():
     gateway=gateway_copy[lang]
     direct=direct_copy[lang]
     lines=['[Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)',
-           '',f"# {direct['title']}",'',direct['intro'],'',direct['quick'],'',
+           '',f"# {direct['title']}",'',direct['intro'],'',direct['quick'],'',direct['network'],'',
            f"## {direct['heading']}",'',direct['lead'],'']
     lines.extend(f'- **{name}:** {purpose} [{action} ↗]({url})' for name,purpose,action,url in direct['projects'])
     lines.extend(['',direct['evidence'],'',f"## {direct['optional']}",'',

@@ -6,9 +6,11 @@ I build local tools, web applications and interactive models. **HALVETH** connec
 
 **Go straight to results:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Selected projects](https://juri-halveth.github.io/en/arbeiten/) · [Collaborate](#collaborate)
 
+**[Search the current public collection](https://juri-halveth.github.io/suche/)** · Projects, sources and connections with their respective observation dates.
+
 ## Four selected projects
 
-Four entry points from 18 public project and source entries. The first two run in the browser; NOVA and Tresor are local projects with a guide or release.
+Four entry points from a dated selection of 18 public project and source entries (catalog snapshot: 01.11.2026). The first two run in the browser; NOVA and Tresor are local projects with a guide or release.
 
 - **Mein Lernportal:** Learn digital skills and programming without a required account. [Open a lesson directly ↗](https://juri-halveth.github.io/mein-lernportal/)
 - **Field Difference Lab:** Compare movement from the same initial state under two model rules. [Open the model directly ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
@@ -21,7 +23,7 @@ Four entry points from 18 public project and source entries. The first two run i
 
 [![Geometric HALVETH star network with six topic areas.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
-The [Starship Lab](https://juri-halveth.github.io/universum/) connects 18 public project and source entries as an interactive laboratory. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.
+The linked [Starship Lab](https://juri-halveth.github.io/universum/) catalog snapshot of 01.11.2026 contains 18 selected public project and source entries. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.
 
 | Topic area | What you can explore |
 | --- | --- |

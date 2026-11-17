@@ -6,9 +6,11 @@ Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVET
 
 **Direkt zu Ergebnissen:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/) · [Zusammenarbeit](#zusammenarbeit)
 
+**[Aktuellen öffentlichen Bestand durchsuchen](https://juri-halveth.github.io/suche/)** · Projekte, Quellen und Verbindungen mit ihrem jeweiligen Beobachtungsstand.
+
 ## Vier ausgewählte Arbeiten
 
-Vier Einstiege aus 18 öffentlichen Projekt- und Quelleneinträgen. Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.
+Vier Einstiege aus der datierten Auswahl von 18 öffentlichen Projekt- und Quelleneinträgen (Katalogstand: 01.11.2026). Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.
 
 - **Mein Lernportal:** Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen. [Lektion direkt öffnen ↗](https://juri-halveth.github.io/mein-lernportal/)
 - **Field Difference Lab:** Bewegungen aus derselben Ausgangslage unter zwei Modellregeln vergleichen. [Modell direkt öffnen ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
@@ -21,7 +23,7 @@ Vier Einstiege aus 18 öffentlichen Projekt- und Quelleneinträgen. Die ersten b
 
 [![Geometrisches HALVETH-Sternnetz mit sechs Themenräumen.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
-Das [Starship Lab](https://juri-halveth.github.io/universum/) verbindet 18 öffentliche Projekt- und Quelleneinstiege als interaktives Labor. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.
+Der hier verlinkte Katalogstand des [Starship Lab](https://juri-halveth.github.io/universum/) vom 01.11.2026 umfasst 18 ausgewählte öffentliche Projekt- und Quelleneinstiege. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.
 
 | Themenraum | Was dort erkundet wird |
 | --- | --- |
