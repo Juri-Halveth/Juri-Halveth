@@ -63,15 +63,32 @@ class ProfileEntryTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'gateway image'):
                 check_profile(root)
 
-    def test_direct_browser_results_precede_optional_starship(self):
+    def test_primary_routes_precede_evidence_and_selected_projects_remain(self):
         for name in ENTRIES:
             text = (ROOT / name).read_text(encoding='utf-8')
+            prefix = {'README.md': '', 'README.en.md': 'en/', 'README.ru.md': 'ru/'}[name]
+            entry = text.split('## ', 1)[0]
+            primary_routes = (
+                f'https://juri-halveth.github.io/{prefix}',
+                'https://juri-halveth.github.io/universum/',
+                'https://juri-halveth.github.io/console-only/',
+                f'https://juri-halveth.github.io/{prefix}profil/',
+                f'https://juri-halveth.github.io/{prefix}suche/',
+            )
+            positions = []
+            for url in primary_routes:
+                link_target = f']({url})'
+                self.assertEqual(entry.count(link_target), 1, (name, url))
+                positions.append(entry.index(link_target))
+            self.assertEqual(positions, sorted(positions), name)
+            evidence = f'https://juri-halveth.github.io/{prefix}belege/'
+            self.assertNotIn(evidence, entry)
+            self.assertIn(evidence, text)
             intro = text.split('assets/starship-gateway.svg', 1)[0]
             self.assertIn('https://juri-halveth.github.io/mein-lernportal/', intro)
             self.assertIn('https://juri-halveth.github.io/halveth-field-difference-lab/', intro)
             self.assertIn('https://github.com/Juri-Halveth/lucinet-seedspace', intro)
             self.assertIn('https://github.com/Juri-Halveth/halveth-tresor', intro)
-            self.assertNotIn('https://juri-halveth.github.io/universum/', intro)
 
     def test_entity_room_and_wave_are_direct_parent_scene_links_in_all_languages(self):
         entity_base = 'https://juri-halveth.github.io/halveth-scarlet/entities/'
