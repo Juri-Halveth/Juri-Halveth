@@ -4,13 +4,13 @@
 
 I build local tools, web applications and interactive models. **HALVETH** connects this work to its source revisions and checks. Python · JavaScript · Windows · browser-local applications.
 
-**Go straight to results:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Selected projects](https://juri-halveth.github.io/en/arbeiten/) · [Collaborate](#collaborate)
+**Start here:** [HALVETH · Home](https://juri-halveth.github.io/en/) · [Project universe](https://juri-halveth.github.io/universum/) · [KORRIDOT · Timeline](https://juri-halveth.github.io/console-only/) · [Profile & collaboration](https://juri-halveth.github.io/en/profil/)
 
-**[Search the current public collection](https://juri-halveth.github.io/suche/)** · Projects, sources and connections with their respective observation dates.
+**[Search the public collection](https://juri-halveth.github.io/en/suche/)** · Projects, sources and connections with their respective observation timestamps.
 
 ## Four selected projects
 
-Four entry points from a dated selection of 18 public project and source entries (catalog snapshot: 01.11.2026). The first two run in the browser; NOVA and Tresor are local projects with a guide or release.
+Four selected entry points. The catalog of 18 public project and source entries dated 1 November 2026 is a historical selection. The network search lists the newly observed public repository collection with its own timestamp. The first two projects run in the browser; NOVA and Tresor are local projects with a guide or release.
 
 - **Mein Lernportal:** Learn digital skills and programming without a required account. [Open a lesson directly ↗](https://juri-halveth.github.io/mein-lernportal/)
 - **Field Difference Lab:** Compare movement from the same initial state under two model rules. [Open the model directly ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
@@ -19,11 +19,11 @@ Four entry points from a dated selection of 18 public project and source entries
 
 [Two verified case studies](https://juri-halveth.github.io/en/belege/) show inputs, results and counterchecks.
 
-## Optional: Starship Lab
+## Project universe · Starship Lab
 
 [![Geometric HALVETH star network with six topic areas.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
-The linked [Starship Lab](https://juri-halveth.github.io/universum/) catalog snapshot of 01.11.2026 contains 18 selected public project and source entries. Every project link is also available through a plain list without flight controls. A project can belong to several topics; each card appears once.
+Explore the [project universe](https://juri-halveth.github.io/universum/) spatially or through its project list. The source snapshot linked below preserves the selection of 18 public project and source entries from 1 November 2026. The network search adds the public collection at its stated observation time. A project can belong to several topics; each card appears once.
 
 | Topic area | What you can explore |
 | --- | --- |
