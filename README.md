@@ -4,13 +4,13 @@
 
 Ich entwickle lokale Werkzeuge, Webanwendungen und interaktive Modelle. **HALVETH** verbindet diese Arbeiten mit ihren Quellständen und Prüfungen. Python · JavaScript · Windows · browserlokale Anwendungen.
 
-**Direkt zu Ergebnissen:** [Mein Lernportal](https://juri-halveth.github.io/mein-lernportal/) · [Field Difference Lab](https://juri-halveth.github.io/halveth-field-difference-lab/) · [Ausgewählte Projekte](https://juri-halveth.github.io/arbeiten/) · [Zusammenarbeit](#zusammenarbeit)
+**Hier einsteigen:** [HALVETH · Start](https://juri-halveth.github.io/) · [Projektuniversum](https://juri-halveth.github.io/universum/) · [KORRIDOT · Zeitspur](https://juri-halveth.github.io/console-only/) · [Profil & Zusammenarbeit](https://juri-halveth.github.io/profil/)
 
-**[Aktuellen öffentlichen Bestand durchsuchen](https://juri-halveth.github.io/suche/)** · Projekte, Quellen und Verbindungen mit ihrem jeweiligen Beobachtungsstand.
+**[Öffentlichen Bestand durchsuchen](https://juri-halveth.github.io/suche/)** · Projekte, Quellen und Verbindungen mit ihrem jeweiligen Beobachtungszeitpunkt.
 
 ## Vier ausgewählte Arbeiten
 
-Vier Einstiege aus der datierten Auswahl von 18 öffentlichen Projekt- und Quelleneinträgen (Katalogstand: 01.11.2026). Die ersten beiden laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.
+Vier ausgewählte Einstiege. Der Katalog mit 18 öffentlichen Projekt- und Quelleneinträgen vom 01.11.2026 ist eine datierte Auswahl. Den neu beobachteten öffentlichen Repository-Bestand führt die Netzsuche mit eigenem Zeitstempel. Die ersten beiden Arbeiten laufen im Browser; NOVA und Tresor sind lokale Projekte mit Anleitung beziehungsweise Release.
 
 - **Mein Lernportal:** Digitale Grundlagen und Programmierung ohne Pflichtkonto lernen. [Lektion direkt öffnen ↗](https://juri-halveth.github.io/mein-lernportal/)
 - **Field Difference Lab:** Bewegungen aus derselben Ausgangslage unter zwei Modellregeln vergleichen. [Modell direkt öffnen ↗](https://juri-halveth.github.io/halveth-field-difference-lab/)
@@ -19,11 +19,11 @@ Vier Einstiege aus der datierten Auswahl von 18 öffentlichen Projekt- und Quell
 
 [Zwei überprüfte Fallstudien](https://juri-halveth.github.io/belege/) zeigen Eingabe, Ergebnis und Gegenprobe.
 
-## Optional: Starship Lab
+## Projektuniversum · Starship Lab
 
 [![Geometrisches HALVETH-Sternnetz mit sechs Themenräumen.](assets/starship-gateway.svg)](https://juri-halveth.github.io/universum/)
 
-Der hier verlinkte Katalogstand des [Starship Lab](https://juri-halveth.github.io/universum/) vom 01.11.2026 umfasst 18 ausgewählte öffentliche Projekt- und Quelleneinstiege. Jeder Projektlink lässt sich auch ohne Flugmodus über die Projektliste öffnen. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.
+Das [Projektuniversum](https://juri-halveth.github.io/universum/) lässt sich räumlich oder über eine Projektliste erkunden. Der unten verlinkte Quellstand vom 01.11.2026 hält die damalige Auswahl von 18 öffentlichen Projekt- und Quelleneinstiegen fest. Die Netzsuche ergänzt diese Auswahl um den jeweils beobachteten öffentlichen Bestand. Ein Projekt kann mehrere Themen berühren; jede Karte erscheint einmal.
 
 | Themenraum | Was dort erkundet wird |
 | --- | --- |
